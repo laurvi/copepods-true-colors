@@ -1,0 +1,39 @@
+;study;year;no;lat;ecosystem;species;stage;asta_form;free;all_esters;mono-esters;di-esters
+1;Anderson et al.;2003;#N/A;54;marine;Acartia spp.;mixed;72% free, 29% monoesters, <1% diesters;72;30;29;1
+4;Bandaranayake and Gentien;1982;#N/A;-18,5;marine;Temora turbinata;mixed;esters dominant;minority;dominant;NA;NA
+5;Bandaranayake and Gentien;1982;#N/A;-18,5;marine;Centropages furcatus;mixed;esters dominant, free form with protein;minority;dominant;NA;NA
+6;Bandaranayake and Gentien;1982;#N/A;-18,5;marine;Undinula vulgaris;mixed;esters dominant, free form with protein;minority;dominant;NA;NA
+7;Bandaranayake and Gentien;1982;#N/A;-18,5;marine;Euchaeta russeli;mixed;free form dominant, association with protein;dominant;minority;NA;NA
+8;Foss et al.;1987;#N/A;62;marine;Calanus finmarchicus;adults;46% diester, 43%monoester, 11%free;11;89;43;46
+9;Goodwin and Srisukh;1949;#N/A;53;marine;Tigriopus fulvus;adults;free form dominant, esters;dominant;minority;NA;NA
+11;Holeton et al.;2009;#N/A;58;marine;Acartia bifilosa;adults;55% free, 45% monoester;55;45;45;0
+12;Juhl et al.;1996;#N/A;32;marine;Calanus pacificus;adults_females;15% free, 85% ester;15;85;NA;NA
+13;Juhl et al.;1996;#N/A;34;marine;Calanus pacificus;adults_females;15% free, 85% ester;15;85;NA;NA
+14;Lotocka et al.;2004;#N/A;54;marine;Pseudocalanus acupes;nauplii;97% free, 3% ester;97;3;NA;NA
+15;Lotocka et al.;2004;#N/A;54;marine;Pseudocalanus acupes;copepodits;55% free, 45% ester;55;45;NA;NA
+16;Lotocka et al.;2004;#N/A;54;marine;Pseudocalanus acupes;adults;52% free, 48% ester;52;48;NA;NA
+17;Lotocka et al.;2004;#N/A;54;marine;Acartia spp.;nauplii;96% free, 4% ester;96;4;NA;NA
+18;Lotocka et al.;2004;#N/A;54;marine;Acartia spp.;copepodits;61% free, 49% ester;61;49;NA;NA
+19;Lotocka et al.;2004;#N/A;54;marine;Acartia spp.;adults;47% free, 53% ester;47;53;NA;NA
+20;Rhodes et al.;2007;#N/A;30;marine;Nitokra lacustris;adults;60% free, 40% ester;60;40;NA;NA
+21;Rhodes et al.;2007;#N/A;30;marine;Nitokra lacustris;adults;100% free;100;0;NA;NA
+22;Schneider et al.;2016;#N/A;48;freshwater;Leptopdiaptomus minutus;mixed;14% free, 18%monoesters, 68% diesters;14;86;18;68
+23;Snoeijs & Haubner;2014;#N/A;57;marine;Temora longicornis, Pseudocalanus acupes, Acartia sp.;adults_late_copepodits;66%free, 22%monoester, 12% diester;66;34;22;12
+24;Snoeijs & Haubner;2014;#N/A;56;marine;Temora longicornis, Pseudocalanus acupes, Acartia sp.;adults_late copepodits;62%free, 25%monoester, 13% diester;62;38;25;13
+25;Sommaruga;2010;#N/A;27,8;freshwater;Arctodiaptomus jurisowitchi;adults_late copepodits;majority free, minority ester;dominant;minority;NA;NA
+26;Sommaruga;2010;#N/A;27,8;freshwater;Arctodiaptomus jurisowitchi;adults_late copepodits;majority free, minority ester;dominant;minority;NA;NA
+27;Sommaruga;2010;#N/A;27,8;freshwater;Arctodiaptomus jurisowitchi;adults_late copepodits;majority free, minority ester;dominant;minority;NA;NA
+28;Sommaruga;2010;#N/A;27,8;freshwater;Arctodiaptomus jurisowitchi;adults_late copepodits;majority free, minority ester;dominant;minority;NA;NA
+29;Sommaruga;2010;#N/A;27,8;freshwater;Arctodiaptomus jurisowitchi;adults_late copepodits;majority free, minority ester;dominant;minority;NA;NA
+30;Sommer et al.;2006;#N/A;54;marine;Calanus helgolandicus;adults_late_copepodits;30%free, 70% ester;30;70;NA;NA
+31;Sommer et al.;2006;#N/A;56;marine;Calanus helgolandicus;adults_late_copepodits;40% free, 60% ester;40;60;NA;NA
+32;Tartarotti et al.;2017;#N/A;47;freshwater;Cyclops abyssorum tatricus;mixed;50%free, 50% ester;50;50;NA;NA
+33;Tartarotti et al.;2017;#N/A;47;freshwater;Cyclops abyssorum tatricus;mixed;20%free, 68%ester;20;68;NA;NA
+34;Tartarotti et al.;2017;#N/A;47;freshwater;Cyclops abyssorum tatricus;mixed;45% free, 65% ester;45;65;NA;NA
+35;Tartarotti et al.;2017;#N/A;47;freshwater;Cyclops abyssorum tatricus;mixed;45% free, 65% ester;45;65;NA;NA
+36;Van der Meeren;2008;#N/A;60;marine;Eurytemora affinis, Centropages hamatus, Acartia grani;mixed;100% free;100;0;NA;NA
+37;Van Nieuwerburgh et al.;2004;#N/A;63;marine;Acartia sp., Paracalanus, Pseudocalanus, Temora, Oithona;mixed;55% free, 35% monoester, 10% diester;55;45;35;10
+38;Weaver et al.;2016;#N/A;25;marine;Tigriopus japonicus;adults;97% free, 3% ester;97;3;NA;NA
+39;Weaver et al.;2018;a;32;marine;Tigriopus californicus;adults;88% free, 3% monoester, 9% diesters;88;12;3;9
+40;Cui et al.;2021;#N/A;26.093;freshwater;Arctodiaptomus walterianus;nauplii;13% free, 87% ester;13;87;NA;NA
+41;Cui et al.;2021;#N/A;26.093;freshwater;Arctodiaptomus walterianus;adults;38% free, 62% ester;38;62;NA;NA

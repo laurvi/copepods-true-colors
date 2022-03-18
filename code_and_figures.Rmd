@@ -1,12 +1,7 @@
 ---
-title: 'Copepods true colors: astaxanthin pigmentation as an indicator of individual
-  fitness'
+title: 'Copepods true colors: astaxanthin pigmentation as an indicator of individual fitness'
 author: "Laure Vilgrain - March 2021"
 output:
-  pdf_document:
-    toc: yes
-    toc_depth: '3'
-  df_print: paged
   html_document:
     code_folding: hide
     highlight: pygments
@@ -14,6 +9,10 @@ output:
     toc: yes
     toc_depth: 3
     toc_float: yes
+  df_print: paged
+  pdf_document:
+    toc: yes
+    toc_depth: '3'
 ---
 
 ```{r setup, include=FALSE}

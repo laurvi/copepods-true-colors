@@ -20,7 +20,6 @@ output:
 knitr::opts_chunk$set(echo=TRUE, cache=FALSE, message = FALSE, warning = FALSE, comment="")
 ```
 
-Line from R studio 
 
 ```{r include=FALSE}
 library("tidyverse")

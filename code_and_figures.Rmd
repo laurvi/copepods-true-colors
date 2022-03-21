@@ -19,7 +19,6 @@ output:
 knitr::opts_chunk$set(echo=TRUE, cache=FALSE, message = FALSE, warning = FALSE, comment="")
 ```
 
-Line from R studio 
 
 ```{r include=FALSE}
 library("tidyverse")
@@ -460,11 +459,12 @@ ug  %>%
 ```
 
 ```{r}
-test_lat_marine <- ug %>% filter(ecosystem == "marine") %>% mutate(lat_abs= abs(latitude))
-summary(lm(log10(test_lat_marine$concentration)~test_lat_marine$lat_abs))
+test_marine <- ug %>% filter(ecosystem == "marine") %>% mutate(lat_abs= abs(latitude))
+summary(lm(log10(test_marine$concentration)~test_marine$lat_abs))
 
-test_lat_freshwater <- ug %>% filter(ecosystem == "freshwater") %>% mutate(lat_abs= abs(latitude))
-summary(lm(log10(test_lat_freshwater$concentration)~test_lat_freshwater$lat_abs))
+test_freshwater <- ug %>% filter(ecosystem == "freshwater") %>% mutate(lat_abs= abs(latitude))
+summary(lm(log10(test_freshwater$concentration)~test_freshwater$lat_abs))
+
 ```
 
 
@@ -488,8 +488,17 @@ ug  %>% filter(ecosystem=="freshwater") %>% ggplot() +
   theme_bw(base_size = 10)
 
 ```
+
+
 ```{r}
-summary(lm(log10(ug$concentration)~ug$altitude))
+shapiro.test(log10(test_freshwater$concentration))
+shapiro.test(test_freshwater$altitude) #much measures between 0 and 1000m
+
+model <- lm(log10(test_freshwater$concentration)~test_freshwater$altitude)
+summary(model)
+plot(model)
+
+cor.test(log10(test_freshwater$concentration), test_freshwater$altitude, method = "spearman")
 ```
 
 <style>

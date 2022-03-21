@@ -490,15 +490,12 @@ ug  %>% filter(ecosystem=="freshwater") %>% ggplot() +
 ```
 
 
-```{r}
-shapiro.test(log10(test_freshwater$concentration))
-shapiro.test(test_freshwater$altitude) #much measures between 0 and 1000m
-
+```{r, fig.height=4, fig.width=4}
 model <- lm(log10(test_freshwater$concentration)~test_freshwater$altitude)
 summary(model)
+par(mfrow=c(2,2)) 
 plot(model)
 
-cor.test(log10(test_freshwater$concentration), test_freshwater$altitude, method = "spearman")
 ```
 
 <style>

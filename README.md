@@ -10,4 +10,8 @@ Datasets:
 
 
 Code: 
+<<<<<<< HEAD
 - code_and_figures .Rmd and .html: statistical analyses and figures
+=======
+- code_and_figures .Rmd and .html: statistical analyses and figures
+>>>>>>> a5320106d5646f95e381ac7d8639bb7fefb0af9d

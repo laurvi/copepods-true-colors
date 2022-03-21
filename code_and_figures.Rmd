@@ -113,12 +113,12 @@ SI %>% filter(genus != "mixed") %>% group_by(genus) %>% summarise() %>% nrow()
 # -> 62
 ```
 
-```{r, fig.height=6, fig.width=5, fig.align="center", fig.cap=c("Figure S1. Counts of studies that observed carotenoid pigmentation in different copepod genus.")}
+```{r, fig.height=6, fig.width=5, fig.align="center", fig.cap=c("Counts of studies that observed carotenoid pigmentation in different copepod genus.")}
 # Most studied genus 
 SI %>% filter(genus != "mixed") %>% 
   ggplot() + 
   geom_bar(aes(y=fct_rev(fct_infreq(genus))))+
-  labs(y="Genus", x= "Number of studies (all units)")+theme_linedraw(base_size = 10)
+  labs(y="Genus", x= "Number of reported observations")+theme_linedraw(base_size = 10)
 ```
 
 
@@ -306,7 +306,7 @@ Freshwater and marine carotenoid concentrations are **significantly different** 
 </div>
 
 
-```{r echo=FALSE, fig.align="center", fig.cap=c("Figure S2. Carotenoid concentration (µg/mgDW) in different freshwater and marine copepod genus. Color represent the number of studies that were used to compute the mean carotenoid content."), fig.height=11, fig.width=14}
+```{r echo=FALSE, fig.align="center", fig.cap=c("Figure S1. Carotenoid concentration (µg/mgDW) in different freshwater and marine copepod genus. Color represent the number of studies that were used to compute the mean carotenoid content."), fig.height=11, fig.width=14}
 ug %>% filter(genus != "mixed") %>% 
   group_by(genus, ecosystem) %>% 
   summarise(nb_studies = n(), pigment_content = mean(concentration), sd = sd(concentration)) %>% 
@@ -314,8 +314,10 @@ ug %>% filter(genus != "mixed") %>%
   ggplot() + 
   geom_bar(aes(pigment_content, genus, fill = nb_studies), stat ="identity")+
   facet_wrap(~ecosystem)+
-  labs(x="Carotenoid content (µg/mgDW)", fill = "Number of studies (units in µg/mgDW only)")+
-  theme_minimal(base_size = 16)
+  labs(x="Carotenoid content (µg/mgDW)", fill = "Number of studies")+
+  theme_bw(base_size = 16)
+
+ggsave(filename="fig_sup/Fig.S1.png", width=11, height=12)
 ```
 
 
@@ -436,7 +438,7 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 
 This graphic illustrates that we don't have enough study that quantified carotenoid concentration along ontogenic development. We can not conclude about carotenoid quantities and forms according to copepod stages. <br/>
 
-```{r echo=FALSE, fig.height=3, fig.width= 5, fig.align="center", fig.cap=c("Figure S3. Carotenoid concentrations in copepod stages from three different studies. Points are colored according to the unit used.")}
+```{r echo=FALSE, fig.height=3, fig.width= 5, fig.align="center", fig.cap=c("Carotenoid concentrations in copepod stages from three different studies. Points are colored according to the unit used.")}
 SI %>% filter((study == "Hairston" & no == "b")| study == "Holeton et al." | study == "Lotocka et al.") %>% mutate(Stage = factor(stage,levels = c("eggs", "nauplii", "copepodits", "adults", "adults_females"))) %>% ggplot() + geom_point(aes(Stage, concentration, color = unit, shape = study), size=3)+ labs(y="Carotenoid concentrations (units in color)", x="Development stage")+ theme_bw(base_size = 10)
 ```
 
@@ -447,14 +449,17 @@ SI %>% filter((study == "Hairston" & no == "b")| study == "Holeton et al." | stu
 
 ### *Latitude*
 
-```{r fig.align="center", fig.cap=c("Figure S4. Carotenoid concentration (µg/mgDW, log-transformed) according to latitude (° in absolute value) in freshwater and marine ecosystems. Linear models are fitted but are not significant."), fig.height=3, fig.width=5}
+```{r fig.align="center", fig.cap=c("Figure S2. Carotenoid concentration (µg/mgDW, log-transformed) according to latitude (° in absolute value) in freshwater and marine ecosystems. Linear models are fitted but are not significant."), fig.height=3, fig.width=5}
 ug  %>% 
   ggplot() + 
   geom_point(aes(abs(latitude), log10(concentration), color = ecosystem))+ 
   geom_smooth(aes(abs(latitude), log10(concentration), group = ecosystem, color = ecosystem), method = lm)+
   scale_color_manual(values=c("#7fc97f","#0868ac"))+
   theme_bw(base_size = 10)+
-  labs(y= "Carotenoid content (µg/mgDW) - log ", x="Latitude (°absolute value)", color = "Ecosystem")
+  labs(y= "Carotenoid content (µg/mgDW)
+  - log10 transformation ", x="Latitude (°) in absolute value", color = "Ecosystem")
+
+ggsave(filename="fig_sup/Fig.S2.png", width=6, height=3.5)
 
 ```
 
@@ -479,18 +484,21 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 
 ### *Altitude*
 
-```{r fig.align="center", fig.cap=c("Figure S5. Carotenoid concentration (µg/mgDW, log-transformed) according to lake altitude (m) with a linear model fitted (significant, p-value < 0.001)."), fig.height=3, fig.width=5}
+```{r fig.align="center", fig.cap=c("Figure S3. Carotenoid concentration (µg/mgDW, log-transformed) according to lake altitude (m) with a linear model fitted (significant, p-value < 0.001)."), fig.height=3, fig.width=5}
 
 ug  %>% filter(ecosystem=="freshwater") %>% ggplot() + 
   geom_point(aes(altitude, log10(concentration)), color="grey40") + 
   geom_smooth(aes(altitude, log10(concentration)), method = "lm", color="black")+
-  labs(x="Altitude (m)", y=" Carotenoid content (µg/mgDW) - log")+
+  labs(x="Lake altitude asl. (m)", y=" Carotenoid content (µg/mgDW) 
+- log10 transformation")+
   theme_bw(base_size = 10)
+
+ggsave(filename="fig_sup/Fig.S3.png", width=6, height=4)
 
 ```
 
 
-```{r, fig.height=4, fig.width=4}
+```{r, fig.align="center", fig.height=5, fig.width=6}
 model <- lm(log10(test_freshwater$concentration)~test_freshwater$altitude)
 summary(model)
 par(mfrow=c(2,2)) 
@@ -528,10 +536,11 @@ On **37 time series**, astaxanthin content showed seasonal patterns with **maxim
 ## C. Impacts of intra- and inter-species interactions on pigmentation
 
 ### *Predation in lakes*
-```{r fig.align="center", fig.cap=c("Figure S6. Distribution of carotenoid concentrations (µg/mgDW, log-transformed) from lakes with and without predator presence. Carotenoid concentration difference according to predator presence is alomost significant (Wilcoxon test, p-value = 0.05014)"), fig.height=3.5, fig.width=5.5}
+```{r fig.align="center", fig.cap=c("Figure S4. Distribution of carotenoid concentrations (µg/mgDW, log-transformed) from lakes with and without predator presence. Carotenoid concentration difference according to predator presence is alomost significant (Wilcoxon test, p-value = 0.05014)"), fig.height=3.5, fig.width=5.5}
 ug$predation = ifelse(ug$predator_abundance=="null", "no", "yes")
 
 ug  %>% filter(ecosystem=="freshwater") %>%  group_by(predation) %>% summarise(n())
+# -> predator presence: 33 yes, 18 no
 
 ug  %>% filter(ecosystem=="freshwater" & is.na(predation)== FALSE) %>% 
   ggplot() + 
@@ -539,10 +548,11 @@ ug  %>% filter(ecosystem=="freshwater" & is.na(predation)== FALSE) %>%
   geom_point(aes(predation, concentration, color=altitude)) +
   scale_color_viridis_c()+
   scale_y_continuous(trans='log10')+
-  labs(y="Carotenoids content (ug/mgDW) 
-       - log", color = "Altitude (m. asl)", title ="Predator presence: 33 yes, 18 no")+
+  labs(y="Carotenoid contents (ug/mgDW) 
+- log10 transformation", color = "Altitude (m. asl)", x= "Predation")+
   theme_bw(base_size = 10)
 
+ggsave(filename="fig_sup/Fig.S4.png", width=6, height=4)
 
 ```
 

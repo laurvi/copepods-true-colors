@@ -44,27 +44,27 @@ library("car")
 
 **Suppl. Data SI. ** List of all the publications that discussed and/or quantified carotenoid pigmentation in copepods
 ```{r}
-SI <- read_delim("SI_general_info.csv", ";", escape_double = FALSE, trim_ws = TRUE)
+SI <- read_delim("DataS1_general_info.csv", ";", escape_double = FALSE, trim_ws = TRUE)
 datatable(select(SI,-comments), rownames = FALSE, filter="top", options = list(pageLength = 5, scrollX=T))
 ```
 <br/>
 **Suppl. Data SII.** List of the detailed quantifications of carotenoids forms in copepods found in 38 articles from the literature
 ```{r}
-SII <- read_delim("SII_asta_form_detailed.csv", ";", escape_double = FALSE, trim_ws = TRUE)
+SII <- read_delim("DataS2_asta_form_detailed.csv", ";", escape_double = FALSE, trim_ws = TRUE)
 datatable(SII, rownames = FALSE, filter="top", options = list(pageLength = 5, scrollX=T))
 ```
 
 <br/>
 **Suppl. Data SIII.** Abiotic and biotic variables effects on copepod astaxanthin concentrations from the literature
 ```{r}
-SIII <- read_delim("SIII_forcing_variables.csv", ";", escape_double = FALSE, trim_ws = TRUE)
+SIII <- read_delim("DataS3_forcing_variables.csv", ";", escape_double = FALSE, trim_ws = TRUE)
 datatable(SIII, rownames = FALSE, filter="top", options = list(pageLength = 5, scrollX=T))
 ```
 
 <br/>
 **Suppl. Data SIV.** List of the effects of carotenoid pigmentation on fitness-related variables in copepods
 ```{r}
-SIV <- read_delim("SIV_fitness_effects.csv", ";", escape_double = FALSE, trim_ws = TRUE)
+SIV <- read_delim("DataS4_fitness_effects.csv", ";", escape_double = FALSE, trim_ws = TRUE)
 datatable(SIV, rownames = FALSE, filter="top", options = list(pageLength = 5, scrollX=T))
 ```
 

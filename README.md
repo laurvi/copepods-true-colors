@@ -9,4 +9,4 @@ Datasets:
 - DataS4_fitness_effects.csv: List of the effects of carotenoid pigmentation on fitness-related variables in copepods
 
 Code:
-- statistical analyses and figures in .Rmd script and knit into .html file 
+- statistical analyses and figures in a .Rmd script and knit into a .html file 

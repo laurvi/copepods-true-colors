@@ -79,7 +79,7 @@ datatable(SIV, rownames = FALSE, filter="top", options = list(pageLength = 5, sc
 ```{r echo=T, results='hide'}
 # Counts of all studies 
 (SI %>% distinct(study, year, no) %>% nrow())
-#-> 82
+#-> 84
 
 # Counts of studies with quantification of carotenoids
 SI %>% filter(study_type !="no_quantification") %>% distinct(study, year, no)  %>% nrow()
@@ -87,7 +87,7 @@ SI %>% filter(study_type !="no_quantification") %>% distinct(study, year, no)  %
 
 # Ratio between both
 (SI %>% filter(study_type !="no_quantification") %>% distinct(study, year, no)  %>% nrow()) / (SI %>% distinct(study, year, no) %>% nrow())
-# -> 0.9146341
+# -> 0.9047619
 ```
 
 <style>
@@ -95,7 +95,7 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </style>
 <div class = "blue">
 
-**82 articles** contain the words 'copepods” and “carotenoid”, “astaxanthin” or “redness” and among them, **75 (91%) quantified carotenoids** (in various units and methods). 
+**84 articles** contain the words 'copepods” and “carotenoid”, “astaxanthin” or “redness” and among them, **76 (90%) quantified carotenoids** (in various units and methods). 
 
 </div>
 
@@ -126,7 +126,7 @@ SI %>% filter(genus != "mixed") %>%
 div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </style>
 <div class = "blue">
-Carotenoids were observed in **157 species among 61 genus** (we removed case where genus are mixed together, noted as "mixed"). We can see that *Diaptomus* and *Calanus* species are the most studied. 
+Carotenoids were observed in **161 species among 63 genus** (we removed case where genus are mixed together, noted as "mixed"). We can see that *Diaptomus* and *Calanus* species are the most studied. 
 </div>
 
 
@@ -146,7 +146,7 @@ SI %>% filter(is.na(concentration) == FALSE) %>% distinct(study, year, no, latit
 div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </style>
 <div class = "blue">
-Carotenoids quantifications were reported in **133 locations globally**, which correspond to **262 measurements of pigments**  (combinations study/latitude/longitude/altitude/species/stages) <br/>
+Carotenoids quantifications were reported in **134 locations globally**, which correspond to **262 measurements of pigments**  (combinations study/latitude/longitude/altitude/species/stages) <br/>
 </div>
 
 <br/>
@@ -228,7 +228,7 @@ world_map <- ggplot(data = world) +
 ggdraw(pigment_dd) +  draw_plot(world_map, width =0.75, height =0.75, 
         x = -0.018, y = 0.25)
 
-
+#ggsave("map_and_density.pdf", width=16, height =10)
 
 ```
 
@@ -447,44 +447,15 @@ SI %>% filter((study == "Hairston" & no == "b")| study == "Holeton et al." | stu
 
 ## A. Environmental controls on pigmentation 
 
-### *Latitude*
-
-```{r fig.align="center", fig.cap=c("Figure S2. Carotenoid concentration (µg/mgDW, log-transformed) according to latitude (° in absolute value) in freshwater and marine ecosystems. Linear models are fitted but are not significant."), fig.height=3, fig.width=5}
-ug  %>% 
-  ggplot() + 
-  geom_point(aes(abs(latitude), log10(concentration), color = ecosystem))+ 
-  geom_smooth(aes(abs(latitude), log10(concentration), group = ecosystem, color = ecosystem), method = lm)+
-  scale_color_manual(values=c("#7fc97f","#0868ac"))+
-  theme_bw(base_size = 10)+
-  labs(y= "Carotenoid content (µg/mgDW)
-  - log10 transformation ", x="Latitude (°) in absolute value", color = "Ecosystem")
-
-ggsave(filename="fig_sup/Fig.S2.png", width=6, height=3.5)
-
-```
-
-```{r}
-test_marine <- ug %>% filter(ecosystem == "marine") %>% mutate(lat_abs= abs(latitude))
-summary(lm(log10(test_marine$concentration)~test_marine$lat_abs))
-
-test_freshwater <- ug %>% filter(ecosystem == "freshwater") %>% mutate(lat_abs= abs(latitude))
-summary(lm(log10(test_freshwater$concentration)~test_freshwater$lat_abs))
-
-```
-
-
-<style>
-div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
-</style>
-<div class = "blue">
-**Carotenoids content shows no relationship with latitude, neither in freshwater nor in marine environments.** In fact, concentration variations within a study (or a species) are often more important than variations according to latitude. </br>
-</div>
-<br/>
-
 
 ### *Altitude*
 
-```{r fig.align="center", fig.cap=c("Figure S3. Carotenoid concentration (µg/mgDW, log-transformed) according to lake altitude (m) with a linear model fitted (significant, p-value < 0.001)."), fig.height=3, fig.width=5}
+```{r}
+test_marine <- ug %>% filter(ecosystem == "marine") %>% mutate(lat_abs= abs(latitude))
+test_freshwater <- ug %>% filter(ecosystem == "freshwater") %>% mutate(lat_abs= abs(latitude))
+```
+
+```{r fig.align="center", fig.cap=c("Figure S2. Carotenoid concentration (µg/mgDW, log-transformed) according to lake altitude (m) with a linear model fitted (significant, p-value < 0.001)."), fig.height=3, fig.width=5}
 
 ug  %>% filter(ecosystem=="freshwater") %>% ggplot() + 
   geom_point(aes(altitude, log10(concentration)), color="grey40") + 
@@ -493,7 +464,7 @@ ug  %>% filter(ecosystem=="freshwater") %>% ggplot() +
 - log10 transformation")+
   theme_bw(base_size = 10)
 
-ggsave(filename="fig_sup/Fig.S3.png", width=6, height=4)
+ggsave(filename="fig_sup/Fig.S2.png", width=6, height=4)
 
 ```
 
@@ -511,6 +482,37 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </style>
 <div class = "blue">
 There is a **significant relationship between carotenoids content and altitude of lakes, p-value < 0.001**. However, we see a lot of noise (R square = 0.16) that could be explain by variations of other abiotic variables (temperature, lake depth, water turbidity) and biotic variables (phytoplanktonic community, predators, disponibility of other UV protectants).
+</div>
+<br/>
+
+### *Latitude*
+
+```{r}
+summary(lm(log10(test_marine$concentration)~test_marine$lat_abs))
+summary(lm(log10(test_freshwater$concentration)~test_freshwater$lat_abs))
+
+```
+
+```{r fig.align="center", fig.cap=c("Figure S3. Carotenoid concentration (µg/mgDW, log-transformed) according to latitude (° in absolute value) in freshwater and marine ecosystems. Linear models are fitted but are not significant."), fig.height=3, fig.width=5}
+ug  %>% 
+  ggplot() + 
+  geom_point(aes(abs(latitude), log10(concentration), color = ecosystem))+ 
+  geom_smooth(aes(abs(latitude), log10(concentration), group = ecosystem, color = ecosystem), method = lm)+
+  scale_color_manual(values=c("#7fc97f","#0868ac"))+
+  theme_bw(base_size = 10)+
+  labs(y= "Carotenoid content (µg/mgDW)
+  - log10 transformation ", x="Latitude (°) in absolute value", color = "Ecosystem")
+
+ggsave(filename="fig_sup/Fig.S3.png", width=6, height=3.5)
+
+```
+
+
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+**Carotenoids content shows no relationship with latitude, neither in freshwater nor in marine environments.** In fact, concentration variations within a study (or a species) are often more important than variations according to latitude. </br>
 </div>
 <br/>
 

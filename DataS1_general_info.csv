@@ -259,7 +259,7 @@ Trudnowska et al.;2020;NA;forcing variables;77;16.2;marine;NA;july;Calanus;Calan
 Van der Meeren ;2008;NA;pigment identification/quantification;60;5;marine;NA;all_year_long;mixed;Eurytemora affinis, Centropages hamatus, Acartia grani;mixed;astaxanthin;100;100% free;0.686;ug/mgDW;NA;winter;december;NA;but jan, fev, march not sampled
 Van der Veen;2005;NA;forcing variables + redness and fitness;54;10;freshwater;1;NA;Macrocyclops;Macrocyclops albidus;adults;NA;NA;NA;NA;NA;NA;NA;NA;high;
 Van Nieuwerburgh et al.;2004;NA;forcing variables;63;9;marine;NA;august_july;mixed;Acartia sp., Paracalanus, Pseudocalanus, Temora, Oithona;mixed;astaxanthin;99;55% free, 35% monoester, 10% diester;14.6;umol.molC-1;max morning ;NA;NA;NA;canthaxanthin in negligible amounts
-Vesthein & Kaartvedt;2006;NA;forcing variables;59;10;marine;NA;february;Paraeuchaeta;Pareuchaeta norvegica;adults_females;NA;NA;NA;236.5;mean grey value;max night, min day;NA;NA;NA;method to quantify color based on image analysis
+Vestheim & Kaartvedt;2006;NA;forcing variables;59;10;marine;NA;february;Paraeuchaeta;Pareuchaeta norvegica;adults_females;NA;NA;NA;236.5;mean grey value;max night, min day;NA;NA;NA;method to quantify color based on image analysis
 Vinebrook & Leavitt;1999;NA;redness and fitness;51;-116;freshwater;2217;NA;Hesperodiaptomus;Hesperodiaptomus arcticus;mixed;NA;NA;NA;NA;NA;NA;NA;NA;null;strongly pigmented
 Weaver et al.;2016;NA;forcing variables;25;-121;marine;NA;NA;Tigriopus;Tigriopus japonicus;adults;astaxanthin;95;97% free, 3% ester;NA;NA;NA;NA;NA;NA;
 Weaver et al.;2018;a;diet effect;32;-117;marine;NA;NA;Tigriopus;Tigriopus californicus ;adults;astaxanthin;99;88% free, 3% monoester, 9% diesters;4.23;ug/mgDW;NA;NA;NA;NA;canthaxanthin as precursor
@@ -297,3 +297,8 @@ Powers et al.;2021;NA;redness and fitness;37.26;-122.42;marine;NA;NA;Tigriopus;T
 Powers et al.;2021;NA;redness and fitness;32.7;-117.3;marine;NA;NA;Tigriopus;Tigriopus californicus ;adults_females;astaxanthin;dominance;NA;0.165;ug/mgDW;NA;NA;NA;NA;
 Powers et al.;2021;NA;redness and fitness;32.7;-117.3;marine;NA;NA;Tigriopus;Tigriopus californicus ;adults_males;astaxanthin;dominance;NA;0.346;ug/mgDW;NA;NA;NA;NA;
 Powers & Hills;2021;NA;redness and fitness;NA;NA ;marine;NA;NA;Tigriopus;Tigriopus californicus ;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;no quantification because only done on next generations that doesn't exists in the wild, really difficult to interpret
+Mojib et al.;2014;NA;pigment identification/quantification;22.4575;39.0305;marine;NA;may;Pontella;Pontella sp.;NA;carotenoids;dominance;NA;NA;NA;NA;NA;NA;NA;blue morphs, astaxanthin complex with proteins
+Mojib et al.;2014;NA;pigment identification/quantification;22.4575;39.0305;marine;NA;may;Calanus;Calanus sp.;NA;carotenoids;dominance;NA;NA;NA;NA;NA;NA;NA;blue morphs, astaxanthin complex with proteins
+Mojib et al.;2014;NA;pigment identification/quantification;22.4575;39.0305;marine;NA;may;Acartia;Acartia fossae;NA;carotenoids;dominance;NA;NA;NA;NA;NA;NA;NA;blue morphs, astaxanthin complex with proteins
+Mojib et al.;2014;NA;pigment identification/quantification;22.4575;39.0305;marine;NA;may;Corycaeus;Corycaeus sp.;NA;carotenoids;dominance;NA;NA;NA;NA;NA;NA;NA;blue morphs, astaxanthin complex with proteins
+Vestheim et al.;2005;NA;no_quantification;59;10;marine;NA;april;Paraeuchaeta;Pareuchaeta norvegica;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;relation between pigmentation and in situ depth explored, but no quantificatio and statistical tests

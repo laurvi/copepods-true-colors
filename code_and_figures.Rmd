@@ -591,7 +591,6 @@ We are **really close to the significance threshold (p-value = 0.05014)** for th
 
 ```{r, fig.width=6, fig.height=8, fig.align='center', fig.cap=c("Figure 4. Counts of correlations between copepod carotenoid pigmentation and main environmental, biological or ecological forcings tested in the litterature.")}
 # Change astaxanthin evolution column into factor
-SIII$asta_correlation <- SIII$asta_correlation %>% str_replace_all(c("increase" = "positive", "no change" = "none", "decrease" = "negative"))
 SIII$asta_correlation <- factor(SIII$asta_correlation, levels =c("positive","none", "negative"), ordered = TRUE)
 
 # Replace names to have a more lisible figure 
@@ -664,15 +663,15 @@ SIV_grouped <- SIV %>%
 # Create a factor to have variables in a good order on the graphic (according to fitness component and discussion order in the body of the article)
 SIV_grouped <- SIV_grouped %>%  mutate(index= as.factor(seq(1:nrow(SIV_grouped))))
 
-# Positive ---
-pos <- SIV_grouped %>% select(response_variable, positive, index, fitness_component) #keep only postive to have a color scale by effect type
-pos$positive<- as.factor(pos$positive) # transform as factor to have the best color scale
+# Favorable ---
+fav <- SIV_grouped %>% select(response_variable, favorable, index, fitness_component) #keep only postive to have a color scale by effect type
+fav$favorable <- as.factor(fav$favorable) # transform as factor to have the best color scale
 green <- c("#41ae76", "#238b45", "#006d2c","#00441b") #because 4 levels
 
-ppos <- ggplot(pos, aes(y = index, x= "", fill = positive))+
+pfav <- ggplot(fav, aes(y = index, x= "", fill = favorable))+
   geom_tile()+
   scale_fill_manual(values=green, na.value = "white", na.translate = F)+
-  scale_y_discrete(labels=pos$response_variable)+
+  scale_y_discrete(labels=fav$response_variable)+
   labs(y="Fitness response variables", title = "Favorable - 31 cases (62%)")+
   theme_minimal(base_size = 15)+
   theme(legend.position="bottom",   axis.title.x = element_blank(), legend.title = element_blank(), legend.text = element_text(size = 15))
@@ -690,12 +689,12 @@ pneu <- ggplot(neu, aes(y = index, x = "", fill = neutral))+
   scale_y_discrete(labels=element_blank())+
   theme(legend.position="bottom", legend.title = element_blank(),  axis.title.y = element_blank(), legend.text = element_text(size = 15))
 
-# Negative ---
-neg<- SIV_grouped %>% select(response_variable, negative, index) #keep only postive to have a color scale by effect type
-neg$negative <- as.factor(neg$negative) # transform as factor to have the best color scale
+# Unfavorable ---
+unfav<- SIV_grouped %>% select(response_variable, unfavorable, index) #keep only positive to have a color scale by effect type
+unfav$unfavorable <- as.factor(unfav$unfavorable) # transform as factor to have the best color scale
 red <- c("#ef3b2c", "#cb181d","#a50f15") #because 3 levels
 
-pneg <- ggplot(neg, aes(y = index, x = "", fill = negative))+
+punfav <- ggplot(unfav, aes(y = index, x = "", fill = unfavorable))+
   geom_tile()+
   scale_fill_manual(values=red, na.value = "white", na.translate = F)+
   theme_minimal(base_size = 16)+
@@ -704,7 +703,7 @@ pneg <- ggplot(neg, aes(y = index, x = "", fill = negative))+
   theme(legend.position="bottom", axis.title.y = element_blank(), axis.title.x = element_blank(), legend.title = element_blank(), legend.text = element_text(size = 18))
 
 
-ppos | pneu | pneg
+pfav | pneu | punfav
 #ggsave("figures/fitness_redness.pdf", width=10, height =6)
 ```
 

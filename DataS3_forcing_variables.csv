@@ -1,180 +1,180 @@
-﻿study;year;no;condition;forcing_variable;group;asta_correlation;confidence;comments
-Anderson et al.;2003;;mesocosm;diet_composition;diet;increase;high;more lutein and zeaxanthin precursors in phytoplankton
-Anderson et al.;2003;;mesocosm;diet_quantity;diet;increase;high;five fold higher phytoplankton biomass
-Anderson et al.;2003;;mesocosm;feeding_activity;diet;increase;high ;pic at sunrise, as the feeding activity
-Anderson et al.;2003;;mesocosm;diurnal_variations;light_radiations;increase;high;correlated with feeding activity
-Byron;1982;;in vivo ;lake_elevation;env;increase;high;strong red pigmentation for lakes >2500m
-Byron;1982;;in vivo ;lake_depth;env;decrease;high;strong red pigmentation for lakes >2500m
-Byron;1982;;in vivo ;UV_radiations;light_radiations;decrease;high;negative correlation between color and UV 
-Byron;1982;;in vivo ;temperature;env;decrease;high;most important variable : metabolic hypotheis
-Byron;1982;;in vivo ;diet_quantity;diet;no change;high;chla and phytoplanktonic carotenoids as an index of biomass
-Byron;1982;;in vivo ;fish_presence;predation;decrease;medium;especially true for large copepods in laboratory experiments, in the wild reddest copepods are found in fishless lakes
-Brüsin et al.;2016;;in vitro;UV_radiations;light_radiations;increase;medium;D. castor males, medium confidence because of the way color is quantified on photos
-Brüsin et al.;2016;;in vitro;fish_presence;predation;no change;medium;D. castor males
-Brüsin et al.;2016;;in vitro;UV_radiations;light_radiations;no change;medium;D. castor females
-Brüsin et al.;2016;;in vitro;fish_presence;predation;no change;medium;D. castor females
-Brüsin et al.;2016;;in vitro;fish_presence;predation;decrease;medium;D. castor juveniles
-Brüsin et al.;2016;;in vitro;UV_fish;predation;decrease;medium;D. castor juveniles
-Brüsin et al.;2016;;in vitro;UV_radiations;light_radiations;increase;medium;E. gracialis females
-Brüsin et al.;2016;;in vitro;UV_radiations;light_radiations;increase;medium;E. gracialis juveniles
-Brüsin et al.;2016;;in vitro;fish_presence;predation;no change;medium;E. gracialis females and juveniles
-Brüsin et al.;2016;;in vitro;UV_fish;predation;no change;medium;E. gracialis females and juveniles
-Caramujo et al.;2012;;in vitro;UV_radiations;light_radiations;decrease;high;diminution of astaxanthin concentration justified by the oxidative degradation of the carotenoid
-Caramujo et al.;2012;;in vitro;copper;NA;decrease;high;caused by oxidative stress induced by copper
-Caramujo et al.;2012;;in vitro;UV_radiation_copper;NA;decrease;high ;increased destructive potential of ROS
-Caramujo et al.;2012;;in vitro;diet_composition;diet;increase;high;increase up to five-fold depending on carotenoids availibitly in the diet
-Caramujo et al.;2012;;in vitro;diet_composition_copper;NA;decrease;high;less decrease if good diet composition 
-Davenport et al. ;2004;;in vitro;diet_composition;diet;increase;high;no synthesis of astaxanthin with a yeast-diet
-Hairston;1979;a;in vitro;diet_composition;diet;increase;high;
-Hairston;1979;a;in vivo ;gut_content;NA;increase;high;%full
-Hairston;1979;a;in vivo ;body_weight;NA;no change;high;
-Hairston;1979;a;in vivo ;diet_quantity;diet;increase;low;Chla as an biomass index but probably no meaningfull correlations
-Hairston;1979;a;in vivo ;diet_quantity;diet;no change;low;Chla as an biomass index but probably no meaningfull correlations
-Hairston;1979;a;in vivo ;lipid_content;metabolism;no change;high;
-Hairston;1979;a;in vivo ;lipid_content;metabolism;decrease;medium;
-Hairston;1979;a;in vivo ;natural_light;light_radiations;increase;high;
-Hairston;1979;b;in vivo ;egg_ratio;metabolism;no change;high;D. silicis in Soap lake
-Hairston;1979;b;in vivo ;egg_ratio;metabolism;increase;medium;D. nevadensis in Soap lake
-Hairston;1979;b;in vivo ;egg_ratio;metabolism;increase;high;D. silicis in lake Lenore
-Hairston;1979;b;in vivo ;egg_ratio;metabolism;increase;high;D. nevadensis in lake Lenore
-Hairston;1980;;in vivo ;diurnal_variations;light_radiations;no change;high;new test of correlation for data of Ringelberg (1976) in Lac Pavin
-Hairston;1980;;in vivo ;diurnal_variations;light_radiations;no change;high;new test of correlation for data of Ringelberg (1976) in Lac Pavin
-Hairston;1980;;in vivo ;diurnal_variations;light_radiations;no change;high;new test of correlation for data of Ringelberg (1976) in Lac Pavin
-Hairston;1980;;in vivo ;diurnal_variations;light_radiations;no change;high;pond : little bullhead
-Hairston;1980;;in vivo ;diurnal_variations;light_radiations;no change;high;pond : bullhead
-Hairston;1980;;in vivo ;diurnal_variations;light_radiations;no change;high;pond A
-Hairston;1980;;in vivo ;diurnal_variations;light_radiations;no change;high;pond C
-Hallegraeff et al.;1978;;in vivo;diurnal_variations;light_radiations;increase;low;no statistical test
-Hansson;2000;b;in vivo;latitude_discrete;env;increase;medium;
-Hansson;2000;b;in vitro;UV_radiations;light_radiations;increase;high;
-Hansson;2000;b;in vivo;lake_depth;env;decrease;high;
-Hansson;2000;b;in vivo;fish_presence;predation;decrease;high;Arctic lakes
-Hansson;2000;b;in vivo;fish_presence;predation;decrease;high;temperate lakes
-Hansson;2000;b;in vitro;fish_presence;predation;no change;high;
-Hansson;2000;b;in vitro;UV_fish;predation;decrease;high;
-Hansson;2004;;in vivo;fish_presence;predation;decrease;high;calanoids
-Hansson;2004;;in vivo;fish_presence;predation;decrease;high;cyclopoids
-Hansson;2004;;in vitro;fish_presence;predation;no change;high;cyclopoids
-Hansson;2004;;in vitro;fish_presence;predation;decrease;high;calanoids
-Hansson;2004;;in vivo;threat_ratio;NA;increase;high;(UV/predation) for calanoids + cyclopoids
-Hansson;2004;;in vitro;individual_depth;env;no change;high;calanoids
-Hansson;2004;;in vitro;individual_depth;env;no change;high;cyclopoids
-Holeton et al.;2009;;in vitro;diet_quantity;diet;increase;high;increase of concentrations until 200 μg.L-1 of algal concentrations, then low astaxanthin concentrations (but more respiration, ingestion and egg production)
-Hylander et al. ;2009;b;in vitro;UV_radiations;light_radiations;increase;high;all carotenoid data pooled over the experimental period and plotted against UV therat
-Hylander et al. ;2009;b;in vitro;fish_presence;predation;decrease;high;no increase of carotenoid content if fish cues present
-Hylander et al. ;2009;b;in vitro;UV_fish;predation;decrease;high;ranking predation as a more severe threat than UV radiations
-Hylander et al. ;2012;;in vitro;fish_presence;predation;decrease;high;but compensation of antioxydant properties by an increase of GST activity
-Hylander & Jephson ;2010;;in vitro;UV_radiations;light_radiations;no change;high;no change for carotenoids but more MAAs accumulation 
-Hylander;2009;a;in vivo;lake_elevation;env;no change;high;
-Hylander;2009;a;in vivo;lake_depth;env;no change;high;
-Hylander;2009;a;in vivo;diet_quantity;diet;no change;high;chla concentration in water
-Hylander;2009;a;in vivo;dissolved_organic_carbon;NA;no change;high;
-Hylander;2009;a;in vivo;MAAs;metabolism;decrease;high;
-Hylander;2009;a;in vivo;UV_radiations;light_radiations;increase;high;in subarctic region
-Hylander;2009;a;in vivo;UV_radiations;light_radiations;no change;high;in temperate region
-Hylander;2009;a;in vivo;UV_radiations;light_radiations;no change;high;in dry-temperate region
-Hylander;2009;a;in vivo;body_length;metabolism;no change;high;
-Hylander;2009;a;in vitro;MAAs;metabolism;decrease;high;synthesis from Fig.5 results, in general if MAAs synsthesis, then less carotenoids are produced
-Hylander;2009;a;in vitro;UV_radiations;light_radiations;increase;high;synthesis from Fig.5 results
-Hylander;2009;a;in vitro;fish_presence;predation;decrease;high;synthesis from Fig.5 for mean carotenoids content in fish against no fish conditions
-Hylander;2009;a;in vitro;UV_-MAAs_fish;NA;no change;high;synthesis from Fig.5 results,  less reproductive output because no carotenoid and no MAAs (poor food)
-Hylander;2009;a;in vitro;UV_+MAAs_fish;NA;decrease;high;synthesis from Fig.5 results
-Hylander;2009;a;in vivo;latitude_discrete;env;increase;medium;maximum in temerature and sub-arctic in comparison with dry-temperate
-Hylander & Hansson;2013;;in vivo;body_length;metabolism;decrease;high;
-Hylander & Hansson;2013;;in vitro;UV_radiations;light_radiations;increase;high;
-Hylander et al.;2015;;in vivo;ice_cover;env;no change;medium;C. finmarchicus not significant but a small increase
-Hylander et al.;2015;;in vivo;ice_cover;env;no change;medium;C.glacialis not significant but a small increase
-Hylander et al.;2015;;in vivo;ice_cover;env;no change;medium;C. hyperboreus not significant but a small increase
-Hylander et al.;2015;;in vivo;diurnal_variations;light_radiations;no change;high;for C.finmarchicus
-Hylander et al.;2015;;in vivo;individual_depth;env;no change;high;for C.finmarchicus
-Hylander et al.;2015;;in vivo;body_length;metabolism;increase;high;according to species : more carotenoids in C. hyperboreus than in C.finmarchicus
-Hylander et al.;2014;;in vitro;MAAs;metabolism;no change;high;carotenoids levels are the same no matter if the diet allow MAAs synthesis or not
-Hylander et al.;2014;;in vitro;UV_radiations;light_radiations;no change;high;no effects for carotenoids but effects for MAAs
-Hansson et al.;2007;;in vitro;UV_radiations;light_radiations;increase;high;no vertical migration in response to UV radiations
-Hansson et al.;2007;;in vitro;natural_light;light_radiations;decrease;high;no UV
-Hansson et al.;2007;;in vitro;latitude_discrete;env;increase;high;more carotenoids in siberia than in sweden
-Alcocer et al. ;2020;;in vivo;UV_radiations;light_radiations;increase;high;
-Alcocer et al. ;2020;;in vivo;natural_light;light_radiations;increase;high;significant negative correlation between light attenuation and carotenoid content
-Herring;1972;;in vivo;lipid_content;metabolism;no change;low;data for copepods from Fisher et al. 1964
-Herring;1972;;in vivo;individual_depth;env;no change;low;mixed communities of zooplankton
-Nobakht et al.;2016;;in vitro;diet_composition;diet;increase;high;better if mixed diet (diatom + haptophyte)
-Nobakht et al.;2016;;in vitro;diet_quantity;diet;increase;high;augemntation of individual carotenoid content for all diets if quanitify goes from 500O to 30000 cells/mL 
-Juhl et al.;1996;;in vitro;feeding_activity;diet;increase;high;if starved, decrease in 2h - if fed, increase of 50% in 24h
-Kleppel et al. ;1985;;in vivo;diet_quantity;diet;no change;high;chla and phaeopigments in water, diet quality discussed
-Kleppel et al. ;1985;;in vitro;feeding_activity;diet;increase;high;feeding activity estimated from chla and phaeopigment, fluorescence and temperature
-Kleppel et al. ;1985;;in vivo;diurnal_variations;light_radiations;increase;high;maximum at midnight, camouflage discussed
-Lee et al.;2019;;in vivo;fish_presence;predation;decrease;medium;comparison high predation/no predation, medium confidence beacause of the technique
-Lee et al.;2019;;in vivo;fish_presence;predation;no change;medium;comparison low predation/no predation
-Lee et al.;2019;;in vitro;removal of UV radiations;NA;decrease;medium;population dependant
-Lee et al.;2019;;in vitro;removal of UV radiations;NA;decrease;medium;population dependant
-Lee et al.;2019;;in vitro;removal of UV radiations;NA;increase;medium;population dependant
-Lee et al.;2019;;in vitro;fish_presence;predation;no change;medium;population dependant
-Luecke & O'Brien;1981;;in vivo;fish_presence;predation;decrease;high;
-Luecke & O'Brien;1981;;in vivo;individual_depth;env;decrease;high;a green and red morph, both linked to carotenoids, no at the same depths
-Moeller et al.;2005;;in vitro;UV_radiations;light_radiations;increase;high;carotenoids synthesis stimulated by UVR but only if MAAs precursors absent
-Moeller et al.;2005;;in vivo;MAAs;metabolism;decrease;low;just from graphical interpration if Fig. 2
-Moeller et al.;2005;;in vitro;MAAs;metabolism;decrease;high;Fig. 10
-Moeller et al.;2005;;in vitro;UV_radiations_+MAAs;NA;no change;high;MAAS in priority
-Persault et al.;2007;;in vivo;MAAs;metabolism;decrease;low;A. spatulocrenatus, from fig 1a but not statistically tested
-Persault et al.;2007;;in vivo;MAAs;metabolism;decrease;low;L.minutus, from fig 1a but not statistically tested
-Persault et al.;2007;;in vivo;UV_radiations;light_radiations;no change;low;L.minutus, from fig 1a and 1b but not statistically tested
-Persault et al.;2007;;in vivo;UV_radiations;light_radiations;increase;low;C. scutifer, from fig 1a and 1b but not statistically tested
-Persault et al.;2007;;in vivo;MAAs;metabolism;no change;low;C. scutifer from fig 1a, no statistics
-Rhodes et al.;2007;;in vitro;diet_composition;diet;increase;high;better with a formulated feed : depend on pigments precursors
-Ringelberg and Hallegraeff;1976;;in vivo;diurnal_variations;light_radiations;increase;low;clear variations but no statiscial test
-Schneider et al.;2012;;in vivo;dissolved_organic_carbon;NA;increase;high;
-Schneider et al.;2012;;in vivo;diet_quantity;diet;increase;high;total suspended solids + Chla according to the PCA (fig 2)
-Schneider et al.;2012;;in vivo;pH;NA;increase;high;
-Schneider et al.;2012;;in vivo;temperature;env;no change;high;
-Schneider et al.;2012;;in vivo;UV_radiations;light_radiations;no change;high;cannot explain pigment variations alone, refuge hypothesis with the presence of macrophytes
-Schneider et al.;2016;;in vivo;UV_radiations;light_radiations;decrease;high;table I
-Schneider et al.;2016;;in vivo;temperature ;env;decrease;high;table I
-Schneider et al.;2016;;in vivo;diet_composition;diet;no change;high;table I
-Schneider et al.;2016;;in vivo;diet_quantity;diet;decrease;high;table I
-Schneider et al.;2016;;in vivo;fish_presence;predation;decrease;high;table I, feeding pressure by young-of-the-year fish
-Schneider et al.;2016;;in vivo;egg_ratio;metabolism;no change;high;table I
-Schneider et al.;2016;;in vivo;ice_cover;env;increase;high;table I
-Schneider et al.;2016;;in vivo;lipid_content;metabolism;increase;high;table I
-Schneider et al.;2017;;in vivo;lipid_content_of_eggs;NA;increase;high;
-Siefken & Armitage;1967;;in vivo;temperature ;env;decrease;high;
-Snoeijs & Häubner;2014;;in vivo;temperature;env;decrease;high;figure 6, for astaxanthin in ng per microgram of carbon
-Snoeijs & Häubner;2014;;in vivo;zoo_community_composition;NA;increase;high;a lot of astaxanthin if T. longicornis abundant in the zooplankton community and less cladocerans
-Snoeijs & Häubner;2014;;in vivo;diet_composition;diet;increase;high;echinone and zeaxanthin negatively correlated : more asta if no cynanobacteria
-Snoeijs & Häubner;2014;;in vivo;nutrients;NA;increase;high;moreDIN and DIP so more diatoms : other indidication of phytoplanktonic composition 
-Sommaruga;2010;;in vivo;refuge (UV_radiations + depth);NA;decrease;low;really doubtful linear regression
-Garcia et al.;2008;;in vivo;temperature;env;decrease;high;
-Garcia et al.;2008;;in vivo;UV_radiations;light_radiations;decrease;high;
-Garcia et al.;2008;;in vivo;diet_quantity;diet;no change;high;
-Garcia et al.;2008;;in vitro;UV_radiations;light_radiations;increase;high;fig 4b 
-Garcia et al.;2008;;in vitro;UV_temp;NA;increase;high;fig 4b 
-Garcia et al.;2008;;in vitro;temperature;env;no change;high;fig 4b 
-Garcia et al.;2008;;in vitro;UV_radiations;light_radiations;increase;high;fig 4d
-Garcia et al.;2008;;in vitro;UV_temp;NA;increase;high;fig 4d
-Garcia et al.;2008;;in vitro;temperature;env;no change;high;fig 4d
-Sommer et al.;2006;;in vivo;individual_depth;env;no change;high;fig 1
-Sommer et al.;2006;;in vivo;diet_quantity;diet;no change;high;vertical distribution of chla
-Sommer et al.;2006;;in vivo;diurnal_variations;light_radiations;increase;high;maximum at night
-Sommer et al.;2006;;in vitro;diet_quantity;diet;increase;low;fig 4 comaprison upright and upleft pannel (food/no food, same light levels) but no statiscal test
-Sommer et al.;2006;;in vitro;darkness + starvation;NA;decrease;low;fig 4 up-left pannel
-Sommer et al.;2006;;in vitro;natural_light;light_radiations;increase;low;fig 4 up-right panel comparison at the same food level
-Tartarotti et al.;2017;;in vivo;UV_radiations;light_radiations;no change;high;caroteoids variations among lakes but no explicative variables
-Tartarotti et al.;2017;;in vivo;natural_light;light_radiations;no change;high;transparency/turbidity of lakes not correlated with carotenoids
-Tartarotti et al.;2018;;in vivo;ice_cover;env;decrease;high;strong anti-correlation
-Tartarotti et al.;2018;;in vivo;MAAs;metabolism;increase;high;strong covariation
-Trudnowska et al.;2020;;in vivo;prefered_water_mass;NA;increase;high;
-Trudnowska et al.;2020;;in vivo;lipid_content;metabolism;no change;high;
-van der Veen;2005;;in vitro;fish_presence;predation;decrease;high;augmentation of the infection risk
-Van Nieuwerburgh et al.;2004;;mesocosm;diet_composition;diet;increase;high;diversity of the diet, high betacarotene levels, not to much diatoms heavily silicified
-Vesthein & Kaartvedt;2006;;in vivo;individual_depth;env;increase;high;camouflage hypothesis
-Vesthein & Kaartvedt;2006;;in vivo;diurnal_variations;light_radiations;increase;high;maximum at night
-Weaver et al.;2016;;in vitro;copper;NA;decrease;high;from table III
-Weaver et al.;2018;a;in vitro;diet_composition;diet;increase;high;no color with a yeast diet, and more astaxanthin with zeaxanthin and canthaxanthin precursors
-Zengling et al.;2010;;in vitro;UV_radiations;light_radiations;increase;high;strong correlation, more effects of UVB thant UVA
-Inaotombi et al.;2020;;in vivo;lake_elevation;env;increase;high;table S4 
-Inaotombi et al.;2020;;in vivo;temperature;env;decrease;high;table S4, highest pearson coefficient
-Inaotombi et al.;2020;;in vivo;lake_depth;env;decrease;high;table S4
-Inaotombi et al.;2020;;in vivo;natural_light;light_radiations;increase;high;table S4,  transparency 
-Inaotombi et al.;2020;;in vivo;alkalinity;NA;decrease;high;table S4, and pH
-Inaotombi et al.;2020;;in vivo;lignin_like_compounds;NA;increase;high;table S4, same for all other environmental sediment variables 
-Inaotombi et al.;2020;;in vivo;dissolved_oxygen;NA;increase;high;table S4
-Cui et al.;2021;;in vivo;lipid_content;metabolism;increase;high;text (end of results)
+study;year;no;condition;forcing_variable;group;asta_correlation;confidence;comments
+Anderson et al.;2003;NA;mesocosm;diet_composition;diet;positive;high;more lutein and zeaxanthin precursors in phytoplankton
+Anderson et al.;2003;NA;mesocosm;diet_quantity;diet;positive;high;five fold higher phytoplankton biomass
+Anderson et al.;2003;NA;mesocosm;feeding_activity;diet;positive;high;pic at sunrise, as the feeding activity
+Anderson et al.;2003;NA;mesocosm;diurnal_variations;light_radiations;positive;high;correlated with feeding activity
+Byron;1982;NA;in vivo;lake_elevation;env;positive;high;strong red pigmentation for lakes >2500m
+Byron;1982;NA;in vivo;lake_depth;env;negative;high;strong red pigmentation for lakes >2500m
+Byron;1982;NA;in vivo;UV_radiations;light_radiations;negative;high;negative correlation between color and UV
+Byron;1982;NA;in vivo;temperature;env;negative;high;most important variable : metabolic hypotheis
+Byron;1982;NA;in vivo;diet_quantity;diet;none;high;chla and phytoplanktonic carotenoids as an index of biomass
+Byron;1982;NA;in vivo;fish_presence;predation;negative;medium;especially true for large copepods in laboratory experiments, in the wild reddest copepods are found in fishless lakes
+Brusin et al.;2016;NA;in vitro;UV_radiations;light_radiations;positive;medium;D. castor males, medium confidence because of the way color is quantified on photos
+Brusin et al.;2016;NA;in vitro;fish_presence;predation;none;medium;D. castor males
+Brusin et al.;2016;NA;in vitro;UV_radiations;light_radiations;none;medium;D. castor females
+Brusin et al.;2016;NA;in vitro;fish_presence;predation;none;medium;D. castor females
+Brusin et al.;2016;NA;in vitro;fish_presence;predation;negative;medium;D. castor juveniles
+Brusin et al.;2016;NA;in vitro;UV_fish;predation;negative;medium;D. castor juveniles
+Brusin et al.;2016;NA;in vitro;UV_radiations;light_radiations;positive;medium;E. gracialis females
+Brusin et al.;2016;NA;in vitro;UV_radiations;light_radiations;positive;medium;E. gracialis juveniles
+Brusin et al.;2016;NA;in vitro;fish_presence;predation;none;medium;E. gracialis females and juveniles
+Brusin et al.;2016;NA;in vitro;UV_fish;predation;none;medium;E. gracialis females and juveniles
+Caramujo et al.;2012;NA;in vitro;UV_radiations;light_radiations;negative;high;diminution of astaxanthin concentration justified by the oxidative degradation of the carotenoid
+Caramujo et al.;2012;NA;in vitro;copper;NA;negative;high;caused by oxidative stress induced by copper
+Caramujo et al.;2012;NA;in vitro;UV_radiation_copper;NA;negative;high;increased destructive potential of ROS
+Caramujo et al.;2012;NA;in vitro;diet_composition;diet;positive;high;increase up to five-fold depending on carotenoids availibitly in the diet
+Caramujo et al.;2012;NA;in vitro;diet_composition_copper;NA;negative;high;less decrease if good diet composition
+Davenport et al.;2004;NA;in vitro;diet_composition;diet;positive;high;no synthesis of astaxanthin with a yeast-diet
+Hairston;1979;a;in vitro;diet_composition;diet;positive;high;NA
+Hairston;1979;a;in vivo;gut_content;NA;positive;high;%full
+Hairston;1979;a;in vivo;body_weight;NA;none;high;NA
+Hairston;1979;a;in vivo;diet_quantity;diet;positive;low;Chla as an biomass index but probably no meaningfull correlations
+Hairston;1979;a;in vivo;diet_quantity;diet;none;low;Chla as an biomass index but probably no meaningfull correlations
+Hairston;1979;a;in vivo;lipid_content;metabolism;none;high;NA
+Hairston;1979;a;in vivo;lipid_content;metabolism;negative;medium;NA
+Hairston;1979;a;in vivo;natural_light;light_radiations;positive;high;NA
+Hairston;1979;b;in vivo;egg_ratio;metabolism;none;high;D. silicis in Soap lake
+Hairston;1979;b;in vivo;egg_ratio;metabolism;positive;medium;D. nevadensis in Soap lake
+Hairston;1979;b;in vivo;egg_ratio;metabolism;positive;high;D. silicis in lake Lenore
+Hairston;1979;b;in vivo;egg_ratio;metabolism;positive;high;D. nevadensis in lake Lenore
+Hairston;1980;NA;in vivo;diurnal_variations;light_radiations;none;high;new test of correlation for data of Ringelberg (1976) in Lac Pavin
+Hairston;1980;NA;in vivo;diurnal_variations;light_radiations;none;high;new test of correlation for data of Ringelberg (1976) in Lac Pavin
+Hairston;1980;NA;in vivo;diurnal_variations;light_radiations;none;high;new test of correlation for data of Ringelberg (1976) in Lac Pavin
+Hairston;1980;NA;in vivo;diurnal_variations;light_radiations;none;high;pond : little bullhead
+Hairston;1980;NA;in vivo;diurnal_variations;light_radiations;none;high;pond : bullhead
+Hairston;1980;NA;in vivo;diurnal_variations;light_radiations;none;high;pond A
+Hairston;1980;NA;in vivo;diurnal_variations;light_radiations;none;high;pond C
+Hallegraeff et al.;1978;NA;in vivo;diurnal_variations;light_radiations;positive;low;no statistical test
+Hansson;2000;b;in vivo;latitude_discrete;env;positive;medium;NA
+Hansson;2000;b;in vitro;UV_radiations;light_radiations;positive;high;NA
+Hansson;2000;b;in vivo;lake_depth;env;negative;high;NA
+Hansson;2000;b;in vivo;fish_presence;predation;negative;high;Arctic lakes
+Hansson;2000;b;in vivo;fish_presence;predation;negative;high;temperate lakes
+Hansson;2000;b;in vitro;fish_presence;predation;none;high;NA
+Hansson;2000;b;in vitro;UV_fish;predation;negative;high;NA
+Hansson;2004;NA;in vivo;fish_presence;predation;negative;high;calanoids
+Hansson;2004;NA;in vivo;fish_presence;predation;negative;high;cyclopoids
+Hansson;2004;NA;in vitro;fish_presence;predation;none;high;cyclopoids
+Hansson;2004;NA;in vitro;fish_presence;predation;negative;high;calanoids
+Hansson;2004;NA;in vivo;threat_ratio;NA;positive;high;(UV/predation) for calanoids + cyclopoids
+Hansson;2004;NA;in vitro;individual_depth;env;none;high;calanoids
+Hansson;2004;NA;in vitro;individual_depth;env;none;high;cyclopoids
+Holeton et al.;2009;NA;in vitro;diet_quantity;diet;positive;high;increase of concentrations until 200 μg.L-1 of algal concentrations, then low astaxanthin concentrations (but more respiration, ingestion and egg production)
+Hylander et al.;2009;b;in vitro;UV_radiations;light_radiations;positive;high;all carotenoid data pooled over the experimental period and plotted against UV therat
+Hylander et al.;2009;b;in vitro;fish_presence;predation;negative;high;no increase of carotenoid content if fish cues present
+Hylander et al.;2009;b;in vitro;UV_fish;predation;negative;high;ranking predation as a more severe threat than UV radiations
+Hylander et al.;2012;NA;in vitro;fish_presence;predation;negative;high;but compensation of antioxydant properties by an increase of GST activity
+Hylander & Jephson;2010;NA;in vitro;UV_radiations;light_radiations;none;high;no change for carotenoids but more MAAs accumulation
+Hylander;2009;a;in vivo;lake_elevation;env;none;high;NA
+Hylander;2009;a;in vivo;lake_depth;env;none;high;NA
+Hylander;2009;a;in vivo;diet_quantity;diet;none;high;chla concentration in water
+Hylander;2009;a;in vivo;dissolved_organic_carbon;NA;none;high;NA
+Hylander;2009;a;in vivo;MAAs;metabolism;negative;high;NA
+Hylander;2009;a;in vivo;UV_radiations;light_radiations;positive;high;in subarctic region
+Hylander;2009;a;in vivo;UV_radiations;light_radiations;none;high;in temperate region
+Hylander;2009;a;in vivo;UV_radiations;light_radiations;none;high;in dry-temperate region
+Hylander;2009;a;in vivo;body_length;metabolism;none;high;NA
+Hylander;2009;a;in vitro;MAAs;metabolism;negative;high;synthesis from Fig.5 results, in general if MAAs synsthesis, then less carotenoids are produced
+Hylander;2009;a;in vitro;UV_radiations;light_radiations;positive;high;synthesis from Fig.5 results
+Hylander;2009;a;in vitro;fish_presence;predation;negative;high;synthesis from Fig.5 for mean carotenoids content in fish against no fish conditions
+Hylander;2009;a;in vitro;UV_-MAAs_fish;NA;none;high;synthesis from Fig.5 results,  less reproductive output because no carotenoid and no MAAs (poor food)
+Hylander;2009;a;in vitro;UV_+MAAs_fish;NA;negative;high;synthesis from Fig.5 results
+Hylander;2009;a;in vivo;latitude_discrete;env;positive;medium;maximum in temerature and sub-arctic in comparison with dry-temperate
+Hylander & Hansson;2013;NA;in vivo;body_length;metabolism;negative;high;NA
+Hylander & Hansson;2013;NA;in vitro;UV_radiations;light_radiations;positive;high;NA
+Hylander et al.;2015;NA;in vivo;ice_cover;env;none;medium;C. finmarchicus not significant but a small increase
+Hylander et al.;2015;NA;in vivo;ice_cover;env;none;medium;C.glacialis not significant but a small increase
+Hylander et al.;2015;NA;in vivo;ice_cover;env;none;medium;C. hyperboreus not significant but a small increase
+Hylander et al.;2015;NA;in vivo;diurnal_variations;light_radiations;none;high;for C.finmarchicus
+Hylander et al.;2015;NA;in vivo;individual_depth;env;none;high;for C.finmarchicus
+Hylander et al.;2015;NA;in vivo;body_length;metabolism;positive;high;according to species : more carotenoids in C. hyperboreus than in C.finmarchicus
+Hylander et al.;2014;NA;in vitro;MAAs;metabolism;none;high;carotenoids levels are the same no matter if the diet allow MAAs synthesis or not
+Hylander et al.;2014;NA;in vitro;UV_radiations;light_radiations;none;high;no effects for carotenoids but effects for MAAs
+Hansson et al.;2007;NA;in vitro;UV_radiations;light_radiations;positive;high;no vertical migration in response to UV radiations
+Hansson et al.;2007;NA;in vitro;natural_light;light_radiations;negative;high;no UV
+Hansson et al.;2007;NA;in vitro;latitude_discrete;env;positive;high;more carotenoids in siberia than in sweden
+Alcocer et al.;2020;NA;in vivo;UV_radiations;light_radiations;positive;high;NA
+Alcocer et al.;2020;NA;in vivo;natural_light;light_radiations;positive;high;significant negative correlation between light attenuation and carotenoid content
+Herring;1972;NA;in vivo;lipid_content;metabolism;none;low;data for copepods from Fisher et al. 1964
+Herring;1972;NA;in vivo;individual_depth;env;none;low;mixed communities of zooplankton
+Nobakht et al.;2016;NA;in vitro;diet_composition;diet;positive;high;better if mixed diet (diatom + haptophyte)
+Nobakht et al.;2016;NA;in vitro;diet_quantity;diet;positive;high;augemntation of individual carotenoid content for all diets if quanitify goes from 500O to 30000 cells/mL
+Juhl et al.;1996;NA;in vitro;feeding_activity;diet;positive;high;if starved, decrease in 2h - if fed, increase of 50% in 24h
+Kleppel et al.;1985;NA;in vivo;diet_quantity;diet;none;high;chla and phaeopigments in water, diet quality discussed
+Kleppel et al.;1985;NA;in vitro;feeding_activity;diet;positive;high;feeding activity estimated from chla and phaeopigment, fluorescence and temperature
+Kleppel et al.;1985;NA;in vivo;diurnal_variations;light_radiations;positive;high;maximum at midnight, camouflage discussed
+Lee et al.;2019;NA;in vivo;fish_presence;predation;negative;medium;comparison high predation/no predation, medium confidence beacause of the technique
+Lee et al.;2019;NA;in vivo;fish_presence;predation;none;medium;comparison low predation/no predation
+Lee et al.;2019;NA;in vitro;removal of UV radiations;NA;negative;medium;population dependant
+Lee et al.;2019;NA;in vitro;removal of UV radiations;NA;negative;medium;population dependant
+Lee et al.;2019;NA;in vitro;removal of UV radiations;NA;positive;medium;population dependant
+Lee et al.;2019;NA;in vitro;fish_presence;predation;none;medium;population dependant
+Luecke & O'Brien;1981;NA;in vivo;fish_presence;predation;negative;high;NA
+Luecke & O'Brien;1981;NA;in vivo;individual_depth;env;negative;high;a green and red morph, both linked to carotenoids, no at the same depths
+Moeller et al.;2005;NA;in vitro;UV_radiations;light_radiations;positive;high;carotenoids synthesis stimulated by UVR but only if MAAs precursors absent
+Moeller et al.;2005;NA;in vivo;MAAs;metabolism;negative;low;just from graphical interpration if Fig. 2
+Moeller et al.;2005;NA;in vitro;MAAs;metabolism;negative;high;Fig. 10
+Moeller et al.;2005;NA;in vitro;UV_radiations_+MAAs;NA;none;high;MAAS in priority
+Persault et al.;2007;NA;in vivo;MAAs;metabolism;negative;low;A. spatulocrenatus, from fig 1a but not statistically tested
+Persault et al.;2007;NA;in vivo;MAAs;metabolism;negative;low;L.minutus, from fig 1a but not statistically tested
+Persault et al.;2007;NA;in vivo;UV_radiations;light_radiations;none;low;L.minutus, from fig 1a and 1b but not statistically tested
+Persault et al.;2007;NA;in vivo;UV_radiations;light_radiations;positive;low;C. scutifer, from fig 1a and 1b but not statistically tested
+Persault et al.;2007;NA;in vivo;MAAs;metabolism;none;low;C. scutifer from fig 1a, no statistics
+Rhodes et al.;2007;NA;in vitro;diet_composition;diet;positive;high;better with a formulated feed : depend on pigments precursors
+Ringelberg and Hallegraeff;1976;NA;in vivo;diurnal_variations;light_radiations;positive;low;clear variations but no statiscial test
+Schneider et al.;2012;NA;in vivo;dissolved_organic_carbon;NA;positive;high;NA
+Schneider et al.;2012;NA;in vivo;diet_quantity;diet;positive;high;total suspended solids + Chla according to the PCA (fig 2)
+Schneider et al.;2012;NA;in vivo;pH;NA;positive;high;NA
+Schneider et al.;2012;NA;in vivo;temperature;env;none;high;NA
+Schneider et al.;2012;NA;in vivo;UV_radiations;light_radiations;none;high;cannot explain pigment variations alone, refuge hypothesis with the presence of macrophytes
+Schneider et al.;2016;NA;in vivo;UV_radiations;light_radiations;negative;high;table I
+Schneider et al.;2016;NA;in vivo;temperature;env;negative;high;table I
+Schneider et al.;2016;NA;in vivo;diet_composition;diet;none;high;table I
+Schneider et al.;2016;NA;in vivo;diet_quantity;diet;negative;high;table I
+Schneider et al.;2016;NA;in vivo;fish_presence;predation;negative;high;table I, feeding pressure by young-of-the-year fish
+Schneider et al.;2016;NA;in vivo;egg_ratio;metabolism;none;high;table I
+Schneider et al.;2016;NA;in vivo;ice_cover;env;positive;high;table I
+Schneider et al.;2016;NA;in vivo;lipid_content;metabolism;positive;high;table I
+Schneider et al.;2017;NA;in vivo;lipid_content_of_eggs;NA;positive;high;NA
+Siefken & Armitage;1967;NA;in vivo;temperature;env;negative;high;NA
+Snoeijs & Haubner;2014;NA;in vivo;temperature;env;negative;high;figure 6, for astaxanthin in ng per microgram of carbon
+Snoeijs & Haubner;2014;NA;in vivo;zoo_community_composition;NA;positive;high;a lot of astaxanthin if T. longicornis abundant in the zooplankton community and less cladocerans
+Snoeijs & Haubner;2014;NA;in vivo;diet_composition;diet;positive;high;echinone and zeaxanthin negatively correlated : more asta if no cynanobacteria
+Snoeijs & Haubner;2014;NA;in vivo;nutrients;NA;positive;high;moreDIN and DIP so more diatoms : other indidication of phytoplanktonic composition
+Sommaruga;2010;NA;in vivo;refuge (UV_radiations + depth);NA;negative;low;really doubtful linear regression
+Garcia et al.;2008;NA;in vivo;temperature;env;negative;high;NA
+Garcia et al.;2008;NA;in vivo;UV_radiations;light_radiations;negative;high;NA
+Garcia et al.;2008;NA;in vivo;diet_quantity;diet;none;high;NA
+Garcia et al.;2008;NA;in vitro;UV_radiations;light_radiations;positive;high;fig 4b
+Garcia et al.;2008;NA;in vitro;UV_temp;NA;positive;high;fig 4b
+Garcia et al.;2008;NA;in vitro;temperature;env;none;high;fig 4b
+Garcia et al.;2008;NA;in vitro;UV_radiations;light_radiations;positive;high;fig 4d
+Garcia et al.;2008;NA;in vitro;UV_temp;NA;positive;high;fig 4d
+Garcia et al.;2008;NA;in vitro;temperature;env;none;high;fig 4d
+Sommer et al.;2006;NA;in vivo;individual_depth;env;none;high;fig 1
+Sommer et al.;2006;NA;in vivo;diet_quantity;diet;none;high;vertical distribution of chla
+Sommer et al.;2006;NA;in vivo;diurnal_variations;light_radiations;positive;high;maximum at night
+Sommer et al.;2006;NA;in vitro;diet_quantity;diet;positive;low;fig 4 comaprison upright and upleft pannel (food/no food, same light levels) but no statiscal test
+Sommer et al.;2006;NA;in vitro;darkness + starvation;NA;negative;low;fig 4 up-left pannel
+Sommer et al.;2006;NA;in vitro;natural_light;light_radiations;positive;low;fig 4 up-right panel comparison at the same food level
+Tartarotti et al.;2017;NA;in vivo;UV_radiations;light_radiations;none;high;caroteoids variations among lakes but no explicative variables
+Tartarotti et al.;2017;NA;in vivo;natural_light;light_radiations;none;high;transparency/turbidity of lakes not correlated with carotenoids
+Tartarotti et al.;2018;NA;in vivo;ice_cover;env;negative;high;strong anti-correlation
+Tartarotti et al.;2018;NA;in vivo;MAAs;metabolism;positive;high;strong covariation
+Trudnowska et al.;2020;NA;in vivo;prefered_water_mass;NA;positive;high;NA
+Trudnowska et al.;2020;NA;in vivo;lipid_content;metabolism;none;high;NA
+van der Veen;2005;NA;in vitro;fish_presence;predation;negative;high;augmentation of the infection risk
+Van Nieuwerburgh et al.;2004;NA;mesocosm;diet_composition;diet;positive;high;diversity of the diet, high betacarotene levels, not to much diatoms heavily silicified
+Vesthein & Kaartvedt;2006;NA;in vivo;individual_depth;env;positive;high;camouflage hypothesis
+Vesthein & Kaartvedt;2006;NA;in vivo;diurnal_variations;light_radiations;positive;high;maximum at night
+Weaver et al.;2016;NA;in vitro;copper;NA;negative;high;from table III
+Weaver et al.;2018;a;in vitro;diet_composition;diet;positive;high;no color with a yeast diet, and more astaxanthin with zeaxanthin and canthaxanthin precursors
+Zengling et al.;2010;NA;in vitro;UV_radiations;light_radiations;positive;high;strong correlation, more effects of UVB thant UVA
+Inaotombi et al.;2020;NA;in vivo;lake_elevation;env;positive;high;table S4
+Inaotombi et al.;2020;NA;in vivo;temperature;env;negative;high;table S4, highest pearson coefficient
+Inaotombi et al.;2020;NA;in vivo;lake_depth;env;negative;high;table S4
+Inaotombi et al.;2020;NA;in vivo;natural_light;light_radiations;positive;high;table S4,  transparency
+Inaotombi et al.;2020;NA;in vivo;alkalinity;NA;negative;high;table S4, and pH
+Inaotombi et al.;2020;NA;in vivo;lignin_like_compounds;NA;positive;high;table S4, same for all other environmental sediment variables
+Inaotombi et al.;2020;NA;in vivo;dissolved_oxygen;NA;positive;high;table S4
+Cui et al.;2021;NA;in vivo;lipid_content;metabolism;positive;high;text (end of results)

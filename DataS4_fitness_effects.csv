@@ -26,10 +26,10 @@ Caramujo et al.;2012;in vitro;UV_radiations x copper;% Survival;NA;survival;favo
 Davenport et al.;2004;in vitro;UV_radiations;Median lethal time;hour;survival;favorable;high;6;table 2
 Hairston;1979a;in vitro;predation;% Consumed first;NA;survival;unfavorable;high;4;salamanders
 Hairston;1979a;in vitro;predation;% Consumed first;NA;survival;unfavorable;high;4;damsfly
-Hairston;1979c;in vitro;predation;% Survival;NA;survival;neutral;high;1;fig 1, 8°C dark
-Hairston;1979c;in vitro;predation;% Survival;NA;survival;favorable;high;1;fig 1, 8°C, light
-Hairston;1979c;in vitro;predation;% Survival;NA;survival;unfavorable;high;1;fig 1, 20°, dark
-Hairston;1979c;in vitro;predation;% Survival;NA;survival;favorable;high;1;fig 1, 20°, light
+Hairston;1979c;in vitro;predation;% Survival;NA;survival;neutral;high;1;fig 1, 8degC dark
+Hairston;1979c;in vitro;predation;% Survival;NA;survival;favorable;high;1;fig 1, 8degC, light
+Hairston;1979c;in vitro;predation;% Survival;NA;survival;unfavorable;high;1;fig 1, 20degC, dark
+Hairston;1979c;in vitro;predation;% Survival;NA;survival;favorable;high;1;fig 1, 20degC, light
 Hylander;2009a;in vitro;UV_radiations + fish_presence;Number of nauplii produced;NA;reproduction;favorable;high;16;fig  5, comparison Uvp and UVFp, only combination with no multiple interactions with MAAs
 Hylander;2012;in vitro;UV_radiations;GST activity (Anti-oxidant capacity);nmol prod min-1 [mg prot]-1;survival;favorable;medium;11;fig 4 left, comparison fish(less red)/control(red) with UV (ROS) : more enzymatic activity to counteract photo-produced ROS in non pigmented copepods, astaxanthin protection in pigmented copepod
 Hylander;2012;in vitro;UV_radiations;CHE activity (UV Oxidative stress level);min-1 [g prot]-1;survival;neutral;medium;10;fig 5 left, comparison fish(less red)/control(red) with UV (ROS) : no change of CHE activity  : no more or less UV damages in pigmented (control) copepod
@@ -41,12 +41,12 @@ Moeller et al.;2005;in vitro;UV_radiations;% Survival;NA;survival;neutral;medium
 Powers et al.;2019;in vitro;NA;Sexual selection on red females;NA;reproduction;neutral;high;18;males seems attracted by algal-derived copounds, coloration is a condition-depedant trait not assessed during mating
 Tartarotti et al.;1999;in vitro;UV_radiations;% Mortality;NA;survival;favorable;medium;2;no induced mortality for C. abyssorum
 Tartarotti et al.;1999;in vitro;UV_radiations;% Mortality;NA;survival;favorable;medium;2;no induced mortality for B. gracilipes (except after 70 hours, but UV dose more important than in nature)
-Tartarotti et al.;2018;in vivo;NA;Trolox equivalents (Anti-oxidant capacity);nmol [mg prot]-1;survival;favorable;high;13;fig 1c, 2 indicators of antioxydant capacityes, correlated with carotenoids and MAAs content
+Tartarotti et al.;2018;in vivo;NA;Trolox equivalents (Anti-oxidant capacity);nmol [mg prot]-1;survival;favorable;high;13;fig 1c, 2 indicators of antioxydant capacities, correlated with carotenoids and MAAs content
 Tartarotti et al.;2018;in vitro;UV_radiations;Hsp70 transcription (Oxidative stress level);copies per 10 ng total RNA;survival;favorable;high;14;fig 2, no upregulation at high carotenoids (and MAAs) levels, so no excessive oxydative stress
 van der Veen;2005;in vitro;NA;Parasite prevalence;NA;survival;favorable;medium;8;fig 2, but semi-quantitive vusual method
 Vinebrook & Leavitt;1999;mesocosm;UV_radiations;Biomass;mg/m2;survival;favorable;high;7;fig 8, no induced mortality in zooplankton, mainly heavily pigmented Hesperodiatomus arcticus
 Weaver et al.;2018b;in vitro;pro-oxidant;% Survival;NA;survival;favorable;high;1;fig 3, ten times more probabily to survive with carotenoids
-Weaver et al.;2018b;in vitro;pro-oxidant;Aconitase activity (Oxydative stress level);nmol min–1 ml–1 [mg prot]-1;survival;favorable;high;9;fig 2, less damages to aconitase proteins (sensitive to ROS) if carotenoids are present
+Weaver et al.;2018b;in vitro;pro-oxidant;Aconitase activity (Oxydative stress level);nmol.[min ml mg prot]-1;survival;favorable;high;9;fig 2, less damages to aconitase proteins (sensitive to ROS) if carotenoids are present
 Powers et al.;2021;in vitro;NA;Respiratory chain - Complex I: ATP synthesis;nmol min-1;growth;unfavorable;low;NA;fig 3a,  low confidence because of questionings about hybrid quality in the discussion
 Powers et al.;2021;in vitro;NA;Respiratory chain - Complex II: ATP synthesis;nmol min-1;growth;neutral;low;NA;fig 3b,  low confidence because of questionings about hybrid quality in the discussion
 Powers et al.;2021;in vitro;NA;Copepodits development time;days;reproduction;neutral;low;NA;fig 3c, low confidence because of questionings about hybrid quality in the discussion

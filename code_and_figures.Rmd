@@ -1,5 +1,6 @@
 ---
-title: 'Copepods true colors: astaxanthin pigmentation as an indicator of individual fitness'
+title: 'Copepods true colors: astaxanthin pigmentation as an indicator of individual
+  fitness'
 author: "Laure Vilgrain - March 2021"
 output:
   html_document:
@@ -9,7 +10,7 @@ output:
     toc: yes
     toc_depth: 3
     toc_float: yes
-  df_print: paged
+    df_print: paged
   pdf_document:
     toc: yes
     toc_depth: '3'
@@ -389,7 +390,7 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 ```{r echo=T, results='hide'}
 # Number of studies that detailed astaxanthin forms (free, mono and di-esters)
 nrow(SII) # 38 detailed observations of astaxanthin forms
-distinct(SII, study, year) # 18 studies
+distinct(SII, study, year, order) # 18 studies
 
 # Character strings : 
 free_dom_est_min1 <- SII %>% filter(free == "dominant" & all_esters == "minority")
@@ -417,11 +418,11 @@ nrow(free_min_est_dom)  / 38 * 100
 # Look at the proportions of mono- and di-esters
 rbind(free_dom_est_min2, free_min_est_dom2) %>% 
   filter(!is.na(`mono-esters`)) %>% 
-  select(-asta_form, - all_esters) %>% 
-  gather(key = "form", value = "percent" , "free", `mono-esters`,`di-esters`) %>% 
-  group_by(form) %>% 
+  select(- all_esters) %>% 
+  gather(key = "asta_form", value = "percent" , "free", `mono-esters`,`di-esters`) %>% 
+  group_by(asta_form) %>% 
   summarise(mean_percent = mean(percent))
-# -> very detailed analyses (8 quantifications from 7 studies) show that on average, 53% of astaxanthin is in the free form, 27% of astaxanthin is in mono-esters and 20% is di-ester. 
+# -> very detailed analyses (8 quantification from 7 studies) show that on average, 53% of astaxanthin is in the free form, 27% of astaxanthin is in mono-esters and 20% is di-ester. 
 
 ```
 
@@ -633,6 +634,7 @@ SIV %>%
   summarise(n=n(), percent = n()/(33+13+9))
 # 9 negative (16%), 13 neutral (24%) and 33 positive effects (60%). 
 
+SIV %>% arrange(graph_order) %>% distinct(response_variable)
 ```
 
 <style>

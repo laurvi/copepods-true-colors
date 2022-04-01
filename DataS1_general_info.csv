@@ -1,4 +1,4 @@
-study;year;no;study_type;latitude;longitude;ecosystem;altitude;sampling_month;genus;species;stage;astaxanthin_or_carotenoids;astaxanthin_on_total_car;form;concentration;unit;daily_pic_moment;seasonal_pic_season;seasonal_pic_month;predator_abundance;comments
+study;year;no;study_type;latitude;longitude;ecosystem;altitude;sampling_month;genus;species;stage;astaxanthin_or_carotenoids;astaxanthin_on_total_car;asta_form;concentration;unit;daily_pic_moment;seasonal_pic_season;seasonal_pic_month;predator_abundance;comments
 Gorokhova et al.;2013;;redness and fitness;59;25;marine;NA;august;Eurytemora;Eurytemora affinis;mixed;NA;NA;NA;NA;NA;NA;NA;NA;high;pigmented/unpigmented classification, dark pigmentation
 Gorokhova et al.;2013;;redness and fitness;59;25;marine;NA;august;Eurytemora;Eurytemora affinis;mixed;NA;NA;NA;NA;NA;NA;NA;NA;high;pigmented/unpigmented classification, dark pigmentation
 Anderson et al.;2003;;diet effect;54;12;marine;NA;september_july;Acartia;Acartia spp.;mixed;astaxanthin;88;72% free, 29% monoesters, <1% diesters;2.5;pmol.ind-1;max morning ;NA;NA;NA;Acartia dominiated communities

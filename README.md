@@ -1,6 +1,6 @@
 # copepods-true-colors
 
-Repertory to stock codes and figures of the publication "Copepods true colors: astaxanthin pigmentation as an indicator of individual fitness"
+Repertory to stock codes and figures of the publication "Copepods true colors: astaxanthin pigmentation as an indicator of fitness"
 
 Datasets:
 - DataS1_general_info.csv: List of all the publications that discussed and/or quantified carotenoid pigmentation in copepods
@@ -9,4 +9,4 @@ Datasets:
 - DataS4_fitness_effects.csv: List of the effects of carotenoid pigmentation on fitness-related variables in copepods
 
 Code:
-- statistical analyses and figures in a .Rmd script and knit into a .html file 
+- statistical analyses and figures in a .Rmd script, which can be visualized in html [here](file:///Users/laurevilgrain/google_drive/Laure_Vilgrain/cardinal/review/copepods-true-colors/code_and_figures.html)

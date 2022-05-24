@@ -9,4 +9,4 @@ Datasets:
 - DataS4_fitness_effects.csv: List of the effects of carotenoid pigmentation on fitness-related variables in copepods
 
 Code:
-- statistical analyses and figures in a .Rmd script, which can be visualized in html [here](file:///Users/laurevilgrain/google_drive/Laure_Vilgrain/cardinal/review/copepods-true-colors/code_and_figures.html)
+- statistical analyses and figures in a .Rmd script, which can be visualized in html [here](https://stackoverflow.com/questions/62223418/how-to-center-figure-caption-in-rmarkdown-word-output)

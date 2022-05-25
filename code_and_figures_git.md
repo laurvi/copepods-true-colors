@@ -1,6 +1,7 @@
 Copepods true colors: astaxanthin pigmentation as an indicator of
 fitness
 ================
+Laure Vilgrain - March 2021
 
 # 0. Read data
 
@@ -382,18 +383,20 @@ were used to compute the mean carotenoid content.
 
 <br/>
 
-<!-- <style> -->
-<!-- div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;} -->
-<!-- </style> -->
-<!-- <div class = "blue"> -->
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+
+<div class="blue">
 
 Plenty of copepod genus have the availability to synthesize astaxanthin
 but their propensity to do so seems mediated by the environment where
 they live. Note that then marine species accumulating the more pigments
 are *Tigriopus sp.* living in shallow temperate waters (ex: tidal pools
 of rocky shores) and *Calanus spp.* living in arctic and subarctic
-waters, submitted to strong seasonal climate variations.  
-<!-- </div> -->
+waters, submitted to strong seasonal climate variations.
+
+</div>
 
 <br/>
 
@@ -441,10 +444,11 @@ nrow(asta_cantha) / 166 *100
 # -> canthaxanthin was found in only 9 studies (21 observations, 13% of cases), and almost everytime in "negligible amounts, traces or <5%"
 ```
 
-<!-- <style> -->
-<!-- div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;} -->
-<!-- </style> -->
-<!-- <div class = "blue"> -->
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+
+<div class="blue">
 
 **Thirty studies** provide a detailed description of carotenoid pigments
 molecular forms for various species and developmental stages (166
@@ -453,7 +457,10 @@ dominant** (or &gt;50%), in \~5% (6 quantifications) of the cases,
 astaxanthin was in a minority or &lt;50% of carotenoids. **Canthaxanthin
 was found in only 9 studies** (21 observations, 13% of cases), and
 almost every time in “negligible amounts, traces or &lt;5%”.
-<!-- </div> --> <br/>
+
+</div>
+
+<br/>
 
 ### *Astaxanthin forms*
 
@@ -495,17 +502,21 @@ rbind(free_dom_est_min2, free_min_est_dom2) %>%
 # -> very detailed analyses (8 quantification from 7 studies) show that on average, 53% of astaxanthin is in the free form, 27% of astaxanthin is in mono-esters and 20% is di-ester. 
 ```
 
-<!-- <style> -->
-<!-- div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;} -->
-<!-- </style> -->
-<!-- <div class = "blue"> -->
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+
+<div class="blue">
 
 **18 studies** provided detailed forms of carotenoids (38 observations).
 In **61%** of cases, **free astaxanthin is dominant**, and in **39%** of
 cases **esters are dominant**. Very detailed analyses (8 quantifications
 from 7 studies) show that on average, 53% of astaxanthin is in the free
 form, 27% of astaxanthin is in mono-esters and 20% is di-ester.
-<!-- </div> --> <br/>
+
+</div>
+
+<br/>
 
 ### *Ontogenic development*
 
@@ -556,10 +567,6 @@ to lake altitude (m) with a linear model fitted (significant, p-value
 </div>
 
 ``` r
-ggsave(filename="fig_sup/Fig.S2.png", width=6, height=4)
-```
-
-``` r
 model <- lm(log10(test_freshwater$concentration)~test_freshwater$altitude)
 summary(model)
 ```
@@ -591,17 +598,22 @@ plot(model)
 
 <img src="code_and_figures_git_files/figure-gfm/unnamed-chunk-23-1.png" style="display: block; margin: auto;" />
 
-<!-- <style> -->
-<!-- div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;} -->
-<!-- </style> -->
-<!-- <div class = "blue"> -->
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+
+<div class="blue">
 
 There is a **significant relationship between carotenoids content and
 altitude of lakes, p-value &lt; 0.001**. However, we see a lot of noise
 (R square = 0.16) that could be explain by variations of other abiotic
 variables (temperature, lake depth, water turbidity) and biotic
 variables (phytoplanktonic community, predators, disponibility of other
-UV protectants). <!-- </div> --> <br/>
+UV protectants).
+
+</div>
+
+<br/>
 
 ### *Latitude*
 
@@ -673,19 +685,20 @@ Linear models are fitted but are not significant.
 
 </div>
 
-``` r
-ggsave(filename="fig_sup/Fig.S3.png", width=6, height=3.5)
-```
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
 
-<!-- <style> -->
-<!-- div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;} -->
-<!-- </style> -->
-<!-- <div class = "blue"> -->
+<div class="blue">
 
 **Carotenoids content shows no relationship with latitude, neither in
 freshwater nor in marine environments.** In fact, concentration
 variations within a study (or a species) are often more important than
-variations according to latitude. </br> <!-- </div> --> <br/>
+variations according to latitude. </br>
+
+</div>
+
+<br/>
 
 ## B. Biological and metabolic drivers of pigmentation
 
@@ -703,14 +716,17 @@ SI %>% filter(is.na(seasonal_pic_season) == FALSE) %>% select(study, year, no, s
     3 spring                 15   40.5 
     4 winter                 17   45.9 
 
-<!-- <style> -->
-<!-- div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;} -->
-<!-- </style> -->
-<!-- <div class = "blue"> -->
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+
+<div class="blue">
 
 On **37 time series**, astaxanthin content showed seasonal patterns with
 **maxima in winter (45%) or in spring (40%)** or in automn (3%). In 10%
-of the cases, no seasonal maxima were observed. <!-- </div> -->
+of the cases, no seasonal maxima were observed.
+
+</div>
 
 <br/>
 
@@ -758,10 +774,6 @@ alomost significant (Wilcoxon test, p-value = 0.05014)
 </div>
 
 ``` r
-ggsave(filename="fig_sup/Fig.S4.png", width=6, height=4)
-```
-
-``` r
 #Test comparison predation/no predation (<30)
 df_fish <- ug %>% filter(predation == "yes" | predation == "no") %>% mutate(predation = as.factor(predation))
 
@@ -797,10 +809,11 @@ df_fish %>% group_by(predation) %>% summarise(mean(concentration))
     1 no                         3.35
     2 yes                        2.12
 
-<!-- <style> -->
-<!-- div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;} -->
-<!-- </style> -->
-<!-- <div class = "blue"> -->
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+
+<div class="blue">
 
 We are **really close to the significance threshold (p-value =
 0.05014)** for the Wilcocxon rank sum test to compare pigment content
@@ -808,7 +821,9 @@ between lakes **with** (mean carotenoid concentration = **2.12 µg/mgDW,
 n=33**) and **without fish** (mean carotenoid concentration = **3.35
 µg/mgDW, n = 22**). Altitude could play a role inside each category :
 high altitude lakes or ponds without fish can also be shallow and
-exposed to strong light radiations. <!-- </div> -->
+exposed to strong light radiations.
+
+</div>
 
 <br/>
 
@@ -833,10 +848,11 @@ df_fish %>% group_by(predation) %>% summarise(mean(concentration))
     1 no                         3.35
     2 yes                        2.12
 
-<!-- <style> -->
-<!-- div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;} -->
-<!-- </style> -->
-<!-- <div class = "blue"> -->
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+
+<div class="blue">
 
 We are **really close to the significance threshold (p-value =
 0.05014)** for the Wilcocxon rank sum test to compare pigment content
@@ -844,7 +860,9 @@ between lakes **with** (mean carotenoid concentration = **2.12 µg/mgDW,
 n=33**) and **without fish** (mean carotenoid concentration = **3.35
 µg/mgDW, n = 22**). Altitude could play a role inside each category :
 high altitude lakes or ponds without fish can also be shallow and
-exposed to strong light radiations. <!-- </div> -->
+exposed to strong light radiations.
+
+</div>
 
 <br/>
 
@@ -912,36 +930,69 @@ SIV %>%
 
 ``` r
 # 9 negative (16%), 13 neutral (24%) and 33 positive effects (60%). 
-
-SIV %>% arrange(graph_order) %>% distinct(response_variable)
 ```
 
-    # A tibble: 24 × 1
-       response_variable                          
-       <chr>                                      
-     1 % Survival                                 
-     2 % Mortality                                
-     3 Red prey preference index                  
-     4 % Consumed first                           
-     5 % Eaten by predator                        
-     6 Median lethal time                         
-     7 Biomass                                    
-     8 Parasite prevalence                        
-     9 Aconitase activity (Oxydative stress level)
-    10 CHE activity (UV Oxidative stress level)   
-    # … with 14 more rows
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
 
-<!-- <style> -->
-<!-- div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;} -->
-<!-- </style> -->
-<!-- <div class = "blue"> -->
+<div class="blue">
 
 If we keep the whole dataset (SIV), we can find 9 negative (16%), 13
 neutral (24%) and 33 positive effects (60%) of carotenoid pigmentation
 on copepod fitness. However, we decided to **remove data tagged with
 “low confidence”** (weak statistical tests or poor data quality
 discussed in the text of the article, see column “comments” of SIV for
-more details). <!-- </div> -->
+more details).
+
+</div>
+
+<br/>
+
+``` r
+# However, we can remove points with "low" confidence, (bad statistics or data quality discussed in the text)
+SIV %>% filter(confidence != "low") %>% 
+  group_by(fitness_effect) %>%
+  summarise(n=n(), percent = n()/(31+11+8))
+```
+
+    # A tibble: 3 × 3
+      fitness_effect     n percent
+      <chr>          <int>   <dbl>
+    1 favorable         31    0.62
+    2 neutral           11    0.22
+    3 unfavorable        8    0.16
+
+``` r
+# 8 negative effects (16%), 11 neutral (22%), 31 positive effects (62%)
+
+# If we look in particular to survival and mortality curves : 
+SIV %>% filter(str_detect(response_variable, "Survival") | str_detect(response_variable, "Mortality")) %>% 
+  group_by(fitness_effect) %>%
+  summarise(n=n(), percent = n()/21)
+```
+
+    # A tibble: 3 × 3
+      fitness_effect     n percent
+      <chr>          <int>   <dbl>
+    1 favorable         15  0.714 
+    2 neutral            5  0.238 
+    3 unfavorable        1  0.0476
+
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+
+<div class="blue">
+
+Out of **50 statistically tested** effects on one fitness variable, red
+pigmentation was **unfavorable for 8 (16%), neutral for 11 (22%), and
+favorable in 31 cases (62%)**. If we look in particular to survival and
+mortality curves, when copepods are in general submitted to an external
+stressor, we can see that carotenoid pigmentation is favorable in **71%
+of the cases**.
+
+</div>
 
 <br/>
 
@@ -1006,56 +1057,10 @@ pfav | pneu | punfav
 
 <div class="figure" style="text-align: center">
 
-<img src="code_and_figures_git_files/figure-gfm/unnamed-chunk-33-1.png" alt="Figure 5. Carotenoid pigmentation effects on reproduction, growth and survival of copepods."  />
+<img src="code_and_figures_git_files/figure-gfm/unnamed-chunk-34-1.png" alt="Figure 5. Carotenoid pigmentation effects on reproduction, growth and survival of copepods."  />
 <p class="caption">
 Figure 5. Carotenoid pigmentation effects on reproduction, growth and
 survival of copepods.
 </p>
 
 </div>
-
-``` r
-#ggsave("figures/fitness_redness.pdf", width=10, height =6)
-```
-
-``` r
-# However, we can remove points with "low" confidence, (bad statistics or data quality discussed in the text)
-SIV %>% filter(confidence != "low") %>% 
-  group_by(fitness_effect) %>%
-  summarise(n=n(), percent = n()/(31+11+8))
-```
-
-    # A tibble: 3 × 3
-      fitness_effect     n percent
-      <chr>          <int>   <dbl>
-    1 favorable         31    0.62
-    2 neutral           11    0.22
-    3 unfavorable        8    0.16
-
-``` r
-# 8 negative effects (16%), 11 neutral (22%), 31 positive effects (62%)
-
-# If we look in particular to survival and mortality curves : 
-SIV %>% filter(str_detect(response_variable, "Survival") | str_detect(response_variable, "Mortality")) %>% 
-  group_by(fitness_effect) %>%
-  summarise(n=n(), percent = n()/21)
-```
-
-    # A tibble: 3 × 3
-      fitness_effect     n percent
-      <chr>          <int>   <dbl>
-    1 favorable         15  0.714 
-    2 neutral            5  0.238 
-    3 unfavorable        1  0.0476
-
-<!-- <style> -->
-<!-- div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;} -->
-<!-- </style> -->
-<!-- <div class = "blue"> -->
-
-Out of **50 statistically tested** effects on one fitness variable, red
-pigmentation was **unfavorable for 8 (16%), neutral for 11 (22%), and
-favorable in 31 cases (62%)**. If we look in particular to survival and
-mortality curves, when copepods are in general submitted to an external
-stressor, we can see that carotenoid pigmentation is favorable in **71%
-of the cases**. <!-- </div> -->

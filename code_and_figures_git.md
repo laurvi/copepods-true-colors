@@ -125,11 +125,7 @@ SI %>% filter(study_type !="no_quantification") %>% distinct(study, year, no)  %
 # -> 0.9047619
 ```
 
-<style>
-div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
-</style>
-
-<div class="blue">
+<div style="background-color: #FFFF00">
 
 **84 articles** contain the words ’copepods” and “carotenoid”,
 “astaxanthin” or “redness” and among them, **76 (90%) quantified
@@ -167,17 +163,9 @@ copepod genus.
 
 </div>
 
-<style>
-div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
-</style>
-
-<div class="blue">
-
 Carotenoids were observed in **161 species among 63 genus** (we removed
 case where genus are mixed together, noted as “mixed”). We can see that
 *Diaptomus* and *Calanus* species are the most studied.
-
-</div>
 
 <br/> In some articles, carotenoid pigmentation was just discussed in
 the text of the article but not quantified, so we classify the study
@@ -195,17 +183,9 @@ SI %>% filter(is.na(concentration) == FALSE) %>% distinct(study, year, no, latit
 # -> 262
 ```
 
-<style>
-div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
-</style>
-
-<div class="blue">
-
 Carotenoids quantifications were reported in **134 locations globally**,
 which correspond to **262 measurements of pigments** (combinations
 study/latitude/longitude/altitude/species/stages) <br/>
-
-</div>
 
 <br/>
 
@@ -236,19 +216,9 @@ SI  %>% filter(is.na(concentration) == FALSE) %>% group_by(unit) %>% summarise(n
     16 ug.egg-1                                                                 1
     17 umol.molC-1                                                              1
 
-<style>
-div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
-</style>
-
-<div class="blue">
-
 Among the **262 quantifications**, the most common unit was **µg/mgDW**:
 202 measurements, so only values in µg/mgDW will be kept for
-quantitative comparisons.
-
-</div>
-
-<br/>
+quantitative comparisons. <br/>
 
 ### *Freshwater vs marine ecosystems*
 
@@ -273,17 +243,9 @@ ug %>% group_by(ecosystem) %>% summarise(counts = n(), mean_concentration = mean
 at the individual level across the
 world.](code_and_figures_git_files/figure-gfm/unnamed-chunk-12-1.png)
 
-<style>
-div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
-</style>
-
-<div class="blue">
-
 Freshwater species have an average carotenoid concentration of **2.77 ±
 2.71 µg.mgDW-1 (n=62)** and marine species an average carotenoid
 concentration of **0.44 ± 1.06 µg.mgDW-1 (n=140)**.
-
-</div>
 
 <br/> <br/>
 
@@ -358,17 +320,9 @@ wilcox.test(filter(ug, ecosystem =="marine")$concentration_log10, filter(ug, eco
 # -> significantly different 
 ```
 
-<style>
-div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
-</style>
-
-<div class="blue">
-
 Freshwater and marine carotenoid concentrations are **significantly
 different** using a Wilcoxon rank sum test. We can then observe mean
 concentration differences between copepod genus:
-
-</div>
 
 <div class="figure" style="text-align: center">
 
@@ -383,20 +337,12 @@ were used to compute the mean carotenoid content.
 
 <br/>
 
-<style>
-div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
-</style>
-
-<div class="blue">
-
 Plenty of copepod genus have the availability to synthesize astaxanthin
 but their propensity to do so seems mediated by the environment where
 they live. Note that then marine species accumulating the more pigments
 are *Tigriopus sp.* living in shallow temperate waters (ex: tidal pools
 of rocky shores) and *Calanus spp.* living in arctic and subarctic
 waters, submitted to strong seasonal climate variations.
-
-</div>
 
 <br/>
 
@@ -444,12 +390,6 @@ nrow(asta_cantha) / 166 *100
 # -> canthaxanthin was found in only 9 studies (21 observations, 13% of cases), and almost everytime in "negligible amounts, traces or <5%"
 ```
 
-<style>
-div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
-</style>
-
-<div class="blue">
-
 **Thirty studies** provide a detailed description of carotenoid pigments
 molecular forms for various species and developmental stages (166
 measurements). In **96% (160 quantifications), astaxanthin was
@@ -457,8 +397,6 @@ dominant** (or &gt;50%), in \~5% (6 quantifications) of the cases,
 astaxanthin was in a minority or &lt;50% of carotenoids. **Canthaxanthin
 was found in only 9 studies** (21 observations, 13% of cases), and
 almost every time in “negligible amounts, traces or &lt;5%”.
-
-</div>
 
 <br/>
 
@@ -502,19 +440,11 @@ rbind(free_dom_est_min2, free_min_est_dom2) %>%
 # -> very detailed analyses (8 quantification from 7 studies) show that on average, 53% of astaxanthin is in the free form, 27% of astaxanthin is in mono-esters and 20% is di-ester. 
 ```
 
-<style>
-div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
-</style>
-
-<div class="blue">
-
 **18 studies** provided detailed forms of carotenoids (38 observations).
 In **61%** of cases, **free astaxanthin is dominant**, and in **39%** of
 cases **esters are dominant**. Very detailed analyses (8 quantifications
 from 7 studies) show that on average, 53% of astaxanthin is in the free
 form, 27% of astaxanthin is in mono-esters and 20% is di-ester.
-
-</div>
 
 <br/>
 
@@ -598,22 +528,12 @@ plot(model)
 
 <img src="code_and_figures_git_files/figure-gfm/unnamed-chunk-23-1.png" style="display: block; margin: auto;" />
 
-<style>
-div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
-</style>
-
-<div class="blue">
-
 There is a **significant relationship between carotenoids content and
 altitude of lakes, p-value &lt; 0.001**. However, we see a lot of noise
 (R square = 0.16) that could be explain by variations of other abiotic
 variables (temperature, lake depth, water turbidity) and biotic
 variables (phytoplanktonic community, predators, disponibility of other
-UV protectants).
-
-</div>
-
-<br/>
+UV protectants). <br/>
 
 ### *Latitude*
 
@@ -685,18 +605,10 @@ Linear models are fitted but are not significant.
 
 </div>
 
-<style>
-div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
-</style>
-
-<div class="blue">
-
 **Carotenoids content shows no relationship with latitude, neither in
 freshwater nor in marine environments.** In fact, concentration
 variations within a study (or a species) are often more important than
 variations according to latitude. </br>
-
-</div>
 
 <br/>
 
@@ -716,17 +628,9 @@ SI %>% filter(is.na(seasonal_pic_season) == FALSE) %>% select(study, year, no, s
     3 spring                 15   40.5 
     4 winter                 17   45.9 
 
-<style>
-div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
-</style>
-
-<div class="blue">
-
 On **37 time series**, astaxanthin content showed seasonal patterns with
 **maxima in winter (45%) or in spring (40%)** or in automn (3%). In 10%
 of the cases, no seasonal maxima were observed.
-
-</div>
 
 <br/>
 
@@ -809,12 +713,6 @@ df_fish %>% group_by(predation) %>% summarise(mean(concentration))
     1 no                         3.35
     2 yes                        2.12
 
-<style>
-div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
-</style>
-
-<div class="blue">
-
 We are **really close to the significance threshold (p-value =
 0.05014)** for the Wilcocxon rank sum test to compare pigment content
 between lakes **with** (mean carotenoid concentration = **2.12 µg/mgDW,
@@ -822,8 +720,6 @@ n=33**) and **without fish** (mean carotenoid concentration = **3.35
 µg/mgDW, n = 22**). Altitude could play a role inside each category :
 high altitude lakes or ponds without fish can also be shallow and
 exposed to strong light radiations.
-
-</div>
 
 <br/>
 
@@ -848,12 +744,6 @@ df_fish %>% group_by(predation) %>% summarise(mean(concentration))
     1 no                         3.35
     2 yes                        2.12
 
-<style>
-div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
-</style>
-
-<div class="blue">
-
 We are **really close to the significance threshold (p-value =
 0.05014)** for the Wilcocxon rank sum test to compare pigment content
 between lakes **with** (mean carotenoid concentration = **2.12 µg/mgDW,
@@ -861,8 +751,6 @@ n=33**) and **without fish** (mean carotenoid concentration = **3.35
 µg/mgDW, n = 22**). Altitude could play a role inside each category :
 high altitude lakes or ponds without fish can also be shallow and
 exposed to strong light radiations.
-
-</div>
 
 <br/>
 
@@ -932,20 +820,12 @@ SIV %>%
 # 9 negative (16%), 13 neutral (24%) and 33 positive effects (60%). 
 ```
 
-<style>
-div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
-</style>
-
-<div class="blue">
-
 If we keep the whole dataset (SIV), we can find 9 negative (16%), 13
 neutral (24%) and 33 positive effects (60%) of carotenoid pigmentation
 on copepod fitness. However, we decided to **remove data tagged with
 “low confidence”** (weak statistical tests or poor data quality
 discussed in the text of the article, see column “comments” of SIV for
 more details).
-
-</div>
 
 <br/>
 
@@ -979,20 +859,12 @@ SIV %>% filter(str_detect(response_variable, "Survival") | str_detect(response_v
     2 neutral            5  0.238 
     3 unfavorable        1  0.0476
 
-<style>
-div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
-</style>
-
-<div class="blue">
-
 Out of **50 statistically tested** effects on one fitness variable, red
 pigmentation was **unfavorable for 8 (16%), neutral for 11 (22%), and
 favorable in 31 cases (62%)**. If we look in particular to survival and
 mortality curves, when copepods are in general submitted to an external
 stressor, we can see that carotenoid pigmentation is favorable in **71%
 of the cases**.
-
-</div>
 
 <br/>
 

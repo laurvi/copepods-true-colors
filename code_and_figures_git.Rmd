@@ -67,7 +67,7 @@ SIV
 ## A. A shared and conserved functional trait in copepods 
 
 ### *Studies*
-```{r echo=T, results='hide'}
+```{r results='hide'}
 # Counts of all studies 
 (SI %>% distinct(study, year, no) %>% nrow())
 #-> 95
@@ -90,7 +90,7 @@ SI %>% filter(str_detect(study_type, "no_quantification", negate = T)) %>% disti
 
 ### *Genus and species*
 
-```{r, echo=T, results='hide'}
+```{r, results='hide'}
 # Number of species
 SI %>% group_by(species) %>% summarise() %>% nrow()
 # -> 171
@@ -116,7 +116,7 @@ Carotenoids were observed in **171 species among 65 genus** (we removed case whe
 <br/>
 In some articles, carotenoid pigmentation was just discussed in the text of the article but not quantified, so we indicated "no_quantification" in the "study_type" column. **For following analyses, only studies that quantified carotenoids will be used:**
 
-```{r echo=T, results='hide'}
+```{r results='hide'}
 SI_obs_and_quanti <- SI
 SI_obs_and_quanti %>% distinct(study, year, no, latitude, longitude) %>% nrow()
 # -> pigmentation (red or blue) was observed at 154 locations globally
@@ -160,7 +160,7 @@ ug %>% group_by(ecosystem) %>% summarise(counts = n(), `median concentration` = 
 ```
 
 
-```{r echo=FALSE, fig.height=10, fig.width=16, fig.cap=c("Figure 1. Carotenoid concentrations in freshwater and marine copepods at the individual level across the world.")}
+```{r fig.height=10, fig.width=16, fig.cap=c("Figure 1. Carotenoid concentrations in freshwater and marine copepods at the individual level across the world.")}
 
 # Density distributions of pigment concentrations in freshwater and marine ecosystems: 
 pigment_dd <- ug %>% 
@@ -228,7 +228,7 @@ The inset map shows the 154 locations where carotenoid-based pigmentation have b
 
 We performed statisical tests to compare carotenoid mean concentrations between freshwater and marine ecosystems
 
-```{r echo=T, results='hide'}
+```{r results='hide'}
 ug$ecosystem = factor(ug$ecosystem, levels = c("freshwater", "marine"))
 
 # First, test of normal distribution of data 
@@ -240,7 +240,7 @@ shapiro.test(filter(ug, ecosystem =="marine")$concentration)
 ```
 -> concentrations are not normally distributed
 
-```{r echo=T, results='hide'}
+```{r results='hide'}
 ug$concentration_log10 <- log10(ug$concentration)
 # -> log transformation
 
@@ -269,7 +269,7 @@ wilcox.test(filter(ug, ecosystem =="marine")$concentration_log10, filter(ug, eco
 Freshwater and marine carotenoid concentrations are **significantly different** using a Wilcoxon rank sum test. We can then observe mean concentration differences between copepod genus:  
 </div>
 
-```{r echo=FALSE, fig.align="center", fig.cap=c("Figure S1. Carotenoid concentration (µg/mgDW) in different freshwater and marine copepod genus. Color represent the number of studies that were used to compute the mean carotenoid content."), fig.height=11, fig.width=14}
+```{r fig.align="center", fig.cap=c("Figure S1. Carotenoid concentration (µg/mgDW) in different freshwater and marine copepod genus. Color represent the number of studies that were used to compute the mean carotenoid content."), fig.height=11, fig.width=14}
 ug %>% filter(genus != "mixed") %>% 
   group_by(genus, ecosystem) %>% 
   summarise(nb_studies = n(), pigment_content = mean(concentration), sd = sd(concentration)) %>% 
@@ -344,7 +344,7 @@ nrow(asta_cantha) / 170 *100
 
 ### *Astaxanthin forms*
 
-```{r echo=T, results='hide'}
+```{r results='hide'}
 # Number of studies that detailed astaxanthin forms (free, mono and di-esters)
 nrow(SII) # 38 detailed observations of astaxanthin forms
 distinct(SII, study, year, order) # 18 studies
@@ -393,14 +393,14 @@ rbind(free_dom_est_min2, free_min_est_dom2) %>%
 
 This graphic illustrates that we don't have enough study that quantified carotenoid concentration along ontogenic development. We can not conclude about carotenoid quantities and forms according to copepod stages. <br/>
 
-```{r echo=FALSE, fig.height=3, fig.width= 5, fig.align="center", fig.cap=c("Carotenoid concentrations in copepod stages from three different studies. Points are colored according to the unit used.")}
+```{r fig.height=3, fig.width= 5, fig.align="center", fig.cap=c("Carotenoid concentrations in copepod stages from three different studies. Points are colored according to the unit used.")}
 SI %>% filter((study == "Hairston" & no == "b")| study == "Holeton et al." | study == "Lotocka et al.") %>% mutate(Stage = factor(stage,levels = c("eggs", "nauplii", "copepodits", "adults", "adults_females"))) %>% ggplot() + geom_point(aes(Stage, concentration, color = unit, shape = study), size=3)+ labs(y="Carotenoid concentrations (units in color)", x="Development stage")+ theme_bw(base_size = 10)
 ```
 <br/>
 <br/>
 
 ### *Blue color*
-```{r echo=FALSE, fig.height=3, fig.width= 5, fig.align="center", fig.cap=c("Latitudinal distribution of blue copepod observations")}
+```{r fig.height=3, fig.width= 5, fig.align="center", fig.cap=c("Latitudinal distribution of blue copepod observations")}
 blue_cops <- SI_obs_and_quanti %>% filter(blue_color == "yes")
 # ->  27 observations of blue copepods 
 
@@ -525,7 +525,7 @@ ug  %>% filter(ecosystem=="freshwater" & is.na(predation)== FALSE) %>%
 ```
 
 
-```{r echo=T, results='hide'}
+```{r results='hide'}
 #Test comparison predation/no predation (<30)
 df_fish <- ug %>% filter(predation == "yes" | predation == "no") %>% mutate(predation = as.factor(predation))
 

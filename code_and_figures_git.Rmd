@@ -292,7 +292,7 @@ ug %>% filter(genus != "mixed") %>%
 of studies")+
   theme_bw(base_size = 16)
 
-ggsave("fig_sup/Fig S1.png", width=10, height =10)
+#ggsave("fig_sup/Fig S1.png", width=10, height =10)
 ```
 
 
@@ -457,7 +457,7 @@ ug  %>% filter(ecosystem=="freshwater") %>% ggplot() +
   Log-transformed values")+
   theme_bw(base_size = 10)
 
-ggsave("fig_sup/Fig S2.png", width=6, height =4)
+#ggsave("fig_sup/Fig S2.png", width=6, height =4)
 ```
 
 
@@ -493,7 +493,7 @@ ug  %>%
   labs(y= "Carotenoid content (µg/mgDW)
   Log-transformed values", x="Latitude (°) in absolute value", color = "Ecosystem")
 
-ggsave("fig_sup/Fig S3.png", width=7, height =4)
+#ggsave("fig_sup/Fig S3.png", width=7, height =4)
 
 ```
 
@@ -538,7 +538,7 @@ ug  %>% filter(ecosystem=="freshwater" & is.na(predation)== FALSE) %>%
   Log10 axis transformation", color = "Altitude (m. asl)", x= "Fish presence")+
   theme_bw(base_size = 10)
 
-ggsave("fig_sup/Fig S4.png", width=6, height =4)
+#ggsave("fig_sup/Fig S4.png", width=6, height =4)
 ```
 
 

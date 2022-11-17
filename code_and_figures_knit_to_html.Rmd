@@ -1,7 +1,17 @@
 ---
 title: "Copepods' true colors: astaxanthin pigmentation as an indicator of fitness"
 author: "Laure Vilgrain - March 2021"
-output: github_document
+output:
+  html_document:
+    code_folding: hide
+    highlight: pygments
+    theme: yeti
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+  pdf_document:
+    toc: yes
+    toc_depth: '3'
 ---
 
 
@@ -121,7 +131,14 @@ SI_obs_and_quanti <- SI
 SI_obs_and_quanti %>% distinct(study, year, no, latitude, longitude) %>% nrow()
 # -> pigmentation (red or blue) was observed at 154 locations globally
 SI_obs_and_quanti %>% nrow()
+# -> 316 observations
 
+# Keep only quantitative measures
+SI <- SI %>% filter(str_detect(study_type, "no_quantification", negate = TRUE))
+SI %>% distinct(study, year, no, latitude, longitude) %>% nrow()
+# -> 128 locations
+SI %>% nrow()
+# -> 286 observations
 ```
 
 
@@ -142,7 +159,7 @@ SI %>% group_by(unit, unit_conversion) %>% summarise(nb_of_studies_using_this_un
 ```
 
 <div style="background-color: #bbe1e0">
-Among the **286 quantifications the most common unit was µg/mgDW (202 measurements)**. 11 NA are present because for 5 studies, carotenoids were quantified to distinguish proportions of various pigments forms but no value of total carotenoid content was provided. 9 measurements have been successfully converted into µg/mgDW. We were not able to convert the other 64 values because of the method used (ex: mixed species or development stages, missing information, new methods not comparable). All details of conversions are given in Appendix 1: Table S1. Finally, **214 values in µg/mgDW** will be used for all following quantitative comparisons.
+Among the **286 quantifications the most common unit was µg/mgDW (202 measurements)**. 11 NA are present because for 5 studies, carotenoids were quantified to distinguish proportions of various pigments forms but no value of total carotenoid content was provided. 9 measurements have been successfully converted into µg/mgDW. We were not able to convert the other 64 values because of the method used (ex: mixed species or development stages, missing information, new methods not comparable). All details of conversions are given in Appendix 1: Table S1. Finally, **211 values in µg/mgDW** will be used for all following quantitative comparisons.
 </div>
 <br/>
 
@@ -155,10 +172,14 @@ ug <- SI %>% filter (unit == "ug/mgDW")
 # Transform to have numeric values 
 ug$concentration <- as.numeric(ug$concentration)
 
+# Total carotenoid average 
+mean(ug$concentration)
+# -> 1.22
+
 # Count number of studies by ecosystems 
 ug %>% group_by(ecosystem) %>% summarise(counts = n(), `median concentration` = median(concentration)) %>% ungroup()
 ```
-
+ Global average carotenoid concentrationfrom 211 measurments is 1.22 µg.mgDW-1.
 
 ```{r fig.height=10, fig.width=16, fig.cap=c("Figure 1. Carotenoid concentrations in freshwater and marine copepods at the individual level across the world.")}
 
@@ -277,9 +298,11 @@ ug %>% filter(genus != "mixed") %>%
   ggplot() + 
   geom_bar(aes(pigment_content, genus, fill = nb_studies), stat ="identity")+
   facet_wrap(~ecosystem)+
-  labs(x="Carotenoid content (µg/mgDW)", fill = "Number of studies")+
+  labs(x="Carotenoid content (µg/mgDW)", fill = "Number 
+of studies")+
   theme_bw(base_size = 16)
 
+ggsave("fig_sup/Fig S1.png", width=10, height =10)
 ```
 
 
@@ -444,6 +467,7 @@ ug  %>% filter(ecosystem=="freshwater") %>% ggplot() +
   Log-transformed values")+
   theme_bw(base_size = 10)
 
+ggsave("fig_sup/Fig S2.png", width=6, height =4)
 ```
 
 
@@ -478,6 +502,8 @@ ug  %>%
   theme_bw(base_size = 10)+
   labs(y= "Carotenoid content (µg/mgDW)
   Log-transformed values", x="Latitude (°) in absolute value", color = "Ecosystem")
+
+ggsave("fig_sup/Fig S3.png", width=7, height =4)
 
 ```
 
@@ -522,6 +548,7 @@ ug  %>% filter(ecosystem=="freshwater" & is.na(predation)== FALSE) %>%
   Log10 axis transformation", color = "Altitude (m. asl)", x= "Fish presence")+
   theme_bw(base_size = 10)
 
+ggsave("fig_sup/Fig S4.png", width=6, height =4)
 ```
 
 
@@ -531,9 +558,9 @@ df_fish <- ug %>% filter(predation == "yes" | predation == "no") %>% mutate(pred
 
 #Normality ? 
 shapiro.test(log10(filter(df_fish, predation =="yes")$concentration))
-# W = 0.90082, p-value = 0.005596 -> normal distribution
+# W = 0.62321, p-value = 3.945e-08 -> not normal distribution
 shapiro.test(log10(filter(df_fish, predation =="no")$concentration))
-# W = 0.92556, p-value = 0.09914 -> not normal distribution
+# W = 0.92556, p-value = 0.09914 -> normal distribution
 
 ```
 
@@ -587,7 +614,7 @@ SIII_grouped %>%
          legend.title = element_blank(), legend.text = element_text(size = 12))
 
 ```
-
+<br/><br/>
 
 # III. How does redness impact copepod fitness (reproduction, growth, survival) ?
 

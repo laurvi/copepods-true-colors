@@ -1,4 +1,4 @@
-Copepods true colors: astaxanthin pigmentation as an indicator of
+Copepods’ true colors: astaxanthin pigmentation as an indicator of
 fitness
 ================
 Laure Vilgrain - March 2021
@@ -175,6 +175,14 @@ SI_obs_and_quanti <- SI
 SI_obs_and_quanti %>% distinct(study, year, no, latitude, longitude) %>% nrow()
 # -> pigmentation (red or blue) was observed at 154 locations globally
 SI_obs_and_quanti %>% nrow()
+# -> 316 observations
+
+# Keep only quantitative measures
+SI <- SI %>% filter(str_detect(study_type, "no_quantification", negate = TRUE))
+SI %>% distinct(study, year, no, latitude, longitude) %>% nrow()
+# -> 128 locations
+SI %>% nrow()
+# -> 286 observations
 ```
 
 <div style="background-color: #bbe1e0">
@@ -200,8 +208,8 @@ SI %>% group_by(unit, unit_conversion) %>% summarise(nb_of_studies_using_this_un
        unit                                         unit_conversion nb_of_studies_u…
        <chr>                                        <chr>                      <int>
      1 ug/mgDW                                      no                           202
-     2 <NA>                                         no                            41
-     3 OD/mgdrywt                                   no                            22
+     2 OD/mgdrywt                                   no                            22
+     3 <NA>                                         no                            11
      4 ng.ind-1                                     no                             9
      5 ug/mgDW                                      yes                            9
      6 % of copepod with red antennules             no                             8
@@ -233,7 +241,7 @@ been successfully converted into µg/mgDW. We were not able to convert
 the other 64 values because of the method used (ex: mixed species or
 development stages, missing information, new methods not comparable).
 All details of conversions are given in Appendix 1: Table S1. Finally,
-**214 values in µg/mgDW** will be used for all following quantitative
+**211 values in µg/mgDW** will be used for all following quantitative
 comparisons.
 
 </div>
@@ -249,6 +257,15 @@ ug <- SI %>% filter (unit == "ug/mgDW")
 # Transform to have numeric values 
 ug$concentration <- as.numeric(ug$concentration)
 
+# Total carotenoid average 
+mean(ug$concentration)
+```
+
+    [1] 1.217038
+
+``` r
+# -> 1.22
+
 # Count number of studies by ecosystems 
 ug %>% group_by(ecosystem) %>% summarise(counts = n(), `median concentration` = median(concentration)) %>% ungroup()
 ```
@@ -258,6 +275,9 @@ ug %>% group_by(ecosystem) %>% summarise(counts = n(), `median concentration` = 
       <chr>       <int>                  <dbl>
     1 freshwater     66                  2.24 
     2 marine        145                  0.137
+
+Global average carotenoid concentrationfrom 211 measurments is 1.22
+µg.mgDW-1.
 
 ``` r
 # Density distributions of pigment concentrations in freshwater and marine ecosystems: 
@@ -398,11 +418,16 @@ ug %>% filter(genus != "mixed") %>%
   ggplot() + 
   geom_bar(aes(pigment_content, genus, fill = nb_studies), stat ="identity")+
   facet_wrap(~ecosystem)+
-  labs(x="Carotenoid content (µg/mgDW)", fill = "Number of studies")+
+  labs(x="Carotenoid content (µg/mgDW)", fill = "Number 
+of studies")+
   theme_bw(base_size = 16)
 ```
 
 <img src="code_and_figures_git_files/figure-gfm/unnamed-chunk-16-1.png" title="Figure S1. Carotenoid concentration (µg/mgDW) in different freshwater and marine copepod genus. Color represent the number of studies that were used to compute the mean carotenoid content." alt="Figure S1. Carotenoid concentration (µg/mgDW) in different freshwater and marine copepod genus. Color represent the number of studies that were used to compute the mean carotenoid content." style="display: block; margin: auto;" />
+
+``` r
+ggsave("fig_sup/Fig S1.png", width=10, height =10)
+```
 
 <br/>
 
@@ -617,6 +642,10 @@ ug  %>% filter(ecosystem=="freshwater") %>% ggplot() +
 <img src="code_and_figures_git_files/figure-gfm/unnamed-chunk-22-1.png" title="Figure S2. Carotenoid concentration (µg/mgDW, log-transformed) according to lake altitude (m) with a linear model fitted (significant, p-value &lt; 0.001)." alt="Figure S2. Carotenoid concentration (µg/mgDW, log-transformed) according to lake altitude (m) with a linear model fitted (significant, p-value &lt; 0.001)." style="display: block; margin: auto;" />
 
 ``` r
+ggsave("fig_sup/Fig S2.png", width=6, height =4)
+```
+
+``` r
 model <- lm(log10(test_freshwater$concentration)~test_freshwater$altitude)
 summary(model)
 ```
@@ -723,6 +752,10 @@ ug  %>%
 
 <img src="code_and_figures_git_files/figure-gfm/unnamed-chunk-25-1.png" title="Figure S3. Carotenoid concentration (µg/mgDW, log-transformed) according to latitude (° in absolute value) in freshwater and marine ecosystems. Linear models are fitted but are not significant." alt="Figure S3. Carotenoid concentration (µg/mgDW, log-transformed) according to latitude (° in absolute value) in freshwater and marine ecosystems. Linear models are fitted but are not significant." style="display: block; margin: auto;" />
 
+``` r
+ggsave("fig_sup/Fig S3.png", width=7, height =4)
+```
+
 <div style="background-color: #bbe1e0">
 
 **Carotenoids content shows no relationship with latitude, neither in
@@ -794,14 +827,18 @@ ug  %>% filter(ecosystem=="freshwater" & is.na(predation)== FALSE) %>%
 <img src="code_and_figures_git_files/figure-gfm/unnamed-chunk-27-1.png" title="Figure S4. Distribution of carotenoid concentrations (µg/mgDW, log-transformed) from lakes with and without predator presence. Carotenoid concentration difference according to predator presence is significant (Wilcoxon test, p-value = 0.03597)" alt="Figure S4. Distribution of carotenoid concentrations (µg/mgDW, log-transformed) from lakes with and without predator presence. Carotenoid concentration difference according to predator presence is significant (Wilcoxon test, p-value = 0.03597)" style="display: block; margin: auto;" />
 
 ``` r
+ggsave("fig_sup/Fig S4.png", width=6, height =4)
+```
+
+``` r
 #Test comparison predation/no predation (<30)
 df_fish <- ug %>% filter(predation == "yes" | predation == "no") %>% mutate(predation = as.factor(predation))
 
 #Normality ? 
 shapiro.test(log10(filter(df_fish, predation =="yes")$concentration))
-# W = 0.90082, p-value = 0.005596 -> normal distribution
+# W = 0.62321, p-value = 3.945e-08 -> not normal distribution
 shapiro.test(log10(filter(df_fish, predation =="no")$concentration))
-# W = 0.92556, p-value = 0.09914 -> not normal distribution
+# W = 0.92556, p-value = 0.09914 -> normal distribution
 ```
 
 Because n\<30 and data not normaly distributed, we use a
@@ -878,6 +915,7 @@ SIII_grouped %>%
 ```
 
 <img src="code_and_figures_git_files/figure-gfm/unnamed-chunk-30-1.png" title="Figure 4. Counts of correlations between copepod carotenoid pigmentation and main environmental, biological or ecological forcings tested in the litterature." alt="Figure 4. Counts of correlations between copepod carotenoid pigmentation and main environmental, biological or ecological forcings tested in the litterature." style="display: block; margin: auto;" />
+<br/><br/>
 
 # III. How does redness impact copepod fitness (reproduction, growth, survival) ?
 

@@ -1,7 +1,18 @@
 ---
 title: "Copepods' true colors: astaxanthin pigmentation as an indicator of fitness"
 author: "Laure Vilgrain - March 2021"
-output: github_document
+output:
+  html_document:
+    code_folding: hide
+    highlight: pygments
+    theme: yeti
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+  pdf_document:
+    toc: yes
+    toc_depth: '3'
+always_allow_html: yes
 ---
 
 
@@ -36,27 +47,27 @@ library("car")
 **Suppl. Data SI.** List of all the publications that discussed and/or quantified carotenoid pigmentation in copepods
 ```{r}
 SI <- read_delim("DataS1_general_info.csv", ";", escape_double = FALSE, trim_ws = TRUE)
-SI
+datatable(select(SI, -comments), rownames = FALSE, filter="top", options = list(pageLength = 5, scrollX=T))
 ```
 <br/>
 **Suppl. Data SII.** List of the detailed quantifications of carotenoids forms in copepods found in 38 articles from the literature
 ```{r}
 SII <- read_delim("DataS2_asta_form_detailed.csv", ";", escape_double = FALSE, trim_ws = TRUE)
-SII
+datatable(SII, rownames = FALSE, filter="top", options = list(pageLength = 5, scrollX=T))
 ```
 
 <br/>
 **Suppl. Data SIII.** Abiotic and biotic variables effects on copepod astaxanthin concentrations from the literature
 ```{r}
 SIII <- read_delim("DataS3_forcing_variables.csv", ";", escape_double = FALSE, trim_ws = TRUE)
-SIII
+datatable(SIII, rownames = FALSE, filter="top", options = list(pageLength = 5, scrollX=T))
 ```
 
 <br/>
 **Suppl. Data SIV.** List of the effects of carotenoid pigmentation on fitness-related variables in copepods
 ```{r}
 SIV <- read_delim("DataS4_fitness_effects.csv", ";", escape_double = FALSE, trim_ws = TRUE)
-SIV
+datatable(SIV, rownames = FALSE, filter="top", options = list(pageLength = 5, scrollX=T))
 ```
 
 <br/>
@@ -83,7 +94,11 @@ SI %>% filter(str_detect(study_type, "no_quantification", negate = T)) %>% disti
 
 
 
-<div style="background-color: #bbe1e0">
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+
 **95 articles** contain the words 'copepods” and “carotenoid”, “astaxanthin” or “redness”, and have observed blue or red copepods in marine or freshwater ecosystems. Among them, **70 studies (74%) quantified carotenoids** (in various units and methods). 
 </div>
 
@@ -109,7 +124,11 @@ SI %>% filter(genus != "mixed") %>%
 ```
 
 
-<div style="background-color: #bbe1e0">
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+
 Carotenoids were observed in **171 species among 65 genus** (we removed case where genus are mixed together, noted as "mixed"). We can see that *Diaptomus* and *Calanus* species are the most studied. 
 </div>
 
@@ -133,7 +152,11 @@ SI %>% nrow()
 
 
 
-<div style="background-color: #bbe1e0">
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+
 Red or blue pigmentation of copepod was reported in **154 locations globally** for 316 observations. However, if we remove the 30 studies that reported or analysed pigmentation without a quantitative approach, we obtain **286 measurements of pigments**  (combinations study/latitude/longitude/altitude/species/stages) at 128 locations. <br/>
 
 </div>
@@ -148,7 +171,10 @@ SI %>% group_by(unit, unit_conversion) %>% summarise(nb_of_studies_using_this_un
 
 ```
 
-<div style="background-color: #bbe1e0">
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
 Among the **286 quantifications the most common unit was µg/mgDW (202 measurements)**. 11 NA are present because for 5 studies, carotenoids were quantified to distinguish proportions of various pigments forms but no value of total carotenoid content was provided. 9 measurements have been successfully converted into µg/mgDW. We were not able to convert the other 64 values because of the method used (ex: mixed species or development stages, missing information, new methods not comparable). All details of conversions are given in Appendix 1: Table S1. Finally, **211 values in µg/mgDW** will be used for all following quantitative comparisons.
 </div>
 <br/>
@@ -229,7 +255,10 @@ ggdraw(pigment_dd) +  draw_plot(world_map, width =0.75, height =0.75,
 ```
 
 
-<div style="background-color: #bbe1e0">
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
 
 The inset map shows the 154 locations where carotenoid-based pigmentation have been observerd (blue or red). Disctributions of carotenoids contents were done with the 214 values expressed in µg.mgDW-1. Fweeshwater copepods have an median carotenoid concentration of **2.243 µg.mgDW-1 (n=66)** and marine species a median carotenoid concentration of **0.137µg.mgDW-1 (n=145)**. 
 </div>
@@ -276,7 +305,11 @@ wilcox.test(filter(ug, ecosystem =="marine")$concentration_log10, filter(ug, eco
 
 ```
 
-<div style="background-color: #bbe1e0">
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+
 Freshwater and marine carotenoid concentrations are **significantly different** using a Wilcoxon rank sum test. We can then observe mean concentration differences between copepod genus:  
 </div>
 
@@ -298,7 +331,11 @@ of studies")+
 
 <br/>
 
-<div style="background-color: #bbe1e0">
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+
 Plenty of copepod genus have the availability to synthesize astaxanthin but their propensity to do so seems mediated by the environment where they live. Note that then marine species accumulating the more pigments are *Tigriopus sp.* living in shallow temperate waters (ex: tidal pools of rocky shores) and *Calanus spp.* living in arctic and subarctic waters, submitted to strong seasonal climate variations.  
 </div>
 
@@ -349,7 +386,11 @@ nrow(asta_cantha) / 170 *100
 ```
 
 
-<div style="background-color: #bbe1e0">
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+
 **Thirty-two studies** provide a detailed description of carotenoid pigments molecular forms for various species and developmental stages (170 measurements). In **96% (164 quantifications), astaxanthin was dominant** (or >50%), in ~4% (6 quantifications) of the cases, astaxanthin was in a minority or <50% of carotenoids. **Canthaxanthin was found in only 9 studies** (20 observations, 12% of cases), and almost every time in "negligible amounts, traces or <5%". 
 </div>
 
@@ -397,7 +438,11 @@ rbind(free_dom_est_min2, free_min_est_dom2) %>%
 ```
 
 
-<div style="background-color: #bbe1e0">
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+
 **18 studies** provided detailed forms of carotenoids (38 observations). In **61%** of cases, **free astaxanthin is dominant**, and in **39%** of cases **esters are dominant**. Very detailed analyses (8 quantifications from 7 studies) show that on average, 53% of astaxanthin is in the free form, 27% of astaxanthin is in mono-esters and 20% is di-ester.
 </div>
 <br/>
@@ -429,7 +474,11 @@ blue_cops %>%
 <br/>
 <br/>
 
-<div style="background-color: #bbe1e0">
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+
 **27 observations of blue copepods**, all in marine ecosystems except for 1 freshwater case. Blue copepods mostly belong to Labidocera and Pontella genus. Most observations were made around 25°N, and none beyond 50°N. 
 
 </div>
@@ -470,7 +519,11 @@ plot(model)
 ```
 
 
-<div style="background-color: #bbe1e0">
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+
 There is a **significant relationship between carotenoids content and altitude of lakes, p-value < 0.001**. However, we see a lot of noise (R square = 0.10) that could be explain by variations of other abiotic variables (temperature, lake depth, water turbidity) and biotic variables (phytoplanktonic community, predators, disponibility of other UV protectants). Extreme high value, but no reason to remove it, as it comes from a very shallow pond in high altitude.
 </div>
 <br/>
@@ -498,7 +551,11 @@ ug  %>%
 ```
 
 
-<div style="background-color: #bbe1e0">
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+
 **Carotenoids content shows no relationship with latitude, neither in freshwater nor in marine environments.** In fact, concentration variations within a study (or a species) are often more important than variations according to latitude. </br>
 </div>
 <br/>
@@ -512,7 +569,11 @@ ug  %>%
 SI %>% filter(is.na(seasonal_pic_season) == FALSE) %>% select(study, year, no, seasonal_pic_season) %>% group_by(seasonal_pic_season) %>% summarise(count = n()) %>% mutate(tot = sum(count), percent = count/tot*100) %>% select(-tot)
 ```
 
-<div style="background-color: #bbe1e0">
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+
 On **37 time series**, astaxanthin content showed seasonal patterns with **maxima in winter (45%) or in spring (40%)** or in automn (3%). In 10% of the cases, no seasonal maxima were observed. 
 </div>
 
@@ -562,7 +623,11 @@ df_fish %>% group_by(predation) %>% summarise(n(), mean(concentration))
 ```
 
 
-<div style="background-color: #bbe1e0">
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+
 There is a significant difference in carotenoid content **(p-value = 0.03597)** between lakes **with** (mean carotenoid concentration = **2.06 µg/mgDW, n=34**) and **without fish** (mean carotenoid concentration = **3.35 µg/mgDW, n = 22**). Altitude could play a role inside each category : high altitude lakes or ponds without fish can also be shallow and exposed to strong light radiations.
 </div>
 
@@ -638,7 +703,11 @@ SIV %>% filter(str_detect(response_variable, "Survival") | str_detect(response_v
   summarise(n=n(), percent = n()/21)
 ```
 
-<div style="background-color: #bbe1e0">
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+
 Out of **50 statistically tested** effects on one fitness variable, red pigmentation was **unfavorable for 8 (16%), neutral for 11 (22%), and favorable in 31 cases (62%)**. If we look in particular to survival and mortality curves, when copepods are in general submitted to an external stressor, we can see that carotenoid pigmentation is favorable in **71% of the cases**.
 </div>
 

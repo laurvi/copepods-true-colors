@@ -175,7 +175,7 @@ SI %>% group_by(unit, unit_conversion) %>% summarise(nb_of_studies_using_this_un
 div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </style>
 <div class = "blue">
-Among the **286 quantifications the most common unit was µg/mgDM (202 measurements)**. 11 NA are present because for 5 studies, carotenoids were quantified to distinguish proportions of various pigments forms but no value of total carotenoid content was provided. 9 measurements have been successfully converted into µg/mgDM. We were not able to convert the other 64 values because of the method used (ex: mixed species or development stages, missing information, new methods not comparable). All details of conversions are given in Appendix 1: Table S1. Finally, **211 values in µg/mgDM** will be used for all following quantitative comparisons.
+Among the **286 quantifications the most common unit was µg/mgDM (202 measurements)**. We wrote mgDW (for mg of dry weight) within the dataset, as expressed in all past articles, but it was changed for dry mass (DM) in the text of the review to follow the SI system. 11 NA are present because for 5 studies, carotenoids were quantified to distinguish proportions of various pigments forms but no value of total carotenoid content was provided. 9 measurements have been successfully converted into µg/mgDM. We were not able to convert the other 64 values because of the method used (ex: mixed species or development stages, missing information, new methods not comparable). All details of conversions are given in Appendix 1: Table S1. Finally, **211 values in µg/mgDM** will be used for all following quantitative comparisons.
 </div>
 <br/>
 
@@ -325,7 +325,7 @@ ug %>% filter(genus != "mixed") %>%
 of studies")+
   theme_bw(base_size = 16)
 
-ggsave("fig_sup/Fig S1.png", width=10, height =10)
+#ggsave("fig_sup/Fig S1.png", width=10, height =10)
 ```
 
 
@@ -506,7 +506,7 @@ ug  %>% filter(ecosystem=="freshwater") %>% ggplot() +
   Log-transformed values")+
   theme_bw(base_size = 10)
 
-ggsave("fig_sup/Fig S2.png", width=6, height =4)
+#ggsave("fig_sup/Fig S2.png", width=6, height =4)
 ```
 
 
@@ -546,7 +546,7 @@ ug  %>%
   labs(y= "Carotenoid content (µg/mgDM)
   Log-transformed values", x="Latitude (°) in absolute value", color = "Ecosystem")
 
-ggsave("fig_sup/Fig S3.png", width=7, height =4)
+#ggsave("fig_sup/Fig S3.png", width=7, height =4)
 
 ```
 
@@ -599,7 +599,7 @@ ug  %>% filter(ecosystem=="freshwater" & is.na(predation)== FALSE) %>%
   Log10 axis transformation", color = "Altitude (m. asl)", x= "Fish presence")+
   theme_bw(base_size = 10)
 
-ggsave("fig_sup/Fig S4.png", width=6, height =4)
+#ggsave("fig_sup/Fig S4.png", width=6, height =4)
 ```
 
 

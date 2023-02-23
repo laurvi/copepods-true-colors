@@ -1,0 +1,317 @@
+study;year;no;study_type;latitude;longitude;ecosystem;altitude;sampling_month;genus;species;stage;astaxanthin_or_carotenoids;astaxanthin_on_total_car;asta_form;concentration;unit;unit_conversion;daily_pic_moment;seasonal_pic_season;seasonal_pic_month;predator_abundance;blue_color;comments
+Gorokhova et al.;2013;;redness and fitness and no_quantification;59;25;marine;NA;august;Eurytemora;Eurytemora affinis;mixed;NA;NA;NA;NA;NA;no;NA;NA;NA;high;no;pigmented/unpigmented classification, dark pigmentation
+Gorokhova et al.;2013;;redness and fitness and no_quantification;59;25;marine;NA;august;Eurytemora;Eurytemora affinis;mixed;NA;NA;NA;NA;NA;no;NA;NA;NA;high;no;pigmented/unpigmented classification, dark pigmentation
+Anderson et al.;2003;;diet effect;54;12;marine;NA;september_july;Acartia;Acartia spp.;mixed;astaxanthin;88;72% free, 29% monoesters, <1% diesters;2.5;pmol.ind-1;no;max morning ;NA;NA;NA;no;Acartia dominiated communities
+Hairston;1976;;redness and fitness;47.4;-119.5;freshwater;328;NA;Diaptomus;Diaptomus nevadensis;mixed;astaxanthin;dominance;NA;0.63;OD/mgdrywt;no;NA;winter;NA;low;no;
+Hairston;1976;;redness and fitness;47.5;-119.5;freshwater;328;NA;Diaptomus;Diaptomus nevadensis;mixed;astaxanthin;dominance;NA;0.138;OD/mgdrywt;no;NA;winter;NA;high;no;
+Bandaranayake and Gentien;1982;;pigment identification;-18.5;147;marine;NA;NA;Temora;Temora turbinata;mixed;carotenoids;dominance;esters dominant;NA;NA;no;NA;NA;NA;NA;no;red chromatophores
+Bandaranayake and Gentien;1982;;pigment identification;-18.5;147;marine;NA;NA;Centropages;Centropages furcatus;mixed;carotenoids;dominance;esters dominant, free form with protein;NA;NA;no;NA;NA;NA;NA;yes;red and blue chromatophores
+Bandaranayake and Gentien;1982;;pigment identification;-18.5;147;marine;NA;NA;Undinula;Undinula vulgaris;mixed;carotenoids;dominance;esters dominant, free form with protein;NA;NA;no;NA;NA;NA;NA;yes;red and blue chromatophores
+Bandaranayake and Gentien;1982;;pigment identification;-18.5;147;marine;NA;NA;Euchaeta;Euchaeta russeli;mixed;carotenoids;minority;free form dominant, association with protein;NA;NA;no;NA;NA;NA;NA;yes;deep species, orange color and blue eggs, with canthaxanthin
+Byron;1982;;forcing variables + redness and fitness;40;-105;freshwater;3216;june_july_september_october;Diaptomus;Diaptomus leptopus;mixed;carotenoids;dominance;NA;1.86;OD/mgdrywt;no;NA;NA;NA;null;no;optical density of a 10mL extract of 10-15 copepod, corrected for total dry mass, some copepods were blue un summer
+Byron;1982;;forcing variables + redness and fitness;40.08;-105.54;freshwater;3101;june_july_september_october;Diaptomus;Diaptomus leptopus;mixed;carotenoids;dominance;NA;0.81;OD/mgdrywt;no;NA;NA;NA;high;no;optical density of a 10mL extract of 10-15 copepod, corrected for total dry mass, some copepods were blue un summer
+Byron;1982;;forcing variables + redness and fitness;39.71;-104.97;freshwater;3106;june_july_september_october;Diaptomus;Diaptomus leptopus;mixed;carotenoids;dominance;NA;0.83;OD/mgdrywt;no;NA;NA;NA;NA;no;optical density of a 10mL extract of 10-15 copepod, corrected for total dry mass, some copepods were blue un summer
+Byron;1981;;redness and fitness;40.08;-105.54;freshwater;3101;june_july_september_october;Diaptomus;Diaptomus leptopus;mixed;carotenoids;NA;NA;0.242;A/mg;no;NA;NA;NA;high;no;
+Byron;1981;;redness and fitness;40;-105;freshwater;3216;june_july_september_october;Diaptomus;Diaptomus leptopus;mixed;carotenoids;NA;NA;2.76;A/mg;no;NA;NA;NA;null;no;
+Byron;1981;;redness and fitness;39.2;-105.5;freshwater;3292;june_july_september_october;Diaptomus;Diaptomus shoshone;mixed;carotenoids;NA;NA;3;A/mg;no;NA;NA;NA;null;no;
+Ringelberg et al. ;1984;;redness and fitness and no_quantification;45;2;freshwater;1197;june_july;Acanthodiaptomus;Acanthodiaptomus denticornis;mixed;NA;NA;NA;NA;NA;no;NA;NA;NA;high;no;red/pale morph
+Brusin et al.;2016;;forcing variables;56;16;freshwater;;november_december ;Diaptomus;Diaptomus castor;mixed;NA;NA;NA;"136,5; 146";a*, b* channel color value;no;NA;NA;NA;null;no;colorimetric method, individual approach, L*a*b* color values
+Brusin et al.;2016;;forcing variables;55;13;freshwater;;march_april;Eudiaptomus;Eudiaptomus gracialis;mixed;NA;NA;NA;"127,5; 140";a*, b* channel color value;no;NA;NA;NA;low;no;colorimetric method, individual approach, L*a*b* color values
+Caramujo et al.;2012;;forcing variables + redness and fitness;38;-9;marine;NA;NA;Amphiascoides;Amphiascoides atopus;adults_females;astaxanthin;NA;NA;0.38;ug/mgDW;no;NA;NA;NA;NA;no;conversion factor ng/copepod to ug mg dry wtÐ1, divided by 5 because 1 adult female is 5ug dry wt
+Buffan-Dubau & Castel;1996;;pigment identification/quantification;44;-1;marine;NA;march_october;Canuella;Canuella perplexa;adults;astaxanthin;100;NA;0.0006;ug/mgDW;yes;NA;NA;NA;high;no;underestimation, lost of coloration after drying/freezing
+Choquet et al. ;2018;;methodology;60;5;marine;NA;june;Calanus;Calanus finmarchicus;mixed;NA;NA;NA;16;% of copepod with red antennules;no;NA;NA;NA;NA;no;comparison of redness in the two species, semi-quantitative approach
+Choquet et al. ;2018;;methodology;60;5;marine;NA;june;Calanus;Calanus glacialis;mixed;NA;NA;NA;72;% of copepod with red antennules;no;NA;NA;NA;NA;no;comparison of redness in the two species, semi-quantitative approach
+Choquet et al. ;2018;;methodology;67;14;marine;NA;februar;Calanus;Calanus finmarchicus;mixed;NA;NA;NA;5;% of copepod with red antennules;no;NA;NA;NA;NA;no;comparison of redness in the two species, semi-quantitative approach
+Choquet et al. ;2018;;methodology;67;14;marine;NA;februar;Calanus;Calanus glacialis;mixed;NA;NA;NA;88;% of copepod with red antennules;no;NA;NA;NA;NA;no;comparison of redness in the two species, semi-quantitative approach
+Choquet et al. ;2018;;methodology;78;15;marine;NA;may;Calanus;Calanus finmarchicus;mixed;NA;NA;NA;42;% of copepod with red antennules;no;NA;NA;NA;NA;no;comparison of redness in the two species, semi-quantitative approach
+Choquet et al. ;2018;;methodology;78;15;marine;NA;may;Calanus;Calanus glacialis;mixed;NA;NA;NA;99;% of copepod with red antennules;no;NA;NA;NA;NA;no;comparison of redness in the two species, semi-quantitative approach
+Choquet et al. ;2018;;methodology;87;10;marine;NA;april;Calanus;Calanus finmarchicus;mixed;NA;NA;NA;6;% of copepod with red antennules;no;NA;NA;NA;NA;no;comparison of redness in the two species, semi-quantitative approach
+Choquet et al. ;2018;;methodology;87;10;marine;NA;april ;Calanus;Calanus glacialis;mixed;NA;NA;NA;100;% of copepod with red antennules;no;NA;NA;NA;NA;no;comparison of redness in the two species, semi-quantitative approach
+Czeczuga & Czerpak;1966;;pigment identification and no_quantification;53;23;freshwater;137;may_june;Diaptomus;Diaptomus castor;adults_females_eggs;carotenoids;NA;NA;NA;NA;no;NA;NA;NA;NA;no;
+Czeczuga & Czerpak;1966;;pigment identification and no_quantification;53;23;freshwater;137;may_june;Hemidiaptomus;Hemidiaptomus amblyodon;mixed;carotenoids;NA;NA;NA;NA;no;NA;NA;NA;NA;no;
+Davenport et al. ;2004;;forcing variables + redness and fitness;51.78;-8.29;marine;NA;summer_winter;Tigriopus;Tigriopus brevicornis;mixed;astaxanthin;NA;NA;6.215;ug/mgDW;no;NA;winter;NA;NA;no;
+Davenport et al. ;2004;;forcing variables + redness and fitness;51.64;-8.55;marine;NA;summer_winter;Tigriopus;Tigriopus brevicornis;mixed;astaxanthin;NA;NA;4.895;ug/mgDW;no;NA;no;NA;NA;no;
+Davenport et al. ;2004;;forcing variables + redness and fitness;51.64;-8.58;marine;NA;summer_winter;Tigriopus;Tigriopus brevicornis;mixed;astaxanthin;NA;NA;8.22;ug/mgDW;no;NA;no;NA;NA;no;
+Foss et al. ;1987;;pigment identification;62;8;marine;NA;may;Calanus;Calanus finmarchicus;adults;astaxanthin;100;46% diester, 43%monoester, 11%free;NA;NA;no;NA;NA;NA;NA;no;
+Goodwin and Srisukh;1949;;pigment identification;53;-3;marine;NA;NA;Tigriopus;Tigriopus fulvus;adults;astaxanthin;NA;free form dominant, esters;5542.5;ng.ind-1;no;NA;NA;NA;NA;no;
+Goodwin and Srisukh;1949;;pigment identification;53;-3;marine;NA;NA;Tigriopus;Tigriopus fulvus;eggs;astaxanthin;NA;NA;2.235;ug.egg-1;no;NA;NA;NA;NA;no;
+Hairston;1979;a;forcing variables + redness and fitness;47.4;-119.5;freshwater;329;all_year_long;Diaptomus;Diaptomus nevadensis;adults_females;carotenoids;NA;NA;0.4;OD/mgdrywt;no;NA;winter;january;low;no;no fish, but salamanders and damsfly larvae
+Hairston;1979;a;forcing variables + redness and fitness;47.4;-119.5;freshwater;329;all_year_long;Diaptomus;Diaptomus nevadensis;adults_males;carotenoids;NA;NA;0.58;OD/mgdrywt;no;NA;winter;march;low;no;no fish, but salamanders and damsfly larvae
+Hairston;1979;a;forcing variables + redness and fitness;47.4;-119.5;freshwater;329;all_year_long;Diaptomus;Diaptomus silicis;adults;carotenoids;NA;NA;0.65;OD/mgdrywt;no;NA;no;NA;low;no;no fish, but salamanders and damsfly larvae
+Hairston;1979;a;forcing variables + redness and fitness;47.48;-119.52;freshwater;329;all_year_long;Diaptomus;Diaptomus nevadensis;adults_females;carotenoids;NA;NA;0.1;OD/mgdrywt;no;NA;winter;march;low;no;no fish, but salamanders and damsfly larvae
+Hairston;1979;a;forcing variables + redness and fitness;47.48;-119.52;freshwater;329;all_year_long;Diaptomus;Diaptomus nevadensis;adults_males;carotenoids;NA;NA;0.09;OD/mgdrywt;no;NA;winter;march;low;no;no fish, but salamanders and damsfly larvae
+Hairston;1979;a;forcing variables + redness and fitness;47.48;-119.52;freshwater;329;all_year_long;Diaptomus;Diaptomus silicis;adults;carotenoids;NA;NA;0.43;OD/mgdrywt;no;NA;spring;april;low;no;no fish, but salamanders and damsfly larvae
+Hairston;1979;b;forcing variables;47.4;-119.5;freshwater;329;all_year_long;Diaptomus;Diaptomus silicis;adults;carotenoids;NA;NA;0.8;OD/mgdrywt;no;NA;no;NA;low;no;fig1, first panel
+Hairston;1979;b;forcing variables;47.4;-119.5;freshwater;329;all_year_long;Diaptomus;Diaptomus nevadensis;adults_females;carotenoids;NA;NA;0.4;OD/mgdrywt;no;NA;winter;january;low;no;fig1, 2nd panel
+Hairston;1979;b;forcing variables;47.48;-119.52;freshwater;329;all_year_long;Diaptomus;Diaptomus silicis;adults;carotenoids;NA;NA;0.6;OD/mgdrywt;no;NA;spring;april;low;no;fig1, 3rd panel
+Hairston;1979;b;forcing variables;47.48;-119.52;freshwater;329;all_year_long;Diaptomus;Diaptomus nevadensis;adults_females;carotenoids;NA;NA;0.1;OD/mgdrywt;no;NA;winter;february;low;no;fig1, 4th panel
+Hairston;1979;b;forcing variables;47;-119;freshwater;329;novembe_december_march;Diaptomus;Diaptomus nevadensis;copepodits;carotenoids;NA;NA;0.5345;OD/mgdrywt;no;NA;NA;NA;low;no;more carotenoids per mgDW in eggs and nauplii, but more by individuals in copepodits and adults
+Hairston;1979;b;forcing variables;47;-119;freshwater;329;novembe_december_march;Diaptomus;Diaptomus nevadensis;nauplii;carotenoids;NA;NA;2.026;OD/mgdrywt;no;NA;NA;NA;low;no;
+Hairston;1979;b;forcing variables;47;-119;freshwater;329;novembe_december_march;Diaptomus;Diaptomus nevadensis;eggs;carotenoids;NA;NA;4.052;OD/mgdrywt;no;NA;NA;NA;low;no;
+Hairston;1979;c;forcing variables + redness and fitness;47;-119;freshwater;329;january_february_march_april;Diaptomus;Diaptomus nevadensis;adults;carotenoids;NA;NA;2.455;ug/mgDW;no;NA;NA;NA;low;no;
+Hairston;1979;c;redness and fitness;47;-119;freshwater;329;july_august_september_october;Diaptomus;Diaptomus nevadensis;adults;carotenoids;NA;NA;0.615;ug/mgDW;no;NA;NA;NA;low;no;
+Hairston;1980;NA;forcing variables;41.41;-71.59;freshwater;70;april;Diaptomus;Diaptomus sanguineus;adults;carotenoids;NA;NA;4.75;ug/mgDW;yes;no;NA;NA;NA;no;
+Hairston;1980;NA;forcing variables;41.4;-71.59;freshwater;70;april;Diaptomus;Diaptomus sanguineus;adults;carotenoids;NA;NA;3.88;ug/mgDW;yes;no;NA;NA;NA;no;
+Hairston;1980;NA;forcing variables;41.6;-71.7;freshwater;25;april;Diaptomus;Diaptomus sanguineus;adults;carotenoids;NA;NA;9.75;ug/mgDW;yes;no;NA;NA;NA;no;
+Hairston;1980;NA;forcing variables;41.6;-71.7;freshwater;25;april;Diaptomus;Diaptomus sanguineus;adults;carotenoids;NA;NA;4.00;ug/mgDW;yes;no;NA;NA;NA;no;
+Hallegraeff et al.;1978;NA;forcing variables;45;2;freshwater;1182;august;Acanthodiaptomus;Acanthodiaptomus denticornis;adults;carotenoids;NA;NA;4.9;OD/ind;no;min day, max night;NA;NA;NA;no;
+Hansson;2000;b;forcing variables;69;-135;freshwater;300;august;Diaptomus;Diaptomus sp.;mixed;carotenoids;NA;NA;0.9;ug/mgDW;no;NA;NA;NA;high;no;redness as an inducible defense, latitude and longitude
+Hansson;2000;b;forcing variables;55.67;13.5;freshwater;43,3;august;mixed;mixed (calanoid and cyclopoid);mixed;carotenoids;NA;NA;0.8;ug/mgDW;no;NA;NA;NA;high;no;redness as an inducible defense, latitude and longitude
+Hansson;2000;b;forcing variables;69;-135;freshwater;300;august;Diaptomus;Diaptomus sp.;mixed;carotenoids;NA;NA;5.8;ug/mgDW;no;NA;NA;NA;null;no;redness as an inducible defense, latitude and longitude
+Hansson;2000;b;forcing variables;55.67;13.5;freshwater;43,3;august;mixed;mixed (calanoid and cyclopoid);mixed;carotenoids;NA;NA;2.2;ug/mgDW;no;NA;NA;NA;null;no;redness as an inducible defense, latitude and longitude
+Hansson;2004;NA;forcing variables;55.99;13.5;freshwater;107;all_year_long;mixed;mixed (calanoid);mixed;astaxanthin;NA;NA;1.34;ug/mgDW;no;NA;winter ;march;low;no;fig3, panel 1
+Hansson;2004;NA;forcing variables;55.67;13.54;freshwater;21;all_year_long;mixed;mixed (calanoid);mixed;astaxanthin;NA;NA;0.87;ug/mgDW;no;NA;NA;NA;low;no;
+Hansson;2004;NA;forcing variables;55.7;13.47;freshwater;19;all_year_long;mixed;mixed (calanoid);mixed;astaxanthin;NA;NA;1.07;ug/mgDW;no;NA;NA;NA;low;no;
+Hansson;2004;NA;forcing variables;55.86;13.55;freshwater;56;all_year_long;mixed;mixed (calanoid);mixed;astaxanthin;NA;NA;0.74;ug/mgDW;no;NA;NA;NA;low;no;
+Hansson;2004;NA;forcing variables;55.58;14.67;freshwater;36;all_year_long;mixed;mixed (calanoid);mixed;astaxanthin;NA;NA;0.66;ug/mgDW;no;NA;winter;februrary;high;no;fig3, panel 2
+Hansson;2004;NA;forcing variables;55.68;13.6;freshwater;21;all_year_long;mixed;mixed (calanoid);mixed;astaxanthin;NA;NA;0.63;ug/mgDW;no;NA;NA;NA;high;no;
+Hansson;2004;NA;forcing variables;55.99;13.5;freshwater;107;all_year_long;mixed;mixed (cyclopoid);mixed;astaxanthin;NA;NA;1.2;ug/mgDW;no;NA;spring;april;low;no;
+Hansson;2004;NA;forcing variables;55.67;13.54;freshwater;21;all_year_long;mixed;mixed (cyclopoid);mixed;astaxanthin;NA;NA;0.78;ug/mgDW;no;NA;NA;NA;low;no;
+Hansson;2004;NA;forcing variables;55.7;13.47;freshwater;19;all_year_long;mixed;mixed (cyclopoid);mixed;astaxanthin;NA;NA;0.88;ug/mgDW;no;NA;NA;NA;low;no;
+Hansson;2004;NA;forcing variables;55.86;13.55;freshwater;56;all_year_long;mixed;mixed (cyclopoid);mixed;astaxanthin;NA;NA;0.91;ug/mgDW;no;NA;NA;NA;low;no;
+Hansson;2004;NA;forcing variables;55.58;14.67;freshwater;36;all_year_long;mixed;mixed (cyclopoid);mixed;astaxanthin;NA;NA;0.63;ug/mgDW;no;NA;winter;march;high;no;
+Hansson;2004;NA;forcing variables;55.68;13.6;freshwater;21;all_year_long;mixed;mixed (cyclopoid);mixed;astaxanthin;NA;NA;0.68;ug/mgDW;no;NA;NA;NA;high;no;
+Holeton et al.;2009;NA;forcing variables;58;17;marine;NA;june;Acartia;Acartia bifilosa;adults_females;astaxanthin;dominance;55% free, 45% monoester;0.201;ug/mgDW;no;NA;NA;NA;NA;no;canthaxanthin found
+Holeton et al.;2009;NA;forcing variables;58;17;marine;NA;june;Acartia;Acartia bifilosa;eggs;astaxanthin;dominance;NA;0.38;ng.clutch-1;no;NA;NA;NA;NA;no;estimation
+Hylander et al.;2009;b;forcing variables;55.67;13.5;freshwater;40;may_june_july;Eudiaptomus;Eudiaptomus gracialis;mixed;carotenoids;NA;NA;2.6;ug/mgDW;no;NA;NA;NA;NA;no;
+Hylander et al.;2012;NA;forcing variables + redness and fitness;55.66;13.4;freshwater;93;NA;Eudiaptomus;Eudiaptomus gracialis;adults;carotenoids;NA;NA;4.15;ug/mgDW;no;NA;NA;NA;NA;no;
+Hylander & Jephson ;2010;NA;forcing variables;55.8;12.7;marine;NA;april;Acartia;Acartia tonsa;adults;carotenoids;NA;NA;1.04;ug/mgDW;no;NA;NA;NA;NA;no;
+Hylander et al.;2009;a;forcing variables + redness and fitness;68;18;freshwater;490;june_july;mixed;Eudiaptomus sp., Leptodiaptomus sp.;adults;carotenoids;NA;NA;1.7;ug/mgDW;no;NA;NA;NA;low;no;
+Hylander et al.;2009;a;forcing variables + redness and fitness;57;15;freshwater;206;july;mixed;Eudiaptomus sp., Leptodiaptomus sp.;adults;carotenoids;NA;NA;2.6;ug/mgDW;no;NA;NA;NA;high;no;
+Hylander et al.;2009;a;forcing variables + redness and fitness;33;-104;freshwater;1070;july_august;mixed;Eudiaptomus sp., Leptodiaptomus sp.;adults;carotenoids;NA;NA;0.8;ug/mgDW;no;NA;NA;NA;high;no;but high MAAs concentrations
+Hylander & Hansson;2013;NA;forcing variables;-75;-133;marine;NA;february_austral_summer;Calanoides;Calanoides acutus;adults_late_copepodits;carotenoids;NA;NA;0.1;ug/mgDW;no;NA;NA;NA;NA;no;
+Hylander & Hansson;2013;NA;forcing variables;-75;-133;marine;NA;february_austral_summer);mixed;Oncaea curvata, Oithona similis;adults_late_copepodits;carotenoids;NA;NA;0.7;ug/mgDW;no;NA;NA;NA;NA;no;
+Hylander et al.;2014;NA;forcing variables;55;12;marine;NA;NA;Acartia;Acartia tonsa;adults;carotenoids;NA;NA;0.75;ug/mgDW;no;NA;NA;NA;NA;no;MAAs highly variable
+Hansson et al.;2007;NA;forcing variables;55.66;13.4;freshwater;;november ;Eudiaptomus;Eudiaptomus gracialis;adults;carotenoids;NA;NA;4.49;ug/mgDW;no;NA;NA;NA;high;no;
+Hansson et al.;2007;NA;forcing variables;67.04;-173.23;freshwater;9;august;Leptodiaptomus;Leptodiaptomus angustilobus;adults;carotenoids;NA;NA;7.29;ug/mgDW;no;NA;NA;NA;high;no;
+Hylander et al.;2015;NA;forcing variables;69;-53;marine;NA;march_april;Calanus;Calanus finmarchicus;adults;carotenoids;NA;NA;0.125;ug/mgDW;no;no;NA;NA;NA;no;
+Hylander et al.;2015;NA;forcing variables;69;-53;marine;NA;march_april;Calanus;Calanus glacialis;adults;carotenoids;NA;NA;0.15;ug/mgDW;no;NA;NA;NA;NA;no;
+Hylander et al.;2015;NA;forcing variables;69;-53;marine;NA;march_april;Calanus;Calanus hyperboreus;adults;carotenoids;NA;NA;0.35;ug/mgDW;no;NA;NA;NA;NA;no;
+Alcocer et al. ;2020;NA;forcing variables;19;-99;freshwater;4230;all_year_long;Leptodiaptomus;Leptodiaptomus cuauhtemoci;adults;carotenoids;NA;NA;2.81;ug/mgDW;no;NA;winter;february;NA;no;
+Herring;1972;NA;forcing variables;32;-16;marine;NA;NA;mixed;mixed (copepods, euphausiids);mixed;carotenoids;dominance;NA;0.008;ug/mgDW;no;NA;NA;NA;NA;no;underestimation because dry weight calculated with large euphausiids
+Herring;1972;NA;forcing variables;29;-11;marine;NA;NA;mixed;mixed (copepods, euphausiids);mixed;carotenoids;dominance;NA;0.021;ug/mgDW;no;NA;NA;NA;NA;no;underestimation because dry weight calculated with large euphausiids
+Herring;1972;NA;forcing variables;28;-14;marine;NA;NA;mixed;mixed (copepods, euphausiids);mixed;carotenoids;dominance;NA;0.038;ug/mgDW;no;NA;NA;NA;NA;no;underestimation because dry weight calculated with large euphausiids
+Herring;1972;NA;forcing variables;28;-14;marine;NA;NA;mixed;mixed (copepods, euphausiids);mixed;carotenoids;dominance;NA;0.05;ug/mgDW;no;NA;NA;NA;NA;no;underestimation because dry weight calculated with large euphausiids
+Herring;1972;NA;forcing variables;16;-25;marine;NA;NA;mixed;mixed (copepods, euphausiids);mixed;carotenoids;dominance;NA;0.046;ug/mgDW;no;NA;NA;NA;NA;no;underestimation because dry weight calculated with large euphausiids
+Herring;1972;NA;forcing variables;26;-16;marine;NA;NA;Pontellopsis;Pontellopsis regalis;mixed;carotenoids;dominance;NA;0.23;ug/mgDW;no;NA;NA;NA;NA;yes;surface blue Pontellid copepods 
+Herring;1972;NA;forcing variables;26;-16;marine;NA;NA;Pontellopsis;Pontellopsis villosa;mixed;carotenoids;dominance;NA;0.38;ug/mgDW;no;NA;NA;NA;NA;yes;surface blue Pontellid copepods 
+Herring;1972;NA;forcing variables;26;-16;marine;NA;NA;Anomalocera;Anomalocera patersoni;mixed;carotenoids;dominance;NA;0.148;ug/mgDW;no;NA;NA;NA;NA;yes;surface blue Pontellid copepods 
+Herring;1972;NA;forcing variables;26;-16;marine;NA;NA;Labidocera;Labidocera nerii;mixed;carotenoids;dominance;NA;0.076;ug/mgDW;no;NA;NA;NA;NA;yes;surface blue Pontellid copepods 
+Herring;1972;NA;forcing variables;26;-16;marine;NA;NA;Labidocera;Labidocera woolastoni;mixed;carotenoids;dominance;NA;0.12;ug/mgDW;no;NA;NA;NA;NA;yes;surface blue Pontellid copepods 
+Herring;1972;NA;forcing variables;26;-16;marine;NA;NA;Labidocera;Labidocera acutifrons;mixed;carotenoids;dominance;NA;0.07;ug/mgDW;no;NA;NA;NA;NA;yes;surface blue Pontellid copepods 
+Fisher et al.;1964;NA;pigment identification;72;-16;marine;NA;june;Calanus;Calanus finmarchicus;mixed;carotenoids;dominance;NA;0.029;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Aetidius;Aetidius sp. ;mixed;carotenoids;dominance;NA;0.0041;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Calanoides;Calanoides carinatus;mixed;carotenoids;dominance;NA;0.00014;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Calanus;Calanus brevicornis;mixed;carotenoids;dominance;NA;0.00028;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Calanus;Calanus finmarchicus;mixed;carotenoids;dominance;NA;0.023;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Calanus;Calanus helgolandicus;mixed;carotenoids;dominance;NA;0.008;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Candacia;Candacia arthiopica;mixed;carotenoids;dominance;NA;0.016;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Candacia;Candacia armata;mixed;carotenoids;dominance;NA;0.045;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Candacia;Candacia elongata;mixed;carotenoids;dominance;NA;0.208;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Candacia;Candacia longimama;mixed;carotenoids;dominance;NA;0.07;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Centropages;Centropages chierchiae;mixed;carotenoids;dominance;NA;0.06;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Chiridius;Chiridius spp.;mixed;carotenoids;dominance;NA;0.016;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Chirundina;Chirundina streetsi;mixed;carotenoids;dominance;NA;0.059;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Corycaeus;Corycaeus furcifer;mixed;carotenoids;dominance;NA;0.208;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Disseta;Disseta palumboi;mixed;carotenoids;dominance;NA;0.0073;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Euaugaptilus;Euaugaptilus filiger;mixed;carotenoids;dominance;NA;0.017;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Euaugaptilus;Euaugaptilus laticeps;mixed;carotenoids;dominance;NA;0.02;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Euaugaptilus;Euaugaptilus magnus;mixed;carotenoids;dominance;NA;0.033;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Eucalanus;Eucalanus elongatus;mixed;carotenoids;dominance;NA;0.0072;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Eucalanus;Eucalanus mucronatus;mixed;carotenoids;dominance;NA;0.139;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Euchaeta;Euchaeta acuta;mixed;carotenoids;dominance;NA;0.127;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Euchaeta;Euchaeta hebes;mixed;carotenoids;dominance;NA;0.041;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Euchaeta;Euchaeta marina;mixed;carotenoids;dominance;NA;0.063;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Euchaeta;Euchaeta media;mixed;carotenoids;dominance;NA;0.02;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Euchaeta;Euchaeta pubera ;mixed;carotenoids;dominance;NA;0.878;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Euchaeta;Euchaeta spinosa;mixed;carotenoids;dominance;NA;0.05;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Euchaeta;Euchaeta spp.;mixed;carotenoids;dominance;NA;0.055;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Euchirella;Euchirella amoena;mixed;carotenoids;dominance;NA;0.114;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Euchirella;Euchirella nitumida;mixed;carotenoids;dominance;NA;0.416;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Euchirella;Euchirella brevis;mixed;carotenoids;dominance;NA;0.013;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Euchirella;Euchirella curticauda;mixed;carotenoids;dominance;NA;0.028;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Euchirella;Euchirella intermedia;mixed;carotenoids;dominance;NA;0.125;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Euchirella;Euchirella maxima;mixed;carotenoids;dominance;NA;0.308;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Euchirella;Euchirella messinensis;mixed;carotenoids;dominance;NA;0.025;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Euchirella;Euchirella rostrata;mixed;carotenoids;dominance;NA;0.055;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Euchirella;Euchirella spp. ;mixed;carotenoids;dominance;NA;0.142;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Gaetanus;Gaetanus kruppi ;mixed;carotenoids;dominance;NA;0.137;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Gaetanus;Gaetanus latifrons;mixed;carotenoids;dominance;NA;0.182;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Gaetanus;Gaetanus miles;mixed;carotenoids;dominance;NA;0.229;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Gaetanus;Gaetanus minor;mixed;carotenoids;dominance;NA;0.501;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Gaetanus;Gaetanus pileatus;mixed;carotenoids;dominance;NA;0.225;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Gaetanus;Gaetanus spp. ;mixed;carotenoids;dominance;NA;0.312;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Gaidus;Gaidius spp.;mixed;carotenoids;dominance;NA;0.057;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Heterorhabdus;Heterorhabdus norvegicus;mixed;carotenoids;dominance;NA;0.105;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Heterorhabdus;Heterorhabdus spinifrons;mixed;carotenoids;dominance;NA;0.066;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Heterorhabdus;Heterorhabdus vipera;mixed;carotenoids;dominance;NA;0.07;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Heterostylites;Heterostylites longicornus;mixed;carotenoids;dominance;NA;0.069;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Lophotrix;Lophothrix frontalis;mixed;carotenoids;dominance;NA;1.133;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Lophotrix;Lophothrix humilifrons;mixed;carotenoids;dominance;NA;0.353;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Lucicutia;Lucicutia maxima ;mixed;carotenoids;dominance;NA;0.086;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Megacalanus;Megacalanus princeps;mixed;carotenoids;dominance;NA;0.131;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Metridia;Metridia lucens;mixed;carotenoids;dominance;NA;0.011;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Metridia;Metridia princeps;mixed;carotenoids;dominance;NA;0.011;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Metridia;Metridia venusta ;mixed;carotenoids;dominance;NA;0.083;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Metridia;Metridia spp. ;mixed;carotenoids;dominance;NA;0.69;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Nannocalanus;Nannocalanus minor;mixed;carotenoids;dominance;NA;0.073;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Neocalanus;Neocalanus gracialis;mixed;carotenoids;dominance;NA;0.063;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Oncaea;Oncaea venusta;mixed;carotenoids;dominance;NA;0.333;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Onchocalanus;Onchocalanus cristalus;mixed;carotenoids;dominance;NA;0.118;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Paraeuchaeta;Pareuchaeta barbata;mixed;carotenoids;dominance;NA;0.068;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Paraeuchaeta;Pareuchaeta gracialis;mixed;carotenoids;dominance;NA;0.081;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Paraeuchaeta;Pareuchaeta hanseni;mixed;carotenoids;dominance;NA;0.018;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Paraeuchaeta;Pareuchaeta norvegica;mixed;carotenoids;dominance;NA;0.067;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Paraeuchaeta;Pareuchaeta tonsa;mixed;carotenoids;dominance;NA;0.023;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Paraeuchaeta;Pareuchaeta spp.;mixed;carotenoids;dominance;NA;0.047;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Phaenna;Phaenna spinifera;mixed;carotenoids;dominance;NA;0.00021;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Pleuromamma;Pleuromamma abdominalis;mixed;carotenoids;dominance;NA;0.019;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Pleuromamma;Pleuromamma borealis;mixed;carotenoids;dominance;NA;0.104;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Pleuromamma;Pleuromamma robusta;mixed;carotenoids;dominance;NA;0.0066;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Pleuromamma;Pleuromamma xiphias;mixed;carotenoids;dominance;NA;0.011;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Pleuromamma;Pleuromamma spp.;mixed;carotenoids;dominance;NA;0.01;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Pseudeuchaeta;Pseudeuchaeta spp.;mixed;carotenoids;dominance;NA;0.097;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Pseudochirilla;Pseudochirilla pustulifera;mixed;carotenoids;dominance;NA;0.292;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Pseudochirilla;Pseudochirella spp.;mixed;carotenoids;dominance;NA;0.082;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Rhincalanus;Rhincalanus cornutus;mixed;carotenoids;dominance;NA;0.357;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Rhincalanus;Rhincalanus nasutus;mixed;carotenoids;dominance;NA;0.208;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Rhincalanus;Rhincalanus spp.;mixed;carotenoids;dominance;NA;0.165;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Sapphirina;Sapphirina opalina;mixed;carotenoids;dominance;NA;0.083;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Scottocalanus;Scottocalanus persecans;mixed;carotenoids;dominance;NA;0.357;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Scottocalanus;Scottocalanus securifrons;mixed;carotenoids;dominance;NA;0.045;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Undeuchaeta;Undeuchaeta major;mixed;carotenoids;dominance;NA;0.03;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Undeuchaeta;Undeuchaeta plumosa;mixed;carotenoids;dominance;NA;0.04;ug/mgDW;no;NA;NA;NA;NA;no;
+Fisher et al.;1964;NA;pigment identification;55;-20;marine;NA;NA;Undinopsis;Undinopsis spp.;mixed;carotenoids;dominance;NA;0.555;ug/mgDW;no;NA;NA;NA;NA;no;
+Nobakht et al.;2016;NA;diet effect;36;52;marine;NA;NA;Acartia;Acartia clausi;adults;carotenoids;NA;NA;0.46;ug/mgDW;no;NA;NA;NA;NA;no;depending on diet composition
+Nobakht et al.;2016;NA;diet effect;36;52;marine;NA;NA;Acartia;Acartia clausi;copepodits;carotenoids;NA;NA;0.675;ug/mgDW;no;NA;NA;NA;NA;no;depending on diet composition
+Nobakht et al.;2016;NA;diet effect;36;52;marine;NA;NA;Acartia;Acartia clausi;nauplii;carotenoids;NA;NA;0.485;ug/mgDW;no;NA;NA;NA;NA;no;depending on diet composition
+Juhl et al.;1996;NA;diet effect;32;-117;marine;NA;NA;Calanus;Calanus pacificus;adults_females;astaxanthin;dominance;15% free, 85% ester;0.31;ug/mgDW;yes;NA;NA;NA;NA;no;astaxanthin only in tissue not in gut content, sometimes assosiated with canthaxanthin as intermediate product
+Juhl et al.;1996;NA;diet effect;34;-120;marine;NA;april_july;Calanus;Calanus pacificus;adults_females;astaxanthin;dominance;15% free, 85% ester;0.41;ug/mgDW;yes;NA;NA;NA;NA;no;astaxanthin only in tissue not in gut content, sometimes assosiated with canthaxanthin as intermediate product
+Juhl et al.;1996;NA;diet effect;34;-120;marine;NA;april_july;Calanus;Calanus pacificus;copepodits;astaxanthin;dominance;NA;15;ng.ind-1;no;NA;NA;NA;NA;no;astaxanthin only in tissue not in gut content, sometimes assosiated with canthaxanthin as intermediate product
+Kleppel et al. ;1985;NA;forcing variables;33;-118;marine;NA;may;Acartia;Acartia tonsa;adults;carotenoids;dominance;NA;31.31;OD/gdrywt;no;max midnight, min sunrise;NA;NA;NA;no;
+Kleppel et al. ;1985;NA;forcing variables;33;-118;marine;NA;august;Acartia;Acartia tonsa;adults;carotenoids;dominance;NA;11.06;OD/gdrywt;no;max midnight, min sunrise;NA;NA;NA;no;
+Lee et al.;2019;NA;forcing variables;24.772;-77.851;marine;NA;march;mixed;mixed (calanoids);adults;carotenoids;NA;NA;"137; 144";a*, b* channel color value;no;NA;NA;NA;null;no;
+Lee et al.;2019;NA;forcing variables;24.7758;-77.9158;marine;NA;march;mixed;mixed (cyclopoids);adults;carotenoids;NA;NA;"139; 150";a*, b* channel color value;no;NA;NA;NA;high;no;
+Lee et al.;2019;NA;forcing variables;24.785;-77.86;marine;NA;march;mixed;mixed (calanoids);adults;carotenoids;NA;NA;"131; 131";a*, b* channel color value;no;NA;NA;NA;low;no;
+Lotocka et al. ;2004;NA;pigment identification;54;19;marine;NA;may_june_july_september;Pseudocalanus;Pseudocalanus acupes;nauplii;carotenoids;57;97% free, 3% ester;0.34;ug/mgDW;no;NA;NA;NA;NA;no;presence of other carotenoids including canthaxanthin but in minority
+Lotocka et al. ;2004;NA;pigment identification;54;19;marine;NA;may_june_july_september;Pseudocalanus;Pseudocalanus acupes;copepodits;carotenoids;57;55% free, 45% ester;0.529;ug/mgDW;no;NA;NA;NA;NA;no;only 50-60 percent, also some canthaxanthin, unidentified carotenoids, and pigment from the diet
+Lotocka et al. ;2004;NA;pigment identification;54;19;marine;NA;may_june_july_september;Pseudocalanus;Pseudocalanus acupes;adults;carotenoids;50;52% free, 48% ester;0.5275;ug/mgDW;no;NA;NA;NA;NA;no;only 50-60 percent, also some canthaxanthin, unidentified carotenoids, and pigment from the diet
+Lotocka et al. ;2004;NA;pigment identification;54;19;marine;NA;may_june_july_september;Acartia;Acartia spp.;nauplii;carotenoids;81;96% free, 4% ester;0.490;ug/mgDW;no;NA;NA;NA;NA;no;mean value, no range given for this species,presence of other carotenoids including canthaxanthin but in minority
+Lotocka et al. ;2004;NA;pigment identification;54;19;marine;NA;may_june_july_september;Acartia;Acartia spp.;copepodits;carotenoids;72;61% free, 49% ester;0.525;ug/mgDW;no;NA;NA;NA;NA;no;mean value, no range given for this species,presence of other carotenoids including canthaxanthin but in minority
+Lotocka et al. ;2004;NA;pigment identification;54;19;marine;NA;may_june_july_september;Acartia;Acartia spp.;adults;carotenoids;64;47% free, 53% ester;0.525;ug/mgDW;no;NA;NA;NA;NA;no;mean value, no range given for this species,presence of other carotenoids including canthaxanthin but in minority
+Luecke & O'Brien;1981;NA;forcing variables + redness and fitness;68;-149;freshwater;745;june_july;Heterocope;Heterocope septentrionalis;adults;carotenoids;NA;NA;0.658;OD/mgdrywt;no;NA;NA;NA;high;no;
+Luecke & O'Brien;1981;NA;forcing variables + redness and fitness;68;-149;freshwater;745;june_july;Heterocope;Heterocope septentrionalis;adults;carotenoids;NA;NA;0.438;OD/mgdrywt;no;NA;NA;NA;null;no;
+Czeczuga;1975;NA;pigment identification;53;23;freshwater;140;april_may;Eudiaptomus;Eudiaptomus amblyodon;adults;carotenoids;86;NA;0.012;ug/mgLW;no;NA;NA;NA;NA;no;pink morph
+Czeczuga;1975;NA;pigment identification;53;23;freshwater;140;april_may;Eudiaptomus;Eudiaptomus amblyodon;adults;carotenoids;77;NA;0.00342;ug/mgLW;no;NA;NA;NA;NA;yes;blue morph, with canthaxanthin
+Czeczuga;1975;NA;pigment identification;53;23;freshwater;140;april_may;Eudiaptomus;Eudiaptomus amblyodon;adults_females;carotenoids;77;NA;0.00613;ug/mgLW;no;NA;NA;NA;NA;no;adult mature female, contain canthaxanthin
+Moeller et al.;2005;NA;forcing variables + redness and fitness;41;-75;freshwater;428;all_year_long;Leptodiaptomus;Leptopdiaptomus minutus;adults;carotenoids;minority;NA;2.65;ug/mgDW;no;NA;spring;april;high;no;content of all carotenoids, not only astaxanthin, MAAS pic in summer after carotenoid pic
+Nielsen et al.;2014;NA;methodology;69;-53;marine;NA;may;Calanus;Calanus finmarchicus;adults;carotenoids;NA;NA;"0,125; 0,0135";%red pixel geninal somite, %redness antennae;no;NA;NA;NA;NA;no;threshold in a HSB colour model on ImageJ
+Nielsen et al.;2014;NA;methodology;69;-53;marine;NA;may;Calanus;Calanus glacialis;adults;carotenoids;NA;NA;"25,5; 11,2";%red pixel geninal somite, %redness antennae;no;NA;NA;NA;NA;no;threshold in a HSB colour model on ImageJ
+Persault et al.;2007;NA;forcing variables;41.382;-74.293;freshwater;439;april_may_june_july;Leptodiaptomus;Leptopdiaptomus minutus;adults;carotenoids;NA;NA;1.75;ug/mgDW;no;NA;spring;april;NA;no;
+Persault et al.;2007;NA;forcing variables;41.382;-74.293;freshwater;439;april_may_june_july;Cyclops;Cyclops scutifer;adults;carotenoids;NA;NA;1.45;ug/mgDW;no;NA;spring;may;NA;no;
+Persault et al.;2007;NA;forcing variables;41.376;-75.093;freshwater;428;april_may_june_july;Leptodiaptomus;Leptopdiaptomus minutus;adults;carotenoids;NA;NA;0.85;ug/mgDW;no;NA;spring;april;high;no;
+Persault et al.;2007;NA;forcing variables;41.376;-75.093;freshwater;428;april_may_june_july;Aglaodiaptomus;Aglaodipatomus spatulocrenatus;adults;carotenoids;NA;NA;1.3;ug/mgDW;no;NA;spring;april ;high;no;
+Persault et al.;2007;NA;forcing variables;41.376;-75.093;freshwater;428;april_may_june_july;Cyclops;Cyclops scutifer;adults;carotenoids;NA;NA;1.3;ug/mgDW;no;NA;spring ;may;high;no;
+Persault et al.;2007;NA;forcing variables;44.949;-109.489;freshwater;3063;july_august;Hesperodiaptomus;Hesperodiaptomus shoshone;adults;carotenoids;dominance;NA;6.8;ug/mgDW;no;NA;NA;NA;NA;no;
+Persault et al.;2007;NA;forcing variables;40.052;-105.63;freshwater;3612;july_august;Hesperodiaptomus;Hesperodiaptomus shoshone;adults;carotenoids;dominance;NA;8.5;ug/mgDW;no;NA;NA;NA;NA;no;
+Persault et al.;2007;NA;forcing variables;41.289;-75.16;freshwater;564;july_august;Leptodiaptomus;Leptopdiaptomus minutus;adults;carotenoids;NA;NA;5;ug/mgDW;no;NA;NA;NA;low;no;
+Powers et al.;2019;NA;redness and fitness and no_quantification;32;-117;marine;NA;NA;Tigriopus;Tigriopus californicus;mixed;carotenoids;NA;NA;NA;NA;no;NA;NA;NA;NA;no;
+Rautio et al.;2009;NA;pigment identification;55.5;-77.5;freshwater;50;july_august;Leptodiaptomus;Leptopdiaptomus minutus;adults;carotenoids;29;NA;1.6;ug/mgDW;no;NA;NA;NA;null;no;
+Rautio et al.;2009;NA;pigment identification;68;-149;freshwater;400;july_august;Diaptomus;Diaptomus probilofensis;adults;carotenoids;29;NA;2.2;ug/mgDW;no;NA;NA;NA;null;no;a lot of echineone also (more than 50%), and traces of canthaxanthin
+Rautio et al.;2009;NA;pigment identification;68;-149;freshwater;400;july_august;Heterocope;Heterocope septentrionalis;adults;carotenoids;60;NA;3.2;ug/mgDW;no;NA;NA;NA;null;no;a lot of echineone also (more than 50%), and traces of canthaxanthin
+Rautio et al.;2009;NA;pigment identification;55.5;-77.5;freshwater;50;july_august;Heterodiaptomus;Heterodiaptomus arcticus;adults;carotenoids;63;NA;3.8;ug/mgDW;no;NA;NA;NA;null;no;traces of canthaxanthin
+Rhodes et al.;2007;NA;diet effect;30;-84;marine;NA;NA;Nitokra;Nitokra lacustris;adults;astaxanthin;26;60% free, 40% ester;0.185;ug/mgDW;no;NA;NA;NA;NA;no;population fed on live migroalgea, small% but all carotenoids quantified (with phytoplankton)
+Rhodes et al.;2007;NA;diet effect;30;-84;marine;NA;NA;Nitokra;Nitokra lacustris;adults;astaxanthin;2;100% free;0.65;ug/mgDW;no;NA;NA;NA;NA;no;population fed on formulated feed, small% but all carotenoids quantified (with phytoplankton)
+Ringelberg and Hallegraeff;1976;NA;forcing variables;45;2;freshwater;1197;august;Acanthodiaptomus;Acanthodiaptomus denticornis;mixed;carotenoids;94;NA;2.2;OD/mgdrywt;no;max morning, min midnight;NA;NA;high;no;
+Schneider et al.;2012;NA;forcing variables;47;16;freshwater;110;all_year_long;Arctodiaptomus;Arctodiaptomus spinosus;adults;carotenoids;NA;NA;0.35;ug/mgDW;no;NA;spring;may;null;no;RL, mean for males and females because no statistical difference
+Schneider et al.;2012;NA;forcing variables;47;16;freshwater;110;all_year_long;Arctodiaptomus;Arctodiaptomus spinosus;adults;carotenoids;NA;NA;0.15;ug/mgDW;no;NA;spring;april;null;no;US mean for males and females because no statistical difference
+Schneider et al.;2012;NA;forcing variables;47;16;freshwater;110;all_year_long;Arctodiaptomus;Arctodiaptomus spinosus;adults;carotenoids;NA;NA;3.45;ug/mgDW;no;NA;spring;june;null;no;OS,  mean for males and females because no statistical difference
+Schneider et al.;2012;NA;forcing variables;47;16;freshwater;110;all_year_long;Arctodiaptomus;Arctodiaptomus spinosus;adults;carotenoids;NA;NA;4.65;ug/mgDW;no;NA;spring;june;null;no;GN,  mean for males and females because no statistical difference
+Schneider et al.;2016;NA;forcing variables;48;-71;freshwater;347;all_year_long;Leptodiaptomus;Leptopdiaptomus minutus;mixed;astaxanthin;99;14% free, 18%monoesters, 68% diesters;2.15;ug/mgDW;no;NA;winter;february;high;no;
+Schneider et al.;2017;NA;forcing variables;48;-71;freshwater;347;may_september;Leptodiaptomus;Leptopdiaptomus minutus;eggs;astaxanthin;dominance;NA;0.215;ng.egg-1;no;NA;NA;NA;high;no;7 to 40 percent of astaxanthin investement in the eggs
+Siefken & Armitage;1967;NA;forcing variables;38;-95;freshwater;270;july_august_september_october_november;Diaptomus;Diaptomus clavipes;mixed;carotenoids;NA;NA;12;OD/mgdrywt;no;NA;spring;NA;high;no;
+Snoeijs & Haubner;2014;NA;forcing variables;57;19;marine;NA;march_may_august_november;mixed;mixed;adults_late_copepodits;astaxanthin;99;66%free, 22%monoester, 12% diester;1.4;ng.ugC-1;no;NA;winter;march, november;high;no;station BP, higher percentage of monoester in may and august, and lower percentage of diester, traces of canthaxanthin, mostly Temora longicornis
+Snoeijs & Haubner;2014;NA;forcing variables;56;11;marine;NA;may_august;mixed;mixed;adults_late copepodits;astaxanthin;99;62%free, 25%monoester, 13% diester;0.85;ng.ugC-1;no;NA;NA;NA;high;no;station …K, interesting discussion on the link between astaxanthin and lipids, traces of canthaxanthin, moslty Temora longicornis
+Sommaruga;2010;NA;forcing variables;27.8;86.81;freshwater;5400;october;Arctodiaptomus;Arctodiaptomus jurisowitchi;adults_late copepodits;astaxanthin;dominance;majority free, minority ester;1;ug/mgDW;no;NA;NA;NA;null;no;
+Sommaruga;2010;NA;forcing variables;27.8;86.8;freshwater;5213;october;Arctodiaptomus;Arctodiaptomus jurisowitchi;adults_late copepodits;astaxanthin;dominance;majority free, minority ester;3;ug/mgDW;no;NA;NA;NA;null;no;
+Sommaruga;2010;NA;forcing variables;27.8;86.79;freshwater;5067;october;Arctodiaptomus;Arctodiaptomus jurisowitchi;adults_late copepodits;astaxanthin;dominance;majority free, minority ester;3.5;ug/mgDW;no;NA;NA;NA;null;no;
+Sommaruga;2010;NA;forcing variables;27.8;86.78;freshwater;4890;october;Arctodiaptomus;Arctodiaptomus jurisowitchi;adults_late copepodits;astaxanthin;dominance;majority free, minority ester;17.2;ug/mgDW;no;NA;NA;NA;null;no;
+Sommaruga;2010;NA;forcing variables;27.8;86.76;freshwater;5160;october;Arctodiaptomus;Arctodiaptomus jurisowitchi;adults_late copepodits;astaxanthin;dominance;majority free, minority ester;5.2;ug/mgDW;no;NA;NA;NA;null;no;
+Garcia et al.;2008;NA;forcing variables;-41;-71;freshwater;760;all_year_long;Boeckella;Boeckella antiqua;adults;carotenoids;NA;NA;2.52;ug/mgDW;no;NA;winter;september, october;null;no;
+Sommer et al.;2006;NA;forcing variables;54;7;marine;NA;august;Calanus;Calanus helgolandicus;adults_late_copepodits;astaxanthin;NA;30%free, 70% ester;0.115;ug/mgDW;no;max night, min day;NA;NA;NA;no;
+Sommer et al.;2006;NA;forcing variables;56;3;marine;NA;july;Calanus;Calanus helgolandicus;adults_late_copepodits;astaxanthin;NA;40% free, 60% ester;0.205;ug/mgDW;no;NA;NA;NA;NA;no;the light enhance the esterification
+Tartarotti et al.;1999;NA;redness and fitness;47;11;freshwater;2417;july_august;Cyclops;Cyclops abyssorum tatricus;adults_late_copepodits;carotenoids;NA;NA;6.5;ug/mgDW;no;NA;NA;NA;high;no;
+Tartarotti et al.;1999;NA;redness and fitness;-33;-70;freshwater;2700;december_january;Boeckella;Boeckella gracilipes;adults_late_copepodits;carotenoids;NA;NA;2.3;ug/mgDW;no;NA;NA;NA;high;no;most transparent lake studied (still 10 percent UVB at 13m)
+Hairston;1978;NA;pigment identification;47;-121;freshwater;1130;august;Diaptomus;Diaptomus kenai;mixed;carotenoids;NA;NA;7.49;ug/mgDW;no;NA;NA;NA;high;no;no entire pdf found (info in Tartarroti et al. 1999)
+Tartarotti et al.;2017;NA;forcing variables;47;10.1;freshwater;2416;july_august;Cyclops;Cyclops abyssorum tatricus;mixed;carotenoids;90;50%free, 50% ester;1.2;ug/mgDW;no;NA;NA;NA;null;no;
+Tartarotti et al.;2017;NA;forcing variables;47;10.2;freshwater;2420;july;Cyclops;Cyclops abyssorum tatricus;mixed;carotenoids;90;20%free, 68%ester;0.75;ug/mgDW;no;NA;NA;NA;null;no;
+Tartarotti et al.;2017;NA;forcing variables;47;11;freshwater;2483;august;Cyclops;Cyclops abyssorum tatricus;mixed;carotenoids;90;45% free, 65% ester;1.6;ug/mgDW;no;NA;NA;NA;high;no;
+Tartarotti et al.;2017;NA;forcing variables;47;12;freshwater;2425;october;Cyclops;Cyclops abyssorum tatricus;mixed;carotenoids;85;45% free, 65% ester;3.6;ug/mgDW;no;NA;NA;NA;high;no;
+Tartarotti et al.;2018;NA;forcing variables + redness and fitness;47;11;freshwater;2417;all_year_long;Cyclops;Cyclops abyssorum tatricus;mixed;carotenoids;NA;NA;3.1;ug/mgDW;no;NA;autumn;october;high;no;
+Trudnowska et al.;2020;NA;forcing variables;76.5;14.5;marine;NA;july;Calanus;Calanus finmarchicus;mixed;astaxanthin;NA;NA;2.2;ug/mgDW;no;NA;NA;NA;NA;no;
+Trudnowska et al.;2020;NA;forcing variables;76.8;15.5;marine;NA;july;Calanus;Calanus finmarchicus;mixed;astaxanthin;NA;NA;1.4;ug/mgDW;no;NA;NA;NA;NA;no;
+Trudnowska et al.;2020;NA;forcing variables;76.85;15.55;marine;NA;july;Calanus;Calanus finmarchicus;mixed;astaxanthin;NA;NA;1.1;ug/mgDW;no;NA;NA;NA;NA;no;
+Trudnowska et al.;2020;NA;forcing variables;77;16.2;marine;NA;july;Calanus;Calanus finmarchicus;mixed;astaxanthin;NA;NA;0.5;ug/mgDW;no;NA;NA;NA;NA;no;
+Trudnowska et al.;2020;NA;forcing variables;76.8;15.5;marine;NA;july;Calanus;Calanus glacialis;mixed;astaxanthin;NA;NA;2.8;ug/mgDW;no;NA;NA;NA;NA;no;
+Trudnowska et al.;2020;NA;forcing variables;76.85;15.55;marine;NA;july;Calanus;Calanus glacialis;mixed;astaxanthin;NA;NA;2.1;ug/mgDW;no;NA;NA;NA;NA;no;
+Trudnowska et al.;2020;NA;forcing variables;77;16.2;marine;NA;july;Calanus;Calanus glacialis;mixed;astaxanthin;NA;NA;0.6;ug/mgDW;no;NA;NA;NA;NA;no;
+Van der Meeren ;2008;NA;pigment identification;60;5;marine;NA;all_year_long;mixed;Eurytemora affinis, Centropages hamatus, Acartia grani;mixed;astaxanthin;100;100% free;0.686;ug/mgDW;no;NA;winter;december;NA;no;but jan, fev, march not sampled
+Van der Veen;2005;NA;forcing variables + redness and fitness and no_quantification;54;10;freshwater;1;NA;Macrocyclops;Macrocyclops albidus;adults;NA;NA;NA;NA;NA;no;NA;NA;NA;high;no;
+Van Nieuwerburgh et al.;2004;NA;forcing variables;63;9;marine;NA;august_july;mixed;Acartia sp., Paracalanus, Pseudocalanus, Temora, Oithona;mixed;astaxanthin;99;55% free, 35% monoester, 10% diester;14.6;umol.molC-1;no;max morning ;NA;NA;NA;no;canthaxanthin in negligible amounts
+Vestheim & Kaartvedt;2006;NA;forcing variables;59;10;marine;NA;february;Paraeuchaeta;Pareuchaeta norvegica;adults_females;NA;NA;NA;236.5;mean grey value;no;max night, min day;NA;NA;NA;no;method to quantify color based on image analysis
+Vinebrook & Leavitt;1999;NA;redness and fitness and no_quantification;51;-116;freshwater;2217;NA;Hesperodiaptomus;Hesperodiaptomus arcticus;mixed;NA;NA;NA;NA;NA;no;NA;NA;NA;null;no;strongly pigmented
+Weaver et al.;2016;NA;forcing variables;25;-121;marine;NA;NA;Tigriopus;Tigriopus japonicus;adults;astaxanthin;95;97% free, 3% ester;NA;NA;no;NA;NA;NA;NA;no;
+Weaver et al.;2018;a;diet effect;32;-117;marine;NA;NA;Tigriopus;Tigriopus californicus ;adults;astaxanthin;99;88% free, 3% monoester, 9% diesters;4.23;ug/mgDW;no;NA;NA;NA;NA;no;canthaxanthin as precursor
+Weaver et al.;2018;a;diet effect;32;-117;marine;NA;NA;Tigriopus;Tigriopus californicus ;eggs;astaxanthin;NA;NA;10.53;ng.clutch-1;no;NA;NA;NA;NA;no;
+Weaver et al.;2018;b;redness and fitness;32;-117;marine;NA;NA;Tigriopus;Tigriopus californicus ;adults;NA;NA;NA;1.08;ug/mgDW;no;NA;NA;NA;NA;no;careful, carotenoids restored copepods and not wild individuals
+Zengling et al.;2010;NA;forcing variables;24;118;marine;NA;april;Acartia;Acartia pacifica;adults;carotenoids;NA;NA;0.99;ug/mgDW;no;NA;NA;NA;NA;no;
+Inaotombi et al.;2020;NA;forcing variables;30;80;freshwater;2446;april_may_september_october;mixed;Arctodiaptomus spp, Diaptomus spp.;adults;carotenoids;NA;NA;1120;ng.ind-1;no;NA;spring;april, may;high;no;
+Inaotombi et al.;2020;NA;forcing variables;30;80;freshwater;2446;april_may_september_october;mixed;Arctodiaptomus spp, Diaptomus spp.;adults;carotenoids;NA;NA;710;ng.ind-1;no;NA;NA;NA;high;no;
+Inaotombi et al.;2020;NA;forcing variables;29;79;freshwater;1936;april_may_september_october;mixed;Cyclops vicinus, Tropocyclops sp., Eucyclops sp.;adults;carotenoids;NA;NA;410;ng.ind-1;no;NA;NA;NA;high;no;
+Inaotombi et al.;2020;NA;forcing variables;29;79;freshwater;1376;april_may_september_october;mixed;Arctodiaptomus spp, Diaptomus spp.;adults;carotenoids;NA;NA;550;ng.ind-1;no;NA;NA;NA;high;no;
+Inaotombi et al.;2020;NA;forcing variables;29;79;freshwater;1360;april_may_september_october;Eucyclops;Eucyclops;nauplii;carotenoids;NA;NA;440;ng.ind-1;no;NA;NA;NA;high;no;
+Inaotombi et al.;2020;NA;forcing variables;29;79;freshwater;1286;april_may_september_october;mixed;Cyclops vicinus, Tropocyclops sp., Eucyclops sp.;adults;carotenoids;NA;NA;450;ng.ind-1;no;NA;NA;NA;high;no;
+Inaotombi et al.;2020;NA;forcing variables;29;79;freshwater;1219;april_may_september_october;mixed;Cyclops vicinus, Tropocyclops sp., Eucyclops sp.;adults;carotenoids;NA;NA;470;ng.ind-1;no;NA;NA;NA;high;no;
+Basedow et al.;2019;NA;no_quantification;68;12;marine;NA;april_may;Calanus;Calanus finmarchicus;mixed;NA;NA;NA;NA;NA;no;NA;NA;NA;NA;no;
+Ohman et al. ;1989;NA;pigment identification;-45;171;marine;;november ;Neocalanus;Neocalanus tonsus;adults_late_copepodits;carotenoids;dominance;NA;0.2;ug/mgDW;yes;NA;NA;NA;NA;no;
+Ohman et al. ;1989;NA;pigment identification;-45;171;marine;;november ;Neocalanus;Neocalanus tonsus;adults_females;carotenoids;dominance;NA;0.35;ug/mgDW;yes;NA;NA;NA;NA;no;
+Browman et al.;2000;NA;no_quantification;48;-62;marine;NA;july_august;Calanus;Calanus finmarchicus;eggs;NA;NA;NA;NA;NA;no;NA;NA;NA;NA;no;
+Fasick et al.;2017;NA;no_quantification;41.75;-69.64;marine;NA;may;Calanus;Calanus finmarchicus;adults_late_copepodits;NA;NA;NA;NA;NA;no;NA;NA;NA;NA;no;
+Jarvis;1988;NA;no_quantification;-46;37;marine;NA;april;Pseudoboeckella;Pseudoboeckella volucris;adults;NA;NA;NA;NA;NA;no;NA;NA;NA;NA;no;
+Grobois & Rautio;2018;NA;no_quantification;48;-71;freshwater;NA;all_year_long;Leptodiaptomus;Leptopdiaptomus minutus;mixed;NA;NA;NA;NA;NA;no;NA;NA;NA;NA;no;
+Cui et al.;2021;NA;forcing variables;26.093;-102.86;freshwater;4050;april;Arctodiaptomus;Arctodiaptomus walterianus;nauplii;astaxanthin;dominance;87% ester, 13% free;1.67;ug/mgDW;no;NA;NA;NA;null;no;quantities calculated from what is written in the text, no info on figures
+Cui et al.;2021;NA;forcing variables;26.093;-102.86;freshwater;4050;april;Arctodiaptomus;Arctodiaptomus walterianus;copepodits;astaxanthin;dominance;NA;2.285;ug/mgDW;no;NA;NA;NA;null;no;quantities calculated from what is written in the text, no info on figures
+Cui et al.;2021;NA;forcing variables;26.093;-102.86;freshwater;4050;july;Arctodiaptomus;Arctodiaptomus walterianus;adults;astaxanthin;dominance;NA;3.49;ug/mgDW;no;NA;NA;NA;null;no;quantities calculated from what is written in the text, no info on figures
+Cui et al.;2021;NA;forcing variables;26.093;-102.86;freshwater;4050;october;Arctodiaptomus;Arctodiaptomus walterianus;adults;astaxanthin;dominance;62%ester, 38%free;4.49;ug/mgDW;no;NA;NA;NA;null;no;quantities calculated from what is written in the text, no info on figures
+Dur et al. ;2021;NA;no_quantification;NA;NA;marine;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;no;NA;NA;NA;NA;no;
+Azani & Rasdi;2021;NA ;no_quantification;NA;NA;marine;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;no;NA;NA;NA;NA;no;
+Powers et al.;2021;NA;redness and fitness;33.74;-118.38;marine;NA;NA;Tigriopus;Tigriopus californicus ;adults_males;astaxanthin;dominance;NA;0.278;ug/mgDW;no;NA;NA;NA;NA;no;only parental lines were kept here to have results close to real conditions, mean astaxanthin concentration per sex and and per sampling zone, computed from supplementary material data
+Powers et al.;2021;NA;redness and fitness;32.81;-117.27;marine;NA;NA;Tigriopus;Tigriopus californicus ;adults_females;astaxanthin;dominance;NA;0.171;ug/mgDW;no;NA;NA;NA;NA;no;
+Powers et al.;2021;NA;redness and fitness;32.81;-117.27;marine;NA;NA;Tigriopus;Tigriopus californicus ;adults_males;astaxanthin;dominance;NA;0.19;ug/mgDW;no;NA;NA;NA;NA;no;
+Powers et al.;2021;NA;redness and fitness;32.37;-117.06;marine;NA;NA;Tigriopus;Tigriopus californicus ;adults_females;astaxanthin;dominance;NA;0.187;ug/mgDW;no;NA;NA;NA;NA;no;
+Powers et al.;2021;NA;redness and fitness;32.37;-117.06;marine;NA;NA;Tigriopus;Tigriopus californicus ;adults_males;astaxanthin;dominance;NA;0.363;ug/mgDW;no;NA;NA;NA;NA;no;
+Powers et al.;2021;NA;redness and fitness;33.32;-118.46;marine;NA;NA;Tigriopus;Tigriopus californicus ;adults_males;astaxanthin;dominance;NA;0.231;ug/mgDW;no;NA;NA;NA;NA;no;
+Powers et al.;2021;NA;redness and fitness;37.26;-122.42;marine;NA;NA;Tigriopus;Tigriopus californicus ;adults_females;astaxanthin;dominance;NA;0.256;ug/mgDW;no;NA;NA;NA;NA;no;
+Powers et al.;2021;NA;redness and fitness;37.26;-122.42;marine;NA;NA;Tigriopus;Tigriopus californicus ;adults_males;astaxanthin;dominance;NA;0.368;ug/mgDW;no;NA;NA;NA;NA;no;
+Powers et al.;2021;NA;redness and fitness;32.7;-117.3;marine;NA;NA;Tigriopus;Tigriopus californicus ;adults_females;astaxanthin;dominance;NA;0.165;ug/mgDW;no;NA;NA;NA;NA;no;
+Powers et al.;2021;NA;redness and fitness;32.7;-117.3;marine;NA;NA;Tigriopus;Tigriopus californicus ;adults_males;astaxanthin;dominance;NA;0.346;ug/mgDW;no;NA;NA;NA;NA;no;
+Powers & Hills;2021;NA;redness and fitness and no_quantification;NA;NA ;marine;NA;NA;Tigriopus;Tigriopus californicus ;NA;NA;NA;NA;NA;NA;no;NA;NA;NA;NA;no;no quantification because only done on next generations that doesn't exists in the wild, really difficult to interpret
+Mojib et al.;2014;NA;pigment identification;22.4575;39.0305;marine;NA;may;Pontella;Pontella sp.;NA;carotenoids;dominance;NA;NA;NA;no;NA;NA;NA;NA;yes;blue morphs, astaxanthin complex with proteins
+Mojib et al.;2014;NA;pigment identification;22.4575;39.0305;marine;NA;may;Calanus;Calanus sp.;NA;carotenoids;dominance;NA;NA;NA;no;NA;NA;NA;NA;yes;blue morphs, astaxanthin complex with proteins
+Mojib et al.;2014;NA;pigment identification;22.4575;39.0305;marine;NA;may;Acartia;Acartia fossae;NA;carotenoids;dominance;NA;NA;NA;no;NA;NA;NA;NA;yes;blue morphs, astaxanthin complex with proteins
+Mojib et al.;2014;NA;pigment identification;22.4575;39.0305;marine;NA;may;Corycaeus;Corycaeus sp.;NA;carotenoids;dominance;NA;NA;NA;no;NA;NA;NA;NA;yes;blue morphs, astaxanthin complex with proteins
+Vestheim et al.;2005;NA;no_quantification;59;10;marine;NA;april;Paraeuchaeta;Pareuchaeta norvegica;NA;NA;NA;NA;NA;NA;no;NA;NA;NA;NA;no;relation between pigmentation and in situ depth explored, but no quantificatio and statistical tests
+Rahlff et al. ;2018;NA;no_quantification;3.40;138;marine;NA;october_november;Ivellopsis;Ivellopsis denticauda;NA;NA;NA;NA;NA;NA;no;NA;NA;NA;NA;yes;comparison of reflectance of individual copepod and surface ocean
+Rahlff et al. ;2018;NA;no_quantification;3.40;145;marine;NA;october_november;Pontella;Pontella fera;NA;NA;NA;NA;NA;NA;no;NA;NA;NA;NA;yes;comparison of reflectance of individual copepod and surface ocean
+Zagalsky & Herring;1972;NA;no_quantification;10.97;-20;marine;NA;NA;Labidocera;Labidocera acutifrons;NA;NA;NA;NA;NA;NA;no;NA;NA;NA;NA;yes;description of the carotenoprotein 
+Tester et al.;2004;NA;no_quantification;34.0;-76.70;marine;NA;february;Anomalocera;Anomalocera ornata;NA;NA;NA;NA;NA;NA;no;NA;NA;NA;NA;yes;large adults performed reverse DVM while juveniles exhibit twilight vertical migrations
+Venkataramana et al.;2017;NA;no_quantification;0;74.5;marine;NA;june ;Pontella;Pontella valida;NA;NA;NA;NA;NA;NA;no;NA;NA;NA;NA;yes;fish confuse blue miroplastics and their preys 
+Ory et al. ;2017;NA;no_quantification;27.1;-109.33;marine;NA;april;Pontella;Pontella sinica;NA;NA;NA;NA;NA;NA;no;NA;NA;NA;NA;yes;fish confuse blue miroplastics and their preys 
+Ory et al. ;2017;NA;no_quantification;27.1;-109.33;marine;NA;april;Sapphirina;Sapphirina sp.;NA;NA;NA;NA;NA;NA;no;NA;NA;NA;NA;yes;fish confuse blue miroplastics and their preys 
+Ory et al. ;2017;NA;no_quantification;27.1;-109.33;marine;NA;april;Corycaeus;Corycaeus sp.;NA;NA;NA;NA;NA;NA;no;NA;NA;NA;NA;yes;fish confuse blue miroplastics and their preys 
+Nakajima et al. ;2013;NA;no_quantification;2.83;104.03;marine;NA;october;Acartia;Acartia erythraea;NA;NA;NA;NA;NA;NA;no;NA;NA;NA;NA;yes;first record of a blue Acartia, coral reefs ecosystem
+Herring ;1965;NA;no_quantification;NA;NA;marine;NA;NA;Pontella;Pontella fera;NA;NA;NA;NA;NA;NA;no;NA;NA;NA;NA;yes;Indian ocean, spectral analysis before and after separation of astaxanthin and protein
+Medellin-Mora;2021;NA;no_quantification;-27;-104;marine;NA;october_november;Farranula;Farranula gibbula;NA;NA;NA;NA;NA;NA;no;NA;NA;NA;NA;yes;only blue species among other neustonic copepod
+Smith;1941;NA;no_quantification;13;120;marine;NA;NA;Labidocera;Labidocera glauca;NA;NA;NA;NA;NA;NA;no;NA;NA;NA;NA;yes;first marine taxonomical identification of blue copepod
+Lee et al.;1973;NA;pigment identification;49.54;-121.83;marine;NA;NA;Euchaeta;Euchaeta japonica;NA;astaxanthin;dominance;NA;NA;NA;no;NA;NA;NA;NA;yes;blue eggs 
+Hays et al.;1994;NA;no_quantification and forcing variables;50;-20;marine;NA;NA;mixed;mixed;NA;NA;NA;NA;NA;NA;no;NA;NA;NA;NA;no;analysis based on CPR samples, large spatial and temporal coverage, we took average position here, no possibility to analyse  pigmentation, carotenoid content issued from another study

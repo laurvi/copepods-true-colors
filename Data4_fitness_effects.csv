@@ -1,0 +1,56 @@
+study;year;condition;forcing_variable;response_variable;unit;fitness_component;fitness_effect;confidence;graph_order;comments
+Gorokhova et al.;2013;in vivo;NA;Grazing rate;ugC ind-1. d-1;growth;neutral;high;19;fig 3a (field)
+Gorokhova et al.;2013;in vivo;NA;Egg ratio;egg female -1;reproduction;favorable;high;15;fig 3b
+Gorokhova et al.;2013;in vivo;NA;RNA:DNA (metabolic index);NA;growth;favorable;high;21;fig 3c (field)
+Gorokhova et al.;2013;in vivo;NA;ORAC (Oxygen radical anti-oxidant capacity);uM Trolox mg protein-1;survival;favorable;high;12;fig 3d (field)
+Gorokhova et al.;2013;in vitro;NA;% Eaten by predator;prey eaten [predator]-1;survival;unfavorable;high;5;fig 2a
+Gorokhova et al.;2013;in vitro;NA;Red prey preference index;Manly's alpha;survival;unfavorable;high;3;fig 2b
+Gorokhova et al.;2013;in vitro;NA;Grazing rate;ugC ind-1. d-1;growth;neutral;high;19;fig 3a (experiment)
+Gorokhova et al.;2013;in vitro;NA;RNA:DNA (metabolic index);NA;growth;favorable;high;21;fig 3c (experiment)
+Gorokhova et al.;2013;in vitro;NA;ORAC (Oxygen radical anti-oxidant capacity);uM Trolox mg protein-1;survival;favorable;high;12;fig 3d (experiment)
+Hairston;1976;in vitro;UV_radiations;% Survival;NA;survival;favorable;high;1;fig 2, high light intensity
+Hairston;1976;in vitro;UV_radiations;% Survival;NA;survival;favorable;high;1;fig 2, low light intensity
+Hairston;1976;in vitro;NA;Swimming speed;cm. min-1;survival;favorable;low;NA;fig 3
+Byron;1982;in vivo;natural_light;% Survival;NA;survival;neutral;high;1;table 3, first experiment
+Byron;1982;in vivo;natural_light;% Survival;NA;survival;neutral;high;1;table 4, secod experiment
+Byron;1982;in vitro;natural_light;% Survival;NA;survival;favorable;high;1;fig 8
+Byron;1982;in vitro;fish_presence;% Eaten by predator;NA;survival;unfavorable;high;5;table 6
+Byron;1982;in vitro;fish_presence;% Eaten by predator;NA;survival;unfavorable;high;5;table 10
+Byron;1981;in vitro;natural_light;Respiration rate (metabolic index);uL O2 min-1 [mg]-1;growth;favorable;high;20;fig 1, for black D. shoshone
+Byron;1981;in vitro;natural_light;Respiration rate (metabolic index);uL O2 min-1 [mg]-1;growth;neutral;high;20;fig 1, for red D. leptopus
+Ringelberg et al.;1984;mesocosm;UV_radiations;% Mortality;NA;survival;favorable;low;NA;table 1
+Ringelberg et al.;1984;in vitro;UV_radiations;% Mortality;NA;survival;favorable;high;2;fig 1, LD 50
+Caramujo et al.;2012;in vitro;UV_radiations;% Survival;NA;survival;neutral;high;1;fig 3, for 0 copper concentration, no difference of survival
+Caramujo et al.;2012;in vitro;natural_light x copper;% Survival;NA;survival;favorable;high;1;fig 3, comparing white bars between Isocrysis vs Saematococcus diet (without/with astaxanthin)
+Caramujo et al.;2012;in vitro;UV_radiations x copper;% Survival;NA;survival;favorable;high;1;fig 3, comparing grey bars between Isocrysis vs Saematococcus diet (without/with astaxanthin)
+Davenport et al.;2004;in vitro;UV_radiations;Median lethal time;hour;survival;favorable;high;6;table 2
+Hairston;1979a;in vitro;predation;% Consumed first;NA;survival;unfavorable;high;4;salamanders
+Hairston;1979a;in vitro;predation;% Consumed first;NA;survival;unfavorable;high;4;damsfly
+Hairston;1979c;in vitro;predation;% Survival;NA;survival;neutral;high;1;fig 1, 8degC dark
+Hairston;1979c;in vitro;predation;% Survival;NA;survival;favorable;high;1;fig 1, 8degC, light
+Hairston;1979c;in vitro;predation;% Survival;NA;survival;unfavorable;high;1;fig 1, 20degC, dark
+Hairston;1979c;in vitro;predation;% Survival;NA;survival;favorable;high;1;fig 1, 20degC, light
+Hylander;2009a;in vitro;UV_radiations + fish_presence;Number of nauplii produced;NA;reproduction;favorable;high;16;fig  5, comparison Uvp and UVFp, only combination with no multiple interactions with MAAs
+Hylander;2012;in vitro;UV_radiations;GST activity (Anti-oxidant capacity);nmol prod min-1 [mg prot]-1;survival;favorable;medium;11;fig 4 left, comparison fish(less red)/control(red) with UV (ROS) : more enzymatic activity to counteract photo-produced ROS in non pigmented copepods, astaxanthin protection in pigmented copepod
+Hylander;2012;in vitro;UV_radiations;CHE activity (UV Oxidative stress level);min-1 [g prot]-1;survival;neutral;medium;10;fig 5 left, comparison fish(less red)/control(red) with UV (ROS) : no change of CHE activity  : no more or less UV damages in pigmented (control) copepod
+Luecke & O'Brien;1981;in vitro;natural_light;% Survival;NA;survival;favorable;high;1;fig 2
+Luecke & O'Brien;1981;in vitro;fish_presence;% Eaten by predator;NA;survival;unfavorable;high;5;text page 6
+Moeller et al.;2005;in vitro;UV_radiations;% Survival;LE 50 (kj m-2. 12h-1);survival;favorable;medium;1;fig 10, comparison PAR and UVR+PAR conditions : mortality less important if production of carotenoids, but less protection  than MAAs
+Moeller et al.;2005;in vitro;UV_radiations;% Survival;NA;survival;favorable;medium;1;fig 11, no additional mortality between Cry PAR et UVA treatement : protection from carotenoids efficient
+Moeller et al.;2005;in vitro;UV_radiations;% Survival;NA;survival;neutral;medium;1;fig 11, some additional mortality between Cry PAR et UVB treatement : not enough protection from carotenoids in comparison with MAAs
+Powers et al.;2019;in vitro;NA;Sexual selection on red females;NA;reproduction;neutral;high;18;males seems attracted by algal-derived copounds, coloration is a condition-depedant trait not assessed during mating
+Tartarotti et al.;1999;in vitro;UV_radiations;% Mortality;NA;survival;favorable;medium;2;no induced mortality for C. abyssorum
+Tartarotti et al.;1999;in vitro;UV_radiations;% Mortality;NA;survival;favorable;medium;2;no induced mortality for B. gracilipes (except after 70 hours, but UV dose more important than in nature)
+Tartarotti et al.;2018;in vivo;NA;Trolox equivalents (Anti-oxidant capacity);nmol [mg prot]-1;survival;favorable;high;13;fig 1c, 2 indicators of antioxydant capacities, correlated with carotenoids and MAAs content
+Tartarotti et al.;2018;in vitro;UV_radiations;Hsp70 transcription (Oxidative stress level);copies per 10 ng total RNA;survival;favorable;high;14;fig 2, no upregulation at high carotenoids (and MAAs) levels, so no excessive oxydative stress
+van der Veen;2005;in vitro;NA;Parasite prevalence;NA;survival;favorable;medium;8;fig 2, but semi-quantitive vusual method
+Vinebrook & Leavitt;1999;mesocosm;UV_radiations;Biomass;mg/m2;survival;favorable;high;7;fig 8, no induced mortality in zooplankton, mainly heavily pigmented Hesperodiatomus arcticus
+Weaver et al.;2018b;in vitro;pro-oxidant;% Survival;NA;survival;favorable;high;1;fig 3, ten times more probabily to survive with carotenoids
+Weaver et al.;2018b;in vitro;pro-oxidant;Aconitase activity (Oxydative stress level);nmol.[min ml mg prot]-1;survival;favorable;high;9;fig 2, less damages to aconitase proteins (sensitive to ROS) if carotenoids are present
+Powers et al.;2021;in vitro;NA;Respiratory chain - Complex I: ATP synthesis;nmol min-1;growth;unfavorable;low;NA;fig 3a,  low confidence because of questionings about hybrid quality in the discussion
+Powers et al.;2021;in vitro;NA;Respiratory chain - Complex II: ATP synthesis;nmol min-1;growth;neutral;low;NA;fig 3b,  low confidence because of questionings about hybrid quality in the discussion
+Powers et al.;2021;in vitro;NA;Copepodits development time;days;reproduction;neutral;low;NA;fig 3c, low confidence because of questionings about hybrid quality in the discussion
+Powers et al.;2021;in vitro;NA;Respiratory chain - Complex I: ATP synthesis;nmol min-1;growth;favorable;medium;22;fig 5a, medium because p_value = 0.058 (very close to significativity)
+Powers et al.;2021;in vitro;NA;Respiratory chain - Complex II: ATP synthesis;nmol min-1;growth;neutral;high;23;fig 5b, high confidence because more confidence about hybrid quality, as argued in the discussion
+Powers et al.;2021;in vitro;NA;Copepodits development time;days;reproduction;favorable;high;17;fig 5c,  absence of color is negatively correlated with development time (more they are ar red, quicked they grow)
+Powers & Hills;2021;in vivo;NA;Respiration rate (metabolic index);mmol O2 min-1 mm-1;growth;favorable;high;20;fig 4

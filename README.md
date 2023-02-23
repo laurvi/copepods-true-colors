@@ -1,6 +1,6 @@
 # copepods-true-colors
 
-Repertory with codes and figures of the publication "Copepod's true colors: astaxanthin pigmentation as an indicator of fitness"
+Vilgrain L., Maps F., Basedow S.,Trudnowska E., Madoui M-A., Niehoff B., Ayata S-D. 2023. Data, metadata and codes for “Copepods’ true colors: astaxanthin pigmentation as an indicator of fitness”. Ecosphere. 
 
 Datasets:
 - Data1_general_info.csv: List of all the publications that identified and/or quantified carotenoid pigmentation in copepods, all columns details are in Metadata1
